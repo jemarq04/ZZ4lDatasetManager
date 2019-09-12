@@ -1,4 +1,4 @@
-info = {
+{
     "qqZZ-powheg" : {
         "Name" : "q#bar{q} #rightarrow ZZ,Z#gamma^{*}",
         "Style" : "fill-lightblue",
@@ -8,7 +8,7 @@ info = {
         ]
     },
     "zzjj4l-ewk" : {
-        "Name" : "ZZ + 2 jets EWK",
+        "Name" : "ZZ + 2 kets EWK",
         "Style" : "fill-darkblue",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -158,8 +158,3 @@ info = {
     }
 }
 
-tmpinfo = {}
-for key, value in info.iteritems():
-    tmpinfo.update({key.replace("-", "_") : value})
-
-info.update(tmpinfo)

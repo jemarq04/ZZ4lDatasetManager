@@ -167,9 +167,9 @@
    "mjj": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 250,
+            "nbins": 16,
             "xmin": 0,
-            "xmax": 2500
+            "xmax": 1600
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
@@ -178,6 +178,31 @@
             "SetMinimum" : 0.1
         }
     },
+    "CosTheta": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 22,
+            "xmin": -1.2,
+            "xmax": 1.2
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Cos #theta",  
+            "GetYaxis().SetTitleOffset": 1.2  
+        }
+    },
+    "zeppenfeld": {  
+	  "Initialize": {  
+	      "type": "TH1D",
+	      "nbins": 14,
+	      "xmin": -7,
+	      "xmax": 7
+	  },
+	  "Attributes": {  
+	      "GetXaxis().SetTitle": "Zeppenfeld",  
+	      "GetYaxis().SetTitle": "Events",
+	      "GetYaxis().SetTitleOffset": 1.2
+	  }
+      },
    "dEtajj": {  
         "Initialize": {  
             "type": "TH1D",
