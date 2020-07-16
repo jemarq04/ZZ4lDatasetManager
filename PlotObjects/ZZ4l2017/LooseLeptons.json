@@ -13,13 +13,13 @@
    "LepPt": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 40,
+            "nbins": 20,
             "xmin": 0,
             "xmax": 200
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Lepton p_{T} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 5 GeV",
+            "GetYaxis().SetTitle": "Events / 10 GeV",
             "GetYaxis().SetTitleOffset": 1.2  
         }
     },
@@ -36,43 +36,6 @@
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
-    "Genyield": {
-        "Initialize": {  
-            "type": "TH1D",
-            "nbins": 1,
-             "xmin": 0,
-             "xmax": 10
-        },
-        "Attributes": {  
-            "GetYaxis().SetTitle": "Gen Events Passing Selection"
-              }
-    },
-   "GenLepPt": {  
-        "Initialize": {  
-            "type": "TH1D",
-            "nbins": 40,
-            "xmin": 0,
-            "xmax": 200
-        },
-        "Attributes": {  
-            "GetXaxis().SetTitle": "Gen Lepton p_{T} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 5 GeV",
-            "GetYaxis().SetTitleOffset": 1.2  
-        }
-    },
-   "GenLepEta": {  
-        "Initialize": {  
-            "type": "TH1D",
-            "nbins": 15,
-            "xmin": -2.5,
-            "xmax": 2.5
-        },
-        "Attributes": {  
-            "GetXaxis().SetTitle": "Gen Lepton #eta",  
-            "GetYaxis().SetTitle": "Events",
-            "GetYaxis().SetTitleOffset": 1.2
-        }
-    },
    "dPhiZ1Z2": {  
         "Initialize": {  
             "type": "TH1D",
@@ -85,28 +48,16 @@
             "GetYaxis().SetTitleOffset": 1.2  
         }
     },
-   "dRZ1Z2": {  
-        "Initialize": {  
-            "type": "TH1D",
-            "nbins": 6,
-            "xmin": 0,
-            "xmax": 6
-        },
-        "Attributes": {  
-            "GetXaxis().SetTitle": "#delta #phi_{Z1,Z2}",  
-            "GetYaxis().SetTitleOffset": 1.2  
-        }
-    },
    "ZPt": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 120,
+            "nbins": 60,
             "xmin": 0,
             "xmax": 600
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Z p_{T} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 5 GeV",
+            "GetYaxis().SetTitle": "Events / 10 GeV",
             "GetYaxis().SetTitleOffset": 1.2  
         }
     },
@@ -123,62 +74,12 @@
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
-   "GendPhiZ1Z2": {  
-        "Initialize": {  
-            "type": "TH1D",
-            "nbins": 35,
-            "xmin": 0,
-            "xmax": 3.5
-        },
-        "Attributes": {  
-            "GetXaxis().SetTitle": "#delta #phi_{GenZ1,GenZ2}",  
-            "GetYaxis().SetTitleOffset": 1.2  
-        }
-    },
-   "GendRZ1Z2": {  
-        "Initialize": {  
-            "type": "TH1D",
-            "nbins": 6,
-            "xmin": 0,
-            "xmax": 6
-        },
-        "Attributes": {  
-            "GetXaxis().SetTitle": "#delta R_{GenZ1,GenZ2}",  
-            "GetYaxis().SetTitleOffset": 1.2  
-        }
-    },
-   "GenZPt": {  
-        "Initialize": {  
-            "type": "TH1D",
-            "nbins": 120,
-            "xmin": 0,
-            "xmax": 600
-        },
-        "Attributes": {  
-            "GetXaxis().SetTitle": "Gen Z p_{T} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 5 GeV",
-            "GetYaxis().SetTitleOffset": 1.2  
-        }
-    },
-  "GenZMass": {  
-        "Initialize": {  
-            "type": "TH1D",
-            "nbins": 120,
-            "xmin": 0,
-            "xmax": 120
-        },
-        "Attributes": {  
-            "GetXaxis().SetTitle": "Gen m_{Z} [GeV]",  
-            "GetYaxis().SetTitle": "Z bosons / 1 GeV", 
-            "GetYaxis().SetTitleOffset": 1.2
-        }
-    },
    "Mass": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 568,
-            "xmin": 70,
-            "xmax": 1206
+            "nbins": 25,
+            "xmin": 150,
+            "xmax": 1400
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "m_{4l} [GeV]",  
@@ -189,65 +90,13 @@
    "ZZPt": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 240,
+            "nbins": 24,
             "xmin": 0,
             "xmax": 1200
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "ZZ p_{T} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 5 GeV",
-            "GetYaxis().SetTitleOffset": 1.2
-        }
-    },
-   "ZZEta": {  
-        "Initialize": {  
-            "type": "TH1D",
-            "nbins": 6,
-            "xmin": 0,
-            "xmax": 6
-        },
-        "Attributes": {  
-            "GetXaxis().SetTitle": "|#eta|_{ZZ}",  
-            "GetYaxis().SetTitle": "Events",
-            "GetYaxis().SetTitleOffset": 1.2
-        }
-    },
-   "GenMass": {  
-        "Initialize": {  
-            "type": "TH1D",
-            "nbins": 568,
-            "xmin": 70,
-            "xmax": 1206
-        },
-        "Attributes": {  
-            "GetXaxis().SetTitle": "Gen m_{4l} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 2 GeV",
-            "GetYaxis().SetTitleOffset": 1.2
-        }
-    },
-   "GenZZPt": {  
-        "Initialize": {  
-            "type": "TH1D",
-            "nbins": 240,
-            "xmin": 0,
-            "xmax": 1200
-        },
-        "Attributes": {  
-            "GetXaxis().SetTitle": "Gen ZZ p_{T} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 5 GeV",
-            "GetYaxis().SetTitleOffset": 1.2
-        }
-    },
-   "GenZZEta": {  
-        "Initialize": {  
-            "type": "TH1D",
-            "nbins": 6,
-            "xmin": 0,
-            "xmax": 6
-        },
-        "Attributes": {  
-            "GetXaxis().SetTitle": "Gen |#eta|_{ZZ}",  
-            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitle": "Events / 50 GeV",
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
@@ -266,9 +115,9 @@
    "jetEta[0]": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 15,
-            "xmin": -4.7,
-            "xmax": 4.7
+            "nbins": 30,
+            "xmin": -5,
+            "xmax": 5
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Leading jet #eta",  
@@ -276,25 +125,142 @@
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
-   "jetPt[0]": {  
+   "jetEta[01]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 30,
+            "xmin": -5,
+            "xmax": 5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Leading+Subleading jet #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "absJetEta": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 20,
+            "xmin": 0,
+            "xmax": 5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "abs Leading+Subleading jet #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "absJetEta50": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 20,
+            "xmin": 0,
+            "xmax": 5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "abs Leading+Subleading jet #eta each with p_{T}>50GeV",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "absJetEta_refine": {  
         "Initialize": {  
             "type": "TH1D",
             "nbins": 10,
-            "xmin": 30,
-            "xmax": 430
+            "xmin": 2.5,
+            "xmax": 3
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "abs Leading+Subleading jet #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+    "absJetEta[0]_refine": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": 2.5,
+            "xmax": 3
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "abs Leading jet #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "absJetEta[1]_refine": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": 2.5,
+            "xmax": 3
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "abs Subleading jet #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+    "absJetEta[0]50_refine": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": 2.5,
+            "xmax": 3
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "abs Leading jet #eta with p_{T}>50GeV",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "absJetEta[1]50_refine": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": 2.5,
+            "xmax": 3
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "abs Subleading jet #eta with p_{T}>50GeV",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "jetPt[0]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 40,
+            "xmin": 0,
+            "xmax": 400
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Leading jet p_{T}",  
-            "GetYaxis().SetTitle": "Events / 40 GeV",
+            "GetYaxis().SetTitle": "Events / 10 GeV",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "jetPt[01]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 40,
+            "xmin": 0,
+            "xmax": 400
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Leading+Subleading jet p_{T}",  
+            "GetYaxis().SetTitle": "Events / 10 GeV",
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
    "jetEta[1]": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 15,
-            "xmin": -4.7,
-            "xmax": 4.7
+            "nbins": 30,
+            "xmin": -5,
+            "xmax": 5
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Sub-leading jet #eta",  
@@ -305,35 +271,112 @@
    "jetPt[1]": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 12,
-            "xmin": 30,
-            "xmax": 210
+            "nbins": 40,
+            "xmin": 0,
+            "xmax": 400
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Sub-leading jet p_{T}",  
-            "GetYaxis().SetTitle": "Events / 15 GeV",
+            "GetYaxis().SetTitle": "Events / 10 GeV",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "jetPhi[0]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": -3.15,
+            "xmax": 3.15
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "leading jet #phi",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "jetPhi[1]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": -3.15,
+            "xmax": 3.15
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Subleading jet #phi",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "jetPhi_refine": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": -3.15,
+            "xmax": 3.15
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "leading+subleading jet #phi",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "jetPt_refine": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": 30,
+            "xmax": 100
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Leading+Subleading jet p_{T}",  
+            "GetYaxis().SetTitle": "Events / 20 GeV",
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
    "mjj": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 250,
-            "xmin": 0,
-            "xmax": 2500
+            "nbins": 30,
+            "xmin": 100,
+            "xmax": 1300
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
-            "GetYaxis().SetTitle": "Events / 100 GeV",
+            "GetYaxis().SetTitle": "Events / 40 GeV",
             "GetYaxis().SetTitleOffset": 1.1
         }
     },
+    "CosTheta": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 22,
+            "xmin": -1.2,
+            "xmax": 1.2
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Cos #theta",  
+            "GetYaxis().SetTitleOffset": 1.2  
+        }
+    },
+    "zeppenfeld": {  
+	  "Initialize": {  
+	      "type": "TH1D",
+	      "nbins": 14,
+	      "xmin": -7,
+	      "xmax": 7
+	  },
+	  "Attributes": {  
+	      "GetXaxis().SetTitle": "Zeppenfeld",  
+	      "GetYaxis().SetTitle": "Events",
+	      "GetYaxis().SetTitleOffset": 1.2
+	  }
+      },
    "dEtajj": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 28,
+            "nbins": 40,
             "xmin": 0,
-            "xmax": 7
+            "xmax": 8
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "#Delta#eta(j_{1}, j_{2})",  
