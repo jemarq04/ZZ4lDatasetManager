@@ -1,4 +1,12 @@
 {
+    "zz4l-amcatnlo" : {
+	 "cross_section" : 1.218,
+	 "kfactor" : 1.0835
+    },
+    "ggZZSpec" : {
+	 "cross_section" : 0.00584,
+	 "kfactor" : 1.53
+    },
     "wz3lnu-powheg" : {
         "cross_section" : 4.43,
         "Source of cross section" : "POWHEG tarball",

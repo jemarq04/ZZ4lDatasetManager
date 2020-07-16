@@ -1,4 +1,7 @@
-{
+{   "ggZZSpec": {
+        "file_path" : "/data/hehe/ZZtest-06-04/2020-06-04-ggZZSpec-ZZ4l2017-loosePreselectionTo4lmass-v1/*",
+        "plot_group" : "ggZZSpecg"
+    },
     "WZZ" : {
         "file_path" : "/data/uhussain/ZZRun2SkimmedFiles/ZZ4l2016AnalysisJobs_2019-08-15/LooseLeptons/2019-08-14-WZZ-ZZ4l2016-loosePreselectionTo4lmass-v1/*",
         "plot_group" : "VVV"
