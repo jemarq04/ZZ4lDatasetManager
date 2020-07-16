@@ -1,4 +1,11 @@
-{
+{   "ggZZSpec": {
+        "file_path" : "/data/hehe/ZZtest-06-04/2020-06-04-ggZZSpec-ZZ4l2017-loosePreselectionTo4lmass-v1/*",
+        "plot_group" : "ggZZSpecg"
+    },
+    "zz4l-amcatnlo" : {
+        "file_path" : "/data/hehe/ZZtest-06-04/2020-06-04-zz4l-amcatnlo-ZZ4l2017-loosePreselectionTo4lmass-v1/*",
+        "plot_group" : "qqZZ-amcnlo"
+    },
     "data_DoubleEG_Run2017B-31Mar2018-v1" : {
         "file_path" : "/data/uhussain/ZZRun2SkimmedFiles/ZZ4l2017AnalysisJobs_2019-08-18/LooseLeptons/2019-08-15-data_DoubleEG_Run2017B-31Mar2018-v1-ZZ4l2017-loosePreselectionTo4lmass-v1/*",
         "plot_group" : "data-2017"

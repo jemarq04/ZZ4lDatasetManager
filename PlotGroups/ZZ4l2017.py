@@ -1,5 +1,5 @@
 info = {
-    "qqZZ-powheg" : {
+    "qqZZ_powheg" : {
         "Name" : "q#bar{q} #rightarrow ZZ,Z#gamma^{*}",
         "Style" : "fill-lightblue",
         "add_perc_error" : 0.0,
@@ -7,18 +7,15 @@ info = {
             "zz4l-powheg"
         ]
     },
-    "zzjj4l-ewk" : {
-        "Name" : "ZZ + 2 jets EWK",
+    "zzjj4l_ewk" : {
+        "Name" : "ZZ + 2 kets EWK",
         "Style" : "fill-darkblue",
         "add_perc_error" : 0.0,
         "Members" : [
-           "ZZJJTo4L-EWK",
-           "ZZJJTo2e2mu-EWK-phantom",
-           "ZZJJTo4e-EWK-phantom",
-           "ZZJJTo4mu-EWK-phantom"
+           "ZZJJTo4L-EWK"
         ]
     },
-    "HZZ-signal" : {
+    "HZZ_signal" : {
         "Name" : "H #rightarrow ZZ",
         "Style" : "fill-lightred",
         "add_perc_error" : 0.0,

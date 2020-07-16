@@ -7,15 +7,20 @@
             "zz4l-powheg"
         ]
     },
+    "qqZZ-amcnlo" : {
+        "Name" : "q#bar{q} #rightarrow ZZ,Z#gamma^{*}",
+        "Style" : "fill-lightblue",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "zz4l-amcatnlo"
+        ]
+    },
     "zzjj4l-ewk" : {
-        "Name" : "ZZ + 2 kets EWK",
+        "Name" : "ZZ + 2 jets EWK",
         "Style" : "fill-darkblue",
         "add_perc_error" : 0.0,
         "Members" : [
-           "ZZJJTo4L-EWK",
-           "ZZJJTo2e2mu-EWK-phantom",
-           "ZZJJTo4e-EWK-phantom",
-           "ZZJJTo4mu-EWK-phantom"
+           "ZZJJTo4L-EWK"
         ]
     },
     "HZZ-signal" : {
@@ -43,6 +48,14 @@
             "ggZZ2e2mu",
             "ggZZ2e2tau",
             "ggZZ2mu2tau"
+        ]
+    },
+    "ggZZSpecg" : {
+        "Name" : "gg #rightarrow ZZ,Z#gamma^{*}",
+        "Style" : "fill-blue",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "ggZZSpec"
         ]
     },
     "dy-jets" : {
@@ -157,4 +170,5 @@
         ]
     }
 }
+
 

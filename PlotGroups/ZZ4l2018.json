@@ -1,5 +1,5 @@
-info = {
-    "qqZZ_powheg" : {
+{
+    "qqZZ-powheg" : {
         "Name" : "q#bar{q} #rightarrow ZZ,Z#gamma^{*}",
         "Style" : "fill-lightblue",
         "add_perc_error" : 0.0,
@@ -7,15 +7,23 @@ info = {
             "zz4l-powheg"
         ]
     },
-    "zzjj4l_ewk" : {
-        "Name" : "ZZ + 2 kets EWK",
+    "qqZZ-amcnlo" : {
+        "Name" : "q#bar{q} #rightarrow ZZ,Z#gamma^{*}",
+        "Style" : "fill-lightblue",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "zz4l-amcatnlo"
+        ]
+    },
+    "zzjj4l-ewk" : {
+        "Name" : "ZZ + 2 jets EWK",
         "Style" : "fill-darkblue",
         "add_perc_error" : 0.0,
         "Members" : [
            "ZZJJTo4L-EWK"
         ]
     },
-    "HZZ_signal" : {
+    "HZZ-signal" : {
         "Name" : "H #rightarrow ZZ",
         "Style" : "fill-lightred",
         "add_perc_error" : 0.0,
@@ -39,6 +47,14 @@ info = {
             "ggZZ4t",
             "ggZZ2e2mu",
             "ggZZ2e2tau"
+        ]
+    },
+    "ggZZSpecg" : {
+        "Name" : "gg #rightarrow ZZ,Z#gamma^{*}",
+        "Style" : "fill-blue",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "ggZZSpec"
         ]
     },
     "dy-jets" : {
@@ -99,8 +115,3 @@ info = {
     }
 }
 
-tmpinfo = {}
-for key, value in info.iteritems():
-    tmpinfo.update({key.replace("-", "_") : value})
-
-info.update(tmpinfo)
