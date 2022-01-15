@@ -7,7 +7,29 @@
 	 "cross_section" : 0.00584,
 	 "kfactor" : 1.53
     },
-    "wz3lnu-powheg" : {
+    "qqZZSpec" : {
+	 "cross_section" : 0.07668,
+	 "kfactor" : 1.0835
+    },
+    "EWK-Extra4l" : {
+	 "cross_section" : 0.0035485771
+    },
+    "EWK-Extra2e2mujj" : {
+	 "cross_section" : 0.00063357811897
+    },
+    "GGZZ2e2mu" : {
+	 "cross_section" : 0.00391448 ,
+	 "kfactor" : 1.7
+    },
+    "GGZZ4m" : {
+	 "cross_section" : 0.00198143 ,
+	 "kfactor" : 1.7
+    },
+    "GGZZ4e" : {
+	 "cross_section" : 0.00197463 ,
+	 "kfactor" : 1.7
+    },
+   "wz3lnu-powheg" : {
         "cross_section" : 4.43,
         "Source of cross section" : "POWHEG tarball",
         "DAS Name" : "WZTo3LNu_TuneCUETP8M1_13TeV-powheg-pythia8"
@@ -28,13 +50,6 @@
         "kfactor" : 1.0835,
         "Source of k-factor" : "k factor from mll only calculation of Grazzini",
         "DAS Name" : "ZZTo4L_13TeV_powheg_pythia8"
-    },
-    "zz4l-amcatnlo" : {
-        "cross_section" : 1.5,
-        "Source of cross section" : "McM",
-        "DAS Name" : "ZZTo4L_13TeV-amcatnloFXFX-pythia8",
-        "Generator" : "MadGraph5_aMC@NLO NLO FxFx 0,1j",
-        "Cards" : ""
     },
     "zz2l2q" : {
         "cross_section" : 3.38,

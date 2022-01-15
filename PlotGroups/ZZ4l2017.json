@@ -1,6 +1,16 @@
 {
+    "GGZZ" : {
+        "Name" : "gg #rightarrow ZZ",
+        "Style" : "fill-blue",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "GGZZ2e2mu",
+            "GGZZ4m",
+	    "GGZZ4e"
+        ]
+    },
     "qqZZ-powheg" : {
-        "Name" : "q#bar{q} #rightarrow ZZ,Z#gamma^{*}",
+        "Name" : "q#bar{q} #rightarrow ZZ",
         "Style" : "fill-lightblue",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -8,7 +18,7 @@
         ]
     },
     "qqZZ-amcnlo" : {
-        "Name" : "q#bar{q} #rightarrow ZZ,Z#gamma^{*}",
+        "Name" : "q#bar{q} #rightarrow ZZ",
         "Style" : "fill-lightblue",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -21,6 +31,22 @@
         "add_perc_error" : 0.0,
         "Members" : [
            "ZZJJTo4L-EWK"
+        ]
+    },
+    "EWK-Extra4lg" : {
+        "Name" : "VBF To ZZ4l",
+        "Style" : "fill-darkblue",
+        "add_perc_error" : 0.0,
+        "Members" : [
+           "EWK-Extra4l"
+        ]
+    },
+    "EWK-Extra2e2mujjg" : {
+        "Name" : "VBF To ZZ To 2e2mujj",
+        "Style" : "fill-darkblue",
+        "add_perc_error" : 0.0,
+        "Members" : [
+           "EWK-Extra2e2mujj"
         ]
     },
     "HZZ-signal" : {
@@ -38,7 +64,7 @@
         ]
     },
     "ggZZ" : {
-        "Name" : "gg #rightarrow ZZ,Z#gamma^{*}",
+        "Name" : "gg #rightarrow ZZ",
         "Style" : "fill-blue",
         "add_perc_error" : 0.0,
         "Members" : [

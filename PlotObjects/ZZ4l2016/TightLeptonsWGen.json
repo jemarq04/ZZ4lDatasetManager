@@ -289,6 +289,19 @@
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
+   "GenjetPt[0]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": 30,
+            "xmax": 430
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Leading jet p_{T}",  
+            "GetYaxis().SetTitle": "Events / 40 GeV",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
    "jetEta[1]": {  
         "Initialize": {  
             "type": "TH1D",

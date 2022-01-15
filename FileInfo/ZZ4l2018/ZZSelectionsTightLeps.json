@@ -1,8 +1,25 @@
-{   "ggZZSpec": {
+{
+    "qqZZSpec": {
+        "plot_group": "qqZZSpecg", 
+        "file_path": "/data/hehe/2021_newMC_qqZZSpec18/2021-07-07-qqZZSpec-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+    },
+    "GGZZ2e2mu": {
+        "plot_group": "GGZZ", 
+        "file_path": "/data/hehe/ggHiggs2e2mu-09-30-2020/2020-09-30-ggZZSpec2-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+    },
+    "GGZZ4e": {
+        "plot_group": "GGZZ", 
+        "file_path": "/data/hehe/ggHiggs4e-10-07-2020/2020-10-07-ggZZSpec3-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+    },
+    "GGZZ4m": {
+        "plot_group": "GGZZ", 
+        "file_path": "/data/hehe/ggHiggs4mu-10-05-2020/2020-10-05-ggZZSpec2-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+    },
+   "ggZZSpec": {
         "file_path" : "/data/hehe/ZZtest-06-04/2020-06-04-ggZZSpec-ZZ4l2017-loosePreselectionTo4lmass-v1/*",
         "plot_group" : "ggZZSpecg"
     },
-    "zz4l-amcatnlo" : {
+     "zz4l-amcatnlo" : {
         "file_path" : "/data/hehe/ZZtest-06-04/2020-06-04-zz4l-amcatnlo-ZZ4l2017-loosePreselectionTo4lmass-v1/*",
         "plot_group" : "qqZZ-amcnlo"
     },

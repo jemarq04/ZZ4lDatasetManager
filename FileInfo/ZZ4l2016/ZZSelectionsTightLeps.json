@@ -1,4 +1,17 @@
-{   "ggZZSpec": {
+{
+    "GGZZ2e2mu": {
+        "plot_group": "GGZZ", 
+        "file_path": "/data/hehe/2020-11-19-GGZZ2016/2020-11-19-GGZZ2e2mu-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
+    },
+    "GGZZ4e": {
+        "plot_group": "GGZZ", 
+        "file_path": "/data/hehe/2020-11-19-GGZZ2016/2020-11-19-GGZZ4e-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
+    },
+    "GGZZ4m": {
+        "plot_group": "GGZZ", 
+        "file_path": "/data/hehe/2020-11-19-GGZZ2016/2020-11-19-GGZZ4m-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
+    },
+   "ggZZSpec": {
         "file_path" : "/data/hehe/ZZtest-06-04/2020-06-04-ggZZSpec-ZZ4l2017-loosePreselectionTo4lmass-v1/*",
         "plot_group" : "ggZZSpecg"
     },
