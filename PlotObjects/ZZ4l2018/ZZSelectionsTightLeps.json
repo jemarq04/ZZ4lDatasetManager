@@ -173,7 +173,7 @@
             "xmax": 2500
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "m_{4l} with 0 jet [GeV]",  
+            "GetXaxis().SetTitle": "m_{4l} [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -186,7 +186,7 @@
             "xmax": 2500
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "m_{4l} with 1 jet [GeV]",  
+            "GetXaxis().SetTitle": "m_{4l} [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -199,7 +199,7 @@
             "xmax": 2500
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "m_{4l} with 2 jets [GeV]",  
+            "GetXaxis().SetTitle": "m_{4l} [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -212,7 +212,20 @@
             "xmax": 2500
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "m_{4l} with 3 jets [GeV]",  
+            "GetXaxis().SetTitle": "m_{4l} [GeV]",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "Mass34j": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 250,
+            "xmin": 0,
+            "xmax": 2500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "m_{4l} [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -225,7 +238,7 @@
             "xmax": 2500
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "m_{4l} with >=4 jets [GeV]",  
+            "GetXaxis().SetTitle": "m_{4l} [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -238,7 +251,7 @@
             "xmax": 2500
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "Gen m_{4l} with 0 jet [GeV]",  
+            "GetXaxis().SetTitle": "Gen m_{4l} [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -251,7 +264,7 @@
             "xmax": 2500
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "Gen m_{4l} with 1 jet [GeV]",  
+            "GetXaxis().SetTitle": "Gen m_{4l} [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -264,7 +277,7 @@
             "xmax": 2500
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "Gen m_{4l} with 2 jets [GeV]",  
+            "GetXaxis().SetTitle": "Gen m_{4l} [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -277,7 +290,20 @@
             "xmax": 2500
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "Gen m_{4l} with 3 jets [GeV]",  
+            "GetXaxis().SetTitle": "Gen m_{4l} [GeV]",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "GenMass34j": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 250,
+            "xmin": 0,
+            "xmax": 2500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Gen m_{4l} [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -290,7 +316,7 @@
             "xmax": 2500
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "Gen m_{4l} with >=4 jets [GeV]",  
+            "GetXaxis().SetTitle": "Gen m_{4l} [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
