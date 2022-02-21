@@ -321,6 +321,188 @@
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
+   "MassFull": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 1215,
+            "xmin": 70,
+            "xmax": 2500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "m_{4l} [GeV]",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "GenMassFull": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 1215,
+            "xmin": 70,
+            "xmax": 2500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Gen m_{4l} [GeV]",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "Mass0jFull": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 250,
+            "xmin": 0,
+            "xmax": 2500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "m_{4l} [GeV]",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "Mass1jFull": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 250,
+            "xmin": 0,
+            "xmax": 2500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "m_{4l} [GeV]",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "Mass2jFull": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 250,
+            "xmin": 0,
+            "xmax": 2500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "m_{4l} [GeV]",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "Mass3jFull": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 250,
+            "xmin": 0,
+            "xmax": 2500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "m_{4l} [GeV]",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "Mass34jFull": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 250,
+            "xmin": 0,
+            "xmax": 2500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "m_{4l} [GeV]",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "Mass4jFull": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 250,
+            "xmin": 0,
+            "xmax": 2500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "m_{4l} [GeV]",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "GenMass0jFull": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 250,
+            "xmin": 0,
+            "xmax": 2500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Gen m_{4l} [GeV]",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "GenMass1jFull": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 250,
+            "xmin": 0,
+            "xmax": 2500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Gen m_{4l} [GeV]",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "GenMass2jFull": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 250,
+            "xmin": 0,
+            "xmax": 2500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Gen m_{4l} [GeV]",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "GenMass3jFull": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 250,
+            "xmin": 0,
+            "xmax": 2500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Gen m_{4l} [GeV]",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "GenMass34jFull": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 250,
+            "xmin": 0,
+            "xmax": 2500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Gen m_{4l} [GeV]",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "GenMass4jFull": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 250,
+            "xmin": 0,
+            "xmax": 2500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Gen m_{4l} [GeV]",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
    "ZZPt": {  
         "Initialize": {  
             "type": "TH1D",
