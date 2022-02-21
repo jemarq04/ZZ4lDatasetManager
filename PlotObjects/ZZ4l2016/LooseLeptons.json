@@ -497,7 +497,7 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Leading jet p_{T}",  
-            "GetYaxis().SetTitle": "Events / 20 GeV",
+            "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
@@ -510,7 +510,7 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Leading Genjet p_{T}",  
-            "GetYaxis().SetTitle": "Events / 20 GeV",
+            "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
@@ -627,7 +627,7 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Sub-leading jet p_{T}",  
-            "GetYaxis().SetTitle": "Events / 20 GeV",
+            "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
@@ -640,7 +640,7 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Sub-leading Genjet p_{T}",  
-            "GetYaxis().SetTitle": "Events / 20 GeV",
+            "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
@@ -653,7 +653,7 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Third-leading jet p_{T}",  
-            "GetYaxis().SetTitle": "Events / 20 GeV",
+            "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
@@ -731,7 +731,7 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
-            "GetYaxis().SetTitle": "Events / 40 GeV",
+            "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.1
         }
     },
@@ -744,7 +744,7 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Gen Di-jet Mass [GeV]",  
-            "GetYaxis().SetTitle": "Events / 40 GeV",
+            "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.1
         }
     },
