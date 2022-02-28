@@ -10,7 +10,7 @@ parser.add_option("--folder", dest="folder",help="folder containing new data fil
 
 count =0
 dirlist = []
-datasets= ["zz4l-powheg","zz4l-amcatnlo","ggZZ4m","ggZZ4e","ggZZ2mu2tau","ggZZ2e2tau","ggZZ4t","ggZZ2e2mu","WWZ","WZZ","ZZZ","ttZ-jets"]
+datasets= ["zz4l-powheg","zz4l-amcatnlo","ggZZ4m","ggZZ4e","ggZZ2mu2tau","ggZZ2e2tau","ggZZ4t","ggZZ2e2mu","WWZ","WZZ","ZZZ","ttZ-jets","ggHZZ","vbfHZZ","WplusHToZZ","WminusHToZZ","ZHToZZ_4L","ttH_HToZZ_4L"]
 
 if options.year == '2018':
     datasets.remove("ggZZ2mu2tau")
@@ -18,6 +18,13 @@ if options.year == '2018':
 with open('FileInfo/ZZ4l%s/%s'%(options.year,options.inputname)) as json_file:
   obj = json.load(json_file)
 
+for key in datasets:
+    if not key in obj.keys():
+        print("Current file does not contain %s"%key)
+        obj[key] = {}
+        if "HToZZ" in key or "HZZ" in key:
+            obj[key]['plot_group'] = "HZZ_signal"
+ 
 for folder in options.folder.split(","):
 
     for roots,dirs,files in os.walk(folder):

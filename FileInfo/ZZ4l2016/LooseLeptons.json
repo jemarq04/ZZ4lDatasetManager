@@ -11,10 +11,6 @@
         "plot_group": "data-2016", 
         "file_path": "/data/hehe/ZZ16test-2020-06-18/2020-06-18-data_SingleMuon_Run2016B-17Jul2018_ver2-v1-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
     }, 
-    "data_DoubleEG_Run2016H-17Jul2018-v1": {
-        "plot_group": "data-2016", 
-        "file_path": "/data/hehe/ZZ16test-2020-06-18/2020-06-18-data_DoubleEG_Run2016H-17Jul2018-v1-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
-    }, 
     "data_SingleElectron_Run2016D-17Jul2018-v1": {
         "plot_group": "data-2016", 
         "file_path": "/data/hehe/ZZ16test-2020-06-18/2020-06-18-data_SingleElectron_Run2016D-17Jul2018-v1-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
@@ -26,6 +22,18 @@
     "data_DoubleEG_Run2016D-17Jul2018-v1": {
         "plot_group": "data-2016", 
         "file_path": "/data/hehe/ZZ16test-2020-06-18/2020-06-18-data_DoubleEG_Run2016D-17Jul2018-v1-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
+    }, 
+    "data_SingleMuon_Run2016H-17Jul2018-v1": {
+        "plot_group": "data-2016", 
+        "file_path": "/data/hehe/ZZ16test-2020-06-18/2020-06-18-data_SingleMuon_Run2016H-17Jul2018-v1-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
+    }, 
+    "WplusHToZZ": {
+        "plot_group": "HZZ_signal", 
+        "file_path": "/data/hehe/2022_reprocess_higgs16/2022-02-23-WplusHToZZ-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
+    }, 
+    "ttH_HToZZ_4L": {
+        "plot_group": "HZZ_signal", 
+        "file_path": "/data/hehe/2022_reprocess_higgs16/2022-02-23-ttH_HToZZ_4L-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
     }, 
     "data_SingleElectron_Run2016G-17Jul2018-v1": {
         "plot_group": "data-2016", 
@@ -51,6 +59,10 @@
         "plot_group": "ggZZ", 
         "file_path": "/data/hehe/2021_reprocess_signal16/2021-03-17-ggZZ4m-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
     }, 
+    "WminusHToZZ": {
+        "plot_group": "HZZ_signal", 
+        "file_path": "/data/hehe/2022_reprocess_higgs16/2022-02-23-WminusHToZZ-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
+    }, 
     "data_DoubleMuon_Run2016B-17Jul2018_ver2-v1": {
         "plot_group": "data-2016", 
         "file_path": "/data/hehe/ZZ16test-2020-06-18/2020-06-18-data_DoubleMuon_Run2016B-17Jul2018_ver2-v1-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
@@ -75,6 +87,10 @@
         "plot_group": "data-2016", 
         "file_path": "/data/hehe/ZZ16test-2020-06-18/2020-06-18-data_MuonEG_Run2016C-17Jul2018-v1-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
     }, 
+    "zz4l-amcatnlo": {
+        "plot_group": "qqZZ-amcnlo", 
+        "file_path": "/data/hehe/2021_reprocess_signal16/2021-03-17-zz4l-amcatnlo-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
+    }, 
     "ggZZ4t": {
         "plot_group": "ggZZ", 
         "file_path": "/data/hehe/2021_reprocess_signal16/2021-03-17-ggZZ4t-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
@@ -83,9 +99,25 @@
         "plot_group": "data-2016", 
         "file_path": "/data/hehe/ZZ16test-2020-06-18/2020-06-18-data_MuonEG_Run2016H-17Jul2018-v1-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
     }, 
+    "data_DoubleEG_Run2016B-17Jul2018_ver2-v1": {
+        "plot_group": "data-2016", 
+        "file_path": "/data/hehe/ZZ16test-2020-06-18/2020-06-18-data_DoubleEG_Run2016B-17Jul2018_ver2-v1-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
+    }, 
     "data_SingleElectron_Run2016H-17Jul2018-v1": {
         "plot_group": "data-2016", 
         "file_path": "/data/hehe/ZZ16test-2020-06-18/2020-06-18-data_SingleElectron_Run2016H-17Jul2018-v1-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
+    }, 
+    "ggHZZ": {
+        "plot_group": "HZZ_signal", 
+        "file_path": "/data/hehe/2022_reprocess_higgs16/2022-02-23-ggHZZ-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
+    }, 
+    "vbfHZZ": {
+        "plot_group": "HZZ_signal", 
+        "file_path": "/data/hehe/2022_reprocess_higgs16/2022-02-23-vbfHZZ-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
+    }, 
+    "ZHToZZ_4L": {
+        "plot_group": "HZZ_signal", 
+        "file_path": "/data/hehe/2022_reprocess_higgs16/2022-02-23-ZHToZZ_4L-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
     }, 
     "WZZ": {
         "plot_group": "VVV", 
@@ -123,10 +155,6 @@
         "plot_group": "data-2016", 
         "file_path": "/data/hehe/ZZ16test-2020-06-18/2020-06-18-data_DoubleMuon_Run2016G-17Jul2018-v1-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
     }, 
-    "data_SingleElectron_Run2016B-17Jul2018_ver2-v1": {
-        "plot_group": "data-2016", 
-        "file_path": "/data/hehe/ZZ16test-2020-06-18/2020-06-18-data_SingleElectron_Run2016B-17Jul2018_ver2-v1-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
-    }, 
     "ttZ-jets": {
         "plot_group": "VVV", 
         "file_path": "/data/hehe/2021_reprocess_minor16/2021-04-05-ttZ-jets-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
@@ -139,13 +167,9 @@
         "plot_group": "data-2016", 
         "file_path": "/data/hehe/ZZ16test-2020-06-18/2020-06-18-data_SingleElectron_Run2016F-17Jul2018-v1-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
     }, 
-    "data_DoubleEG_Run2016B-17Jul2018_ver2-v1": {
+    "data_DoubleEG_Run2016H-17Jul2018-v1": {
         "plot_group": "data-2016", 
-        "file_path": "/data/hehe/ZZ16test-2020-06-18/2020-06-18-data_DoubleEG_Run2016B-17Jul2018_ver2-v1-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "data_MuonEG_Run2016D-17Jul2018-v1": {
-        "plot_group": "data-2016", 
-        "file_path": "/data/hehe/ZZ16test-2020-06-18/2020-06-18-data_MuonEG_Run2016D-17Jul2018-v1-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
+        "file_path": "/data/hehe/ZZ16test-2020-06-18/2020-06-18-data_DoubleEG_Run2016H-17Jul2018-v1-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
     }, 
     "ggZZ2mu2tau": {
         "plot_group": "ggZZ", 
@@ -163,9 +187,9 @@
         "plot_group": "data-2016", 
         "file_path": "/data/hehe/ZZ16test-2020-06-18/2020-06-18-data_DoubleMuon_Run2016H-17Jul2018-v1-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
     }, 
-    "zz4l-amcatnlo": {
-        "plot_group": "qqZZ-amcnlo", 
-        "file_path": "/data/hehe/2021_reprocess_signal16/2021-03-17-zz4l-amcatnlo-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
+    "data_SingleElectron_Run2016B-17Jul2018_ver2-v1": {
+        "plot_group": "data-2016", 
+        "file_path": "/data/hehe/ZZ16test-2020-06-18/2020-06-18-data_SingleElectron_Run2016B-17Jul2018_ver2-v1-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
     }, 
     "data_SingleMuon_Run2016C-17Jul2018-v1": {
         "plot_group": "data-2016", 
@@ -183,13 +207,8 @@
         "plot_group": "qqZZ_powheg", 
         "file_path": "/data/hehe/2021_reprocess_signal16/2021-03-17-zz4l-powheg-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
     }, 
-    "data_SingleMuon_Run2016H-17Jul2018-v1": {
+    "data_MuonEG_Run2016D-17Jul2018-v1": {
         "plot_group": "data-2016", 
-        "file_path": "/data/hehe/ZZ16test-2020-06-18/2020-06-18-data_SingleMuon_Run2016H-17Jul2018-v1-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
-    },
-    "ZZJJTo4L-EWK": {
-        "plot_group": "zzjj4l-ewk", 
-        "file_path": "/data/hehe/ZZ16test-2020-06-18/2020-06-18-ZZJJTo4L-EWK-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
+        "file_path": "/data/hehe/ZZ16test-2020-06-18/2020-06-18-data_MuonEG_Run2016D-17Jul2018-v1-ZZ4l2016-loosePreselectionTo4lmass-v1/*"
     }
-
 }
