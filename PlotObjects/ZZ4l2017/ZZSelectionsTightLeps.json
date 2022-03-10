@@ -19,7 +19,7 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Lepton p_{T} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 10 GeV",
+            "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2  
         }
     },
@@ -109,7 +109,7 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "m_{Z} [GeV]",  
-            "GetYaxis().SetTitle": "Z bosons / 1 GeV", 
+            "GetYaxis().SetTitle": "Z bosons", 
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
