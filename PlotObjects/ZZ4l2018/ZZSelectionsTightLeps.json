@@ -13,12 +13,64 @@
    "LepPt": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 20,
+            "nbins": 100,
             "xmin": 0,
             "xmax": 200
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Lepton p_{T} [GeV]",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2  
+        }
+    },
+   "LepPt1": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 100,
+            "xmin": 0,
+            "xmax": 200
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Lepton1 p_{T} [GeV]",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2  
+        }
+    },
+   "LepPt2": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 100,
+            "xmin": 0,
+            "xmax": 200
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Lepton2 p_{T} [GeV]",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2  
+        }
+    },
+   "LepPt3": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 100,
+            "xmin": 0,
+            "xmax": 200
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Lepton3 p_{T} [GeV]",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2  
+        }
+    },
+   "LepPt4": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 100,
+            "xmin": 0,
+            "xmax": 200
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Lepton4 p_{T} [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2  
         }
