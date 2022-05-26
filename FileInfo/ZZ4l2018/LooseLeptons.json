@@ -130,5 +130,10 @@
     "zz4l-powheg": {
         "plot_group": "qqZZ_powheg", 
         "file_path": "/data/hehe/2021_reprocess_signal18/2021-03-17-zz4l-powheg-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }
+    },
+    "ZZJJTo4L-EWK": {
+        "plot_group": "zzjj4l-ewk", 
+        "file_path": "/data/hehe/2022_reprocess_EWK18/2022-03-29-ZZJJTo4L-EWK-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+    } 
+
 }
