@@ -863,6 +863,45 @@
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
+   "jetPtN1": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 50,
+            "xmin": 30,
+            "xmax": 530
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "jet p_{T} for 1-jet Evt.",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "jetPtN2": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 50,
+            "xmin": 30,
+            "xmax": 530
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "lowest jet p_{T} for 2-jet Evt.",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "jetPtN3": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 50,
+            "xmin": 30,
+            "xmax": 530
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "lowest jet p_{T} for 3-jet Evt.",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
    "GenjetPt[0]": {  
         "Initialize": {  
             "type": "TH1D",
@@ -924,6 +963,32 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Leading jet |#eta|",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "absjetEtaN1": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 50,
+            "xmin": 0,
+            "xmax": 5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "jet |#eta| with 1-jet Evt.",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "absjetEtaN1_100": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 50,
+            "xmin": 0,
+            "xmax": 5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "jet |#eta| with 1-jet Evt. and p_{T}<100 GeV",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
