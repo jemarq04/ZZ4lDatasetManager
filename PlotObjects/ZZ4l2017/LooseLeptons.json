@@ -733,6 +733,19 @@
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
+   "jetEtaAllj": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 100,
+            "xmin": -5,
+            "xmax": 5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "jet #eta for all jets",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
    "GenjetEta[0]": {  
         "Initialize": {  
             "type": "TH1D",
@@ -863,6 +876,58 @@
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
+   "jetHEM_AB": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 50,
+            "xmin": 30,
+            "xmax": 530
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "jet HEM test Run AB",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "jetHEM_CD": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 50,
+            "xmin": 30,
+            "xmax": 530
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "jet HEM test Run CD",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "jetHEM2_AB": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 50,
+            "xmin": 30,
+            "xmax": 530
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "jet HEM test Run AB",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "jetHEM2_CD": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 50,
+            "xmin": 30,
+            "xmax": 530
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "jet HEM test Run CD",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
    "jetPtN1": {  
         "Initialize": {  
             "type": "TH1D",
@@ -963,6 +1028,19 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Leading jet |#eta|",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "absjetEtaAllj": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 50,
+            "xmin": 0,
+            "xmax": 5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "jet |#eta| for all jets",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
