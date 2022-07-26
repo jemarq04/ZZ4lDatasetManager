@@ -746,6 +746,71 @@
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
+   "jetEtaAllj50": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 100,
+            "xmin": -5,
+            "xmax": 5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "jet #eta for all jets",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "jetEtaAllj_120": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 100,
+            "xmin": -5,
+            "xmax": 5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "jet #eta for all jets",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "jetEtaAllj50_120": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 100,
+            "xmin": -5,
+            "xmax": 5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "jet #eta for all jets",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "jetEtaAllj_180": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 100,
+            "xmin": -5,
+            "xmax": 5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "jet #eta for all jets",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "jetEtaAllj50_180": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 100,
+            "xmin": -5,
+            "xmax": 5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "jet #eta for all jets",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
    "GenjetEta[0]": {  
         "Initialize": {  
             "type": "TH1D",
@@ -1033,6 +1098,71 @@
         }
     },
    "absjetEtaAllj": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 50,
+            "xmin": 0,
+            "xmax": 5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "jet |#eta| for all jets",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "absjetEtaAllj50": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 50,
+            "xmin": 0,
+            "xmax": 5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "jet |#eta| for all jets",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "absjetEtaAllj_120": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 50,
+            "xmin": 0,
+            "xmax": 5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "jet |#eta| for all jets",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "absjetEtaAllj50_120": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 50,
+            "xmin": 0,
+            "xmax": 5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "jet |#eta| for all jets",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "absjetEtaAllj_180": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 50,
+            "xmin": 0,
+            "xmax": 5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "jet |#eta| for all jets",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "absjetEtaAllj50_180": {  
         "Initialize": {  
             "type": "TH1D",
             "nbins": 50,
