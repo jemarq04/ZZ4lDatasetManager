@@ -1,15 +1,26 @@
-import json,os,copy
+import json
+import os
+import copy
 from optparse import OptionParser
+
+#What this script does:
+#Load input json file into dictionary, create dict entry for keys in MC datasets if not already in the dict, then scan folder names
+#If a folder matches an MC name, the MC path is updated; if a folder contains data and matches a data set name in the keys, the path is updates.
+#Then clean up keys in the dict that does not match MC and data or has empty subdict.
+ 
+# Example 
+# python updateDatasets.py -i LooseLeptons.json -y 2016 -o LooseLeptons.json_16MCReprocessed_temp --folder /data/hehe/2022_3years_AllRedo/2016MC --noExtra [--customSet]
 
 parser=OptionParser()
 parser.add_option("-y", dest="year",help="Which year")
 parser.add_option("-i", dest="inputname",help="Input json file name")
 parser.add_option("-o", dest="outputname",help="Output json file name")
 parser.add_option("--folder", dest="folder",help="folder containing new data files")
-parser.add_option("--noExtra", dest="noExtra",action='store_true',help="No extra MC/Data files")
+parser.add_option("--noExtra",dest="noExtra",default=False,action='store_true',help="No extra MC/Data files")
+parser.add_option("--customSet",dest="customSet",default=False,action='store_true',help="Use custom MC datasets")
 (options,args)=parser.parse_args()
 
-count =0
+count = 0
 dirlist = []
 datasets= ["zz4l-powheg","zz4l-amcatnlo","ggZZ4m","ggZZ4e","ggZZ2mu2tau","ggZZ2e2tau","ggZZ4t","ggZZ2e2mu","WWZ","WZZ","ZZZ","ttZ-jets","ggHZZ","vbfHZZ","WplusHToZZ","WminusHToZZ","ZHToZZ_4L","ttH_HToZZ_4L"]
 
@@ -19,6 +30,9 @@ if options.year == '2018':
 with open('FileInfo/ZZ4l%s/%s'%(options.year,options.inputname)) as json_file:
   obj = json.load(json_file)
 
+if options.customSet:
+    datasets = obj.keys()
+    
 for key in datasets:
     if not key in obj.keys():
         print("Current file does not contain %s"%key)
