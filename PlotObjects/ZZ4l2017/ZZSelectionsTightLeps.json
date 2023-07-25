@@ -708,6 +708,18 @@
             "GetYaxis().SetTitle": "Events"
         }
     },
+    "nJets_central": {
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 8,
+            "xmin": 0,
+            "xmax": 8
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Number of p_{T} > 30 GeV central Jets",  
+            "GetYaxis().SetTitle": "Events"
+        }
+    },
     "GennJets": {
         "Initialize": {  
             "type": "TH1D",
