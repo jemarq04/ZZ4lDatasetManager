@@ -101,7 +101,7 @@
     }, 
     "data_EGamma_Run2018D-22Jan2019-v2": {
         "plot_group": "data-2018", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_EGamma_Run2018D-22Jan2019-v2-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-11-17/2022-11-17-data_EGamma_Run2018D-22Jan2019-v2-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
     }, 
     "WminusHToZZ": {
         "plot_group": "HZZ_signal", 
