@@ -1,4 +1,13 @@
 {
+		"pp_eemm-cHWB_massless" : {
+			"cross_section" : 14.0
+		},
+		"pp_eemm-cHG_massless" : {
+			"cross_section" : 1913.0
+		},
+		"pp_eemm-cll1_massless" : {
+			"cross_section" : 5.0
+		},
     "zz4l-amcatnlo" : {
 	 "cross_section" : 1.218,
 	 "kfactor" : 1.0835
