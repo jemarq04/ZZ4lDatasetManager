@@ -1,4 +1,16 @@
 {
+		"pp_eemm-cHWB_massless" : {
+			"file_path" : "/store/user/marquez/SMEFTsim/pp_eemm-cHWB_massless/CMSSW_10_6_19/ntuples/*.root",
+			"plot_group" : "pp_eemm"
+		},
+		"pp_eemm-cHG_massless" : {
+			"file_path" : "/store/user/marquez/SMEFTsim/pp_eemm-cHG_massless/CMSSW_10_6_19/ntuples/*.root",
+			"plot_group" : "pp_eemm"
+		},
+		"pp_eemm-cll1_massless" : {
+			"file_path" : "/store/user/marquez/SMEFTsim/pp_eemm-cll1_massless/CMSSW_10_6_19/ntuples/*.root",
+			"plot_group" : "pp_eemm"
+		},
     "zz4l-amcatnlo" : {
         "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_02Sep2019/ZZTo4L_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1/*/*/*.root",
         "plot_group" : "qqZZ-amcnlo"
