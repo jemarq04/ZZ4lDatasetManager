@@ -1,14 +1,14 @@
 {
-		"pp_eemm" : {
-				"Name" : "ZZ #rightarrow 4l",
-				"Style" : "fill-lightblue",
-				"add_perc_error" : 0.0,
-				"Members" : [
-						"pp_eemm-cHWB_massless",
-						"pp_eemm-cHG_massless",
-						"pp_eemm-cll1_massless"
-				]
-		},
+    "pp_eemm" : {
+        "Name" : "ZZ #rightarrow 4l",
+        "Style" : "fill-lightblue",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "pp_eemm-cHWB_massless",
+            "pp_eemm-cHG_massless",
+            "pp_eemm-cll1_massless"
+        ]
+    },
     "qqZZ-powheg" : {
         "Name" : "q#bar{q} #rightarrow ZZ",
         "Style" : "fill-lightblue",
@@ -90,7 +90,7 @@
         "Members" : [
             "GGZZ2e2mu",
             "GGZZ4m",
-	    "GGZZ4e"
+      "GGZZ4e"
         ]
     },
     "dy-jets" : {
