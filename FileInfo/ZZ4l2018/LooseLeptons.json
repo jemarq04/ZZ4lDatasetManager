@@ -110,13 +110,5 @@
     "ggZZ2e2mu": {
         "plot_group": "ggZZ", 
         "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-26/2022-10-26-ggZZ2e2mu-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    },
-    "AllData" : {
-        "file_path" : "",
-        "plot_group" : "data_all"
-    },
-    "DataEWKCorrected" : {
-        "file_path" : "",
-        "plot_group" : "nonprompt"
     }
 }
