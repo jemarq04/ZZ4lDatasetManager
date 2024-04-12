@@ -1,14 +1,14 @@
 {
 		"pp_eemm-cHWB_massless" : {
-			"plot_group": "pp_eemm",
+			"plot_group": "ZZEFT_cHWB",
 			"file_path": "data/marquez5/ZZ4l2018AnalysisJobs_2024-04-10/2024-04-10-pp_eemm-cHWB_massless-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
 		},
 		"pp_eemm-cHG_massless" : {
-			"plot_group": "pp_eemm",
+			"plot_group": "ZZEFT_cHG",
 			"file_path": "data/marquez5/ZZ4l2018AnalysisJobs_2024-04-10/2024-04-10-pp_eemm-cHG_massless-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
 		},
 		"pp_eemm-cll1_massless" : {
-			"plot_group": "pp_eemm",
+			"plot_group": "ZZEFT_cll1",
 			"file_path": "data/marquez5/ZZ4l2018AnalysisJobs_2024-04-10/2024-04-10-pp_eemm-cll1_massless-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
 		},
 		"data_DoubleMuon_Run2018B-17Sep2018-v1": {

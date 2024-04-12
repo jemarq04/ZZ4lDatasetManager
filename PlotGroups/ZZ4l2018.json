@@ -1,14 +1,28 @@
 {
-    "pp_eemm" : {
+    "ZZEFT_cHWB" : {
         "Name" : "ZZ #rightarrow 4l",
         "Style" : "fill-lightblue",
         "add_perc_error" : 0.0,
         "Members" : [
-            "pp_eemm-cHWB_massless",
-            "pp_eemm-cHG_massless",
-            "pp_eemm-cll1_massless"
+            "pp_eemm-cHWB_massless"
         ]
     },
+		"ZZEFT_cHG" : {
+				"Name" : "ZZ #rightarrow 4l",
+				"Style" : "fill-lightblue",
+				"add_perc_error" : 0.0,
+				"Members" : [
+            "pp_eemm-cHG_massless"
+				]
+		},
+		"ZZEFT_cll1" : {
+				"Name" : "ZZ #rightarrow 4l",
+				"Style" : "fill-lightblue",
+				"add_perc_error" : 0.0,
+				"Members" : [
+            "pp_eemm-cll1_massless"
+				]
+		},
     "qqZZ-powheg" : {
         "Name" : "q#bar{q} #rightarrow ZZ",
         "Style" : "fill-lightblue",
