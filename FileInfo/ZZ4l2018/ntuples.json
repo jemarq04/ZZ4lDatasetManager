@@ -1,14 +1,14 @@
 {
 		"pp_eemm-cHWB_massless" : {
 			"file_path" : "/store/user/marquez/SMEFTsim/pp_eemm-cHWB_massless/CMSSW_10_6_19/ntuples/*.root",
-			"plot_group" : "pp_eemm"
+			"plot_group" : "ZZEFT_cHWB"
 		},
 		"pp_eemm-cHG_massless" : {
 			"file_path" : "/store/user/marquez/SMEFTsim/pp_eemm-cHG_massless/CMSSW_10_6_19/ntuples/*.root",
-			"plot_group" : "pp_eemm"
+			"plot_group" : "ZZEFT_cHG"
 		},
 		"pp_eemm-cll1_massless" : {
 			"file_path" : "/store/user/marquez/SMEFTsim/pp_eemm-cll1_massless/CMSSW_10_6_19/ntuples/*.root",
-			"plot_group" : "pp_eemm"
+			"plot_group" : "ZZEFT_cll1"
 		}
 }
