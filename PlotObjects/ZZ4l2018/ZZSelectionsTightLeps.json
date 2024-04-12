@@ -1445,5 +1445,18 @@
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
+    },
+    "scaleWeightIDs": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": 0,
+            "xmax": 10
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Index",
+            "GetYAxis().SetTitle": "Scale Weight IDs",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
     }
 }
