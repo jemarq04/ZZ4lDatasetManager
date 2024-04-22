@@ -1,6 +1,6 @@
 {
     "ZZEFT_cHWB" : {
-        "Name" : "ZZ #rightarrow 4l",
+        "Name" : "pp #rightarrow 4l",
         "Style" : "fill-lightblue",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -8,7 +8,7 @@
         ]
     },
 		"ZZEFT_cHG" : {
-				"Name" : "ZZ #rightarrow 4l",
+				"Name" : "pp #rightarrow 4l",
 				"Style" : "fill-lightblue",
 				"add_perc_error" : 0.0,
 				"Members" : [
@@ -16,7 +16,7 @@
 				]
 		},
 		"ZZEFT_cll1" : {
-				"Name" : "ZZ #rightarrow 4l",
+				"Name" : "pp #rightarrow 4l",
 				"Style" : "fill-lightblue",
 				"add_perc_error" : 0.0,
 				"Members" : [
