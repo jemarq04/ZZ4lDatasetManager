@@ -1,122 +1,126 @@
 {
-		"pp_eemm-cHWB_massless" : {
-			"plot_group": "ZZEFT_cHWB",
-			"file_path": "data/marquez5/ZZ4l2018AnalysisJobs_2024-04-10/2024-04-10-pp_eemm-cHWB_massless-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-		},
-		"pp_eemm-cHG_massless" : {
-			"plot_group": "ZZEFT_cHG",
-			"file_path": "data/marquez5/ZZ4l2018AnalysisJobs_2024-04-10/2024-04-10-pp_eemm-cHG_massless-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-		},
-		"pp_eemm-cll1_massless" : {
-			"plot_group": "ZZEFT_cll1",
-			"file_path": "data/marquez5/ZZ4l2018AnalysisJobs_2024-04-10/2024-04-10-pp_eemm-cll1_massless-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-		},
-		"data_DoubleMuon_Run2018B-17Sep2018-v1": {
-        "plot_group": "data-2018", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_DoubleMuon_Run2018B-17Sep2018-v1-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "data_DoubleMuon_Run2018C-17Sep2018-v1": {
-        "plot_group": "data-2018", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_DoubleMuon_Run2018C-17Sep2018-v1-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "data_SingleMuon_Run2018A-17Sep2018-v2": {
-        "plot_group": "data-2018", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_SingleMuon_Run2018A-17Sep2018-v2-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "ggZZ2e2tau": {
-        "plot_group": "ggZZ", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-26/2022-10-26-ggZZ2e2tau-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "data_EGamma_Run2018C-17Sep2018-v1": {
-        "plot_group": "data-2018", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_EGamma_Run2018C-17Sep2018-v1-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "data_SingleMuon_Run2018C-17Sep2018-v1": {
-        "plot_group": "data-2018", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_SingleMuon_Run2018C-17Sep2018-v1-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "data_SingleMuon_Run2018B-17Sep2018-v1": {
-        "plot_group": "data-2018", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_SingleMuon_Run2018B-17Sep2018-v1-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "data_SingleMuon_Run2018D-22Jan2019-v2": {
-        "plot_group": "data-2018", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_SingleMuon_Run2018D-22Jan2019-v2-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "data_MuonEG_Run2018D-PromptReco-v2": {
-        "plot_group": "data-2018", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_MuonEG_Run2018D-PromptReco-v2-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "ggZZ4e": {
-        "plot_group": "ggZZ", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-26/2022-10-26-ggZZ4e-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "data_DoubleMuon_Run2018A-17Sep2018-v2": {
-        "plot_group": "data-2018", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_DoubleMuon_Run2018A-17Sep2018-v2-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "data_DoubleMuon_Run2018D-PromptReco-v2": {
-        "plot_group": "data-2018", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_DoubleMuon_Run2018D-PromptReco-v2-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "data_EGamma_Run2018B-17Sep2018-v1": {
-        "plot_group": "data-2018", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_EGamma_Run2018B-17Sep2018-v1-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "ggZZ4t": {
-        "plot_group": "ggZZ", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-26/2022-10-26-ggZZ4t-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "WZZ": {
-        "plot_group": "VVV", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-26/2022-10-26-WZZ-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "ggZZ4m": {
-        "plot_group": "ggZZ", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-26/2022-10-26-ggZZ4m-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "data_MuonEG_Run2018A-17Sep2018-v1": {
-        "plot_group": "data-2018", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_MuonEG_Run2018A-17Sep2018-v1-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "data_EGamma_Run2018A-17Sep2018-v2": {
-        "plot_group": "data-2018", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_EGamma_Run2018A-17Sep2018-v2-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "ttZ-jets": {
-        "plot_group": "VVV", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-26/2022-10-26-ttZ-jets-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "data_EGamma_Run2018D-22Jan2019-v2": {
-        "plot_group": "data-2018", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-11-17/2022-11-17-data_EGamma_Run2018D-22Jan2019-v2-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "ZZZ": {
-        "plot_group": "VVV", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-26/2022-10-26-ZZZ-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "data_MuonEG_Run2018C-17Sep2018-v1": {
-        "plot_group": "data-2018", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_MuonEG_Run2018C-17Sep2018-v1-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "data_MuonEG_Run2018B-17Sep2018-v1": {
-        "plot_group": "data-2018", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_MuonEG_Run2018B-17Sep2018-v1-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "WWZ": {
-        "plot_group": "VVV", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-26/2022-10-26-WWZ-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    }, 
-    "ggZZ2e2mu": {
-        "plot_group": "ggZZ", 
-        "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-26/2022-10-26-ggZZ2e2mu-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
-    },
-    "AllData" : {
-        "file_path" : "",
-        "plot_group" : "data_all"
-    },
-    "DataEWKCorrected" : {
-        "file_path" : "",
-        "plot_group" : "nonprompt"
-    }
+	"pp_eemm-cHWB_massless" : {
+		"plot_group": "ZZEFT_cHWB",
+		"file_path": "data/marquez5/ZZ4l2018AnalysisJobs_2024-04-12/2024-04-12-pp_eemm-cHWB_massless-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	},
+	"pp_eemm-cHG_massless" : {
+		"plot_group": "ZZEFT_cHG",
+		"file_path": "data/marquez5/ZZ4l2018AnalysisJobs_2024-04-12/2024-04-12-pp_eemm-cHG_massless-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	},
+	"pp_eemm-cll1_massless" : {
+		"plot_group": "ZZEFT_cll1",
+		"file_path": "data/marquez5/ZZ4l2018AnalysisJobs_2024-04-12/2024-04-12-pp_eemm-cll1_massless-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	},
+	"pp_eemm-SMlimit_massless" : {
+		"plot_group": "ZZEFT_SMlimit",
+		"file_path": "data/marquez5/ZZ4l2018AnalysisJobs_2024-05-03/2024-05-03-pp_eemm-SMlimit_massless-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	},
+	"data_DoubleMuon_Run2018B-17Sep2018-v1": {
+		"plot_group": "data-2018", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_DoubleMuon_Run2018B-17Sep2018-v1-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	}, 
+	"data_DoubleMuon_Run2018C-17Sep2018-v1": {
+		"plot_group": "data-2018", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_DoubleMuon_Run2018C-17Sep2018-v1-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	}, 
+	"data_SingleMuon_Run2018A-17Sep2018-v2": {
+		"plot_group": "data-2018", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_SingleMuon_Run2018A-17Sep2018-v2-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	}, 
+	"ggZZ2e2tau": {
+		"plot_group": "ggZZ", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-26/2022-10-26-ggZZ2e2tau-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	}, 
+	"data_EGamma_Run2018C-17Sep2018-v1": {
+		"plot_group": "data-2018", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_EGamma_Run2018C-17Sep2018-v1-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	}, 
+	"data_SingleMuon_Run2018C-17Sep2018-v1": {
+		"plot_group": "data-2018", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_SingleMuon_Run2018C-17Sep2018-v1-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	}, 
+	"data_SingleMuon_Run2018B-17Sep2018-v1": {
+		"plot_group": "data-2018", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_SingleMuon_Run2018B-17Sep2018-v1-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	}, 
+	"data_SingleMuon_Run2018D-22Jan2019-v2": {
+		"plot_group": "data-2018", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_SingleMuon_Run2018D-22Jan2019-v2-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	}, 
+	"data_MuonEG_Run2018D-PromptReco-v2": {
+		"plot_group": "data-2018", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_MuonEG_Run2018D-PromptReco-v2-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	}, 
+	"ggZZ4e": {
+		"plot_group": "ggZZ", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-26/2022-10-26-ggZZ4e-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	}, 
+	"data_DoubleMuon_Run2018A-17Sep2018-v2": {
+		"plot_group": "data-2018", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_DoubleMuon_Run2018A-17Sep2018-v2-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	}, 
+	"data_DoubleMuon_Run2018D-PromptReco-v2": {
+		"plot_group": "data-2018", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_DoubleMuon_Run2018D-PromptReco-v2-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	}, 
+	"data_EGamma_Run2018B-17Sep2018-v1": {
+		"plot_group": "data-2018", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_EGamma_Run2018B-17Sep2018-v1-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	}, 
+	"ggZZ4t": {
+		"plot_group": "ggZZ", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-26/2022-10-26-ggZZ4t-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	}, 
+	"WZZ": {
+		"plot_group": "VVV", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-26/2022-10-26-WZZ-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	}, 
+	"ggZZ4m": {
+		"plot_group": "ggZZ", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-26/2022-10-26-ggZZ4m-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	}, 
+	"data_MuonEG_Run2018A-17Sep2018-v1": {
+		"plot_group": "data-2018", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_MuonEG_Run2018A-17Sep2018-v1-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	}, 
+	"data_EGamma_Run2018A-17Sep2018-v2": {
+		"plot_group": "data-2018", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_EGamma_Run2018A-17Sep2018-v2-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	}, 
+	"ttZ-jets": {
+		"plot_group": "VVV", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-26/2022-10-26-ttZ-jets-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	}, 
+	"data_EGamma_Run2018D-22Jan2019-v2": {
+		"plot_group": "data-2018", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-11-17/2022-11-17-data_EGamma_Run2018D-22Jan2019-v2-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	}, 
+	"ZZZ": {
+		"plot_group": "VVV", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-26/2022-10-26-ZZZ-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	}, 
+	"data_MuonEG_Run2018C-17Sep2018-v1": {
+		"plot_group": "data-2018", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_MuonEG_Run2018C-17Sep2018-v1-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	}, 
+	"data_MuonEG_Run2018B-17Sep2018-v1": {
+		"plot_group": "data-2018", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_MuonEG_Run2018B-17Sep2018-v1-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	}, 
+	"WWZ": {
+		"plot_group": "VVV", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-26/2022-10-26-WWZ-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	}, 
+	"ggZZ2e2mu": {
+		"plot_group": "ggZZ", 
+		"file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-26/2022-10-26-ggZZ2e2mu-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+	},
+	"AllData" : {
+		"file_path" : "",
+		"plot_group" : "data_all"
+	},
+	"DataEWKCorrected" : {
+		"file_path" : "",
+		"plot_group" : "nonprompt"
+	}
 }

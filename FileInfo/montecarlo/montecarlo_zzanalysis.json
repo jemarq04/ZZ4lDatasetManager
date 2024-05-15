@@ -1,587 +1,590 @@
 {
-		"pp_eemm-cHWB_massless" : {
-			"cross_section" : 14.0
-		},
-		"pp_eemm-cHG_massless" : {
-			"cross_section" : 1913.0
-		},
-		"pp_eemm-cll1_massless" : {
-			"cross_section" : 5.0
-		},
-    "zz4l-amcatnlo" : {
-	 "cross_section" : 1.218,
-	 "kfactor" : 1.0835
-    },
-    "ggZZSpec" : {
-	 "cross_section" : 0.00584,
-	 "kfactor" : 1.53
-    },
-    "qqZZSpec" : {
-	 "cross_section" : 0.07668,
-	 "kfactor" : 1.0835
-    },
-    "EWK-Extra4l" : {
-	 "cross_section" : 0.0035485771
-    },
-    "EWK-Extra2e2mujj" : {
-	 "cross_section" : 0.00063357811897
-    },
-    "GGZZ2e2mu" : {
-	 "cross_section" : 0.00391448 ,
-	 "kfactor" : 1.7
-    },
-    "GGZZ4m" : {
-	 "cross_section" : 0.00198143 ,
-	 "kfactor" : 1.7
-    },
-    "GGZZ4e" : {
-	 "cross_section" : 0.00197463 ,
-	 "kfactor" : 1.7
-    },
-   "wz3lnu-powheg" : {
-        "cross_section" : 4.43,
-        "Source of cross section" : "POWHEG tarball",
-        "DAS Name" : "WZTo3LNu_TuneCUETP8M1_13TeV-powheg-pythia8"
-    },
-    "wz3lnu-mg5amcnlo" : {
-        "cross_section" : 4.715,
-        "Source of cross section" : "MG5_aMC@NLO gridpack",
-        "DAS Name" : "WZTo3LNu_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
-    },
-    "wz3lnu-amcnlo" : {
-        "cross_section" : 4.715,
-        "Source of cross section" : "MG5_aMC@NLO gridpack",
-        "DAS Name" : "WZTo3LNu_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
-    },
-    "zz4l-powheg" : {
-        "cross_section" : 1.256,
-        "Source of cross section" : "POWHEG tarball",
-        "kfactor" : 1.0835,
-        "Source of k-factor" : "k factor from mll only calculation of Grazzini",
-        "DAS Name" : "ZZTo4L_13TeV_powheg_pythia8"
-    },
-    "zz2l2q" : {
-        "cross_section" : 3.38,
-        "Source of cross section" : "MCM",
-        "DAS Name" : "ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8"
-    },
-    "ggZZ4e" : {
-        "cross_section" : 0.001586,
-        "Source of cross section" : "MCM",
-        "kfactor" : 1.7,
-        "Source of k-factor" : "http://arxiv.org/abs/1509.06734",
-        "DAS Name" : "GluGluToZZTo4e_BackgroundOnly_13TeV_MCFM"
-    },
-    "ggZZ4m" : {
-        "cross_section" : 0.001586,
-        "Source of cross section" : "MCM",
-        "kfactor" : 1.7,
-        "Source of k-factor" : "http://arxiv.org/abs/1509.06734",
-        "DAS Name" : "GluGluToZZTo4mu_BackgroundOnly_13TeV_MCFM"
-    },
-    "ggZZ4t" : {
-        "cross_section" : 0.001586,
-        "Source of cross section" : "MCM",
-        "kfactor" : 1.7,
-        "Source of k-factor" : "http://arxiv.org/abs/1509.06734",
-        "DAS Name" : "GluGluToZZTo4tau_BackgroundOnly_13TeV_MCFM"
-    },
-    "ggZZ2e2mu" : {
-        "cross_section" : 0.003194,
-        "Source of cross section" : "MCM",
-        "kfactor" : 1.7,
-        "Source of k-factor" : "http://arxiv.org/abs/1509.06734",
-        "DAS Name" : "GluGluToZZTo2e2mu_BackgroundOnly_13TeV_MCFM"
-    },
-    "ggZZ2e2tau" : {
-        "cross_section" : 0.003194,
-        "Source of cross section" : "MCM",
-        "kfactor" : 1.7,
-        "Source of k-factor" : "http://arxiv.org/abs/1509.06734",
-        "DAS Name" : "GluGluToZZTo2e2tau_BackgroundOnly_13TeV_MCFM"
-    },
-    "ggZZ2mu2tau" : {
-        "cross_section" : 0.003194,
-        "Source of cross section" : "MCM",
-        "kfactor" : 1.7,
-        "Source of k-factor" : "http://arxiv.org/abs/1509.06734",
-        "DAS Name" : "GluGluToZZTo2mu2tau_BackgroundOnly_13TeV_MCFM"
-    },
-    "DYm50-1j" : {
-        "cross_section" : 1012.5,
-        "kfactor" : 1.21,
-        "Source of cross section" : "HTT group",
-        "DAS Name" : "DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8"
-    },
-    "DYm50-2j" : {
-        "cross_section" : 332.8,
-        "kfactor" : 1.21,
-        "Source of cross section" : "HTT group",
-        "DAS Name" : "DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8"
-    },
-    "DYm50-3j" : {
-        "cross_section" : 101.8,
-        "kfactor" : 1.21,
-        "Source of cross section" : "HTT group",
-        "DAS Name" : "DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8"
-    },
-    "DYm50-4j" : {
-        "cross_section" : 54.8,
-        "kfactor" : 1.21,
-        "Source of cross section" : "HTT group",
-        "DAS Name" : "DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8"
-    },
-    "DYJetsToLLM-50" : {
-        "cross_section" : 6104,
-        "Source of cross section" : "https://twiki.cern.ch/twiki/bin/viewauth/CMS/SummaryTable1G25ns#DY_Z",
-        "DAS Name" : "DYJetsToLL_M-50_TuneCUETP8M1_13TeV-[amcatnloFXFX OR madgraphMLM]-pythia8"
-    },
-    "DYm50-filt" : {
-        "cross_section" : 5765,
-        "Source of cross section" : "GenXSecAnalyzer",
-        "DAS Name" : "DYJetsToLL_M-50_TuneCUETP8M1_13TeV-[amcatnloFXFX OR madgraphMLM]-pythia8",
-        "Notes" : "Filtered to remove overlap with Zgamma sample. Events with photons from q or l with pt > 10 GeV are rejected."
-    },
-    "DYm50-0j-nlo" : {
-        "cross_section" : 4770,
-        "Source of cross section" : "McM",
-        "DAS Name" : "DYToLL_0J_13TeV-amcatnloFXFX-pythia8",
-        "Notes" : ""
-    },
-    "DYm50-1j-nlo" : {
-        "cross_section" : 931.3,
-        "Source of cross section" : "McM",
-        "DAS Name" : "DYToLL_1J_13TeV-amcatnloFXFX-pythia8",
-        "Notes" : ""
-    },
-    "DYm50-2j-nlo" : {
-        "cross_section" : 374,
-        "Source of cross section" : "McM",
-        "DAS Name" : "DYToLL_2J_13TeV-amcatnloFXFX-pythia8",
-        "Notes" : ""
-    },
-    "DYJetsToLL_M10to50" : {
-        "cross_section" : 18610,
-        "Source of cross section" : "MCM",
-        "DAS Name" : "DYJetsToLL_M-10to50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
-    },
-    "DYm10-50-filt" : {
-        "cross_section" : 18610,
-        "Source of cross section" : "MCM",
-        "DAS Name" : "DYJetsToLL_M-10to50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
-    },
-    "tt-lep" : {
-        "cross_section" : 87.31,
-        "Source of cross section" : "https://twiki.cern.ch/twiki/bin/viewauth/CMS/SummaryTable1G25ns#TTbar",
-        "DAS Name" : "TTJets_DiLept_TuneCUETP8M1_13TeUETP8M2_ttHtranche3_13TeV-powheg-pythia8"
-    },
-    "tt-jets" : {
-        "cross_section" : 831.76,
-        "Source of cross section" : "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO (top mass 172.5)",
-        "DAS Name" : "TTJets_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
-    },
-    "tzq" : {
-        "cross_section" : 0.0758,
-        "Source of cross section" : "MCM",
-        "DAS Name" : "tZq_ll_4f_13TeV-amcatnlo-pythia8"
-    },
-    "ttz" : {
-        "cross_section" : 0.2529,
-        "Source of cross section" : "MCM",
-        "DAS Name" : "TTZToLLNuNu_M-10_TuneCUETP8M1_13TeV-amcatnlo-pythia8"
-    },
-    "ttw" : {
-        "cross_section" : 0.2043,
-        "Source of cross section" : "MCM",
-        "DAS Name" : "TTWJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-madspin-pythia8"
-    },
-    "zzz" : {
-        "cross_section" : 0.01398,
-        "Source of cross section" : "MCM",
-        "DAS Name" : "ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8"
-    },
-    "wzz" : {
-        "cross_section" : 0.05565,
-        "Source of cross section" : "MCM",
-        "DAS Name" : "WZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8"
-    },
-    "wwz" : {
-        "cross_section" : 0.1651,
-        "Source of cross section" : "MCM",
-        "DAS Name" : "WWZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8"
-    },
-    "www" : {
-        "cross_section" : 0.2086,
-        "Source of cross section" : "MCM",
-        "DAS Name" : "WWW_4F_TuneCUETP8M1_13TeV-amcatnlo-pythia8"
-    },
-    "WWZJetsTo4L2Nu" : { 
-        "cross_section" : 0.0006024,
-        "Source of cross section" : "MCM",
-        "DAS Name" : "WWZJetsTo4L2Nu_4f_TuneCP5_13TeV_amcatnloFXFX_pythia8"
-    },
-    "WZZJetsTo4L2Nu" : { 
-        "cross_section" : 0.00027,
-        "Source of cross section" : "MCM",
-        "DAS Name" : "WZZJetsTo4L2Nu_4f_TuneCP5_13TeV_amcatnloFXFX_pythia8"
-    },
-    "ZZGJetsTo4L2Nu" : { 
-        "cross_section" : 0.001042,
-        "Source of cross section" : "MCM",
-        "DAS Name" : "ZZGJetsTo4L2Nu_4f_TuneCP5_13TeV_amcatnloFXFX_pythia8"
-    },
-    "ZZZJetsTo4L2Nu" : { 
-        "cross_section" : 0.0001907,
-        "Source of cross section" : "MCM",
-        "DAS Name" : "ZZZJetsTo4L2Nu_4f_TuneCP5_13TeV_amcatnloFXFX_pythia8"
-    },
-    "ZZZ" : { 
-        "cross_section" : 0.01398,
-        "Source of cross section" : "MCM",
-        "DAS Name" : "ZZZJetsTo4L2Nu_4f_TuneCP5_13TeV_amcatnloFXFX_pythia8"
-    },
-    "WZZ" : { 
-        "cross_section" : 0.05565,
-        "Source of cross section" : "MCM",
-        "DAS Name" : "ZZZJetsTo4L2Nu_4f_TuneCP5_13TeV_amcatnloFXFX_pythia8"
-    },
-    "WWZ" : { 
-        "cross_section" : 0.1651,
-        "Source of cross section" : "MCM",
-        "DAS Name" : "ZZZJetsTo4L2Nu_4f_TuneCP5_13TeV_amcatnloFXFX_pythia8"
-    },
-    "ttZ-jets" : { 
-        "cross_section" : 0.2529,
-        "Source of cross section" : "MCM",
-        "DAS Name" : "ttZJets_TuneCP5_13TeV_madgraphMLM_pythia8"
-    },
-    "ZZJJTo4L-EWK" : { 
-        "cross_section" : 0.0004404,
-        "Source of cross section" : "MCM",
-        "DAS Name" : "ZZJJTo4L_EWK_13TeV-madgraph-pythia8"
-    },
-    "ZZJJTo4e-EWK-phantom" : { 
-        "cross_section" : 0.000418,
-        "Source of cross section" : "MCM",
-        "DAS Name" : "VBFToHiggs0PMContinToZZTo4eJJ_M125_GaSM_13TeV_phantom_pythia8"
-    },
-    "ZZJJTo4mu-EWK-phantom" : { 
-        "cross_section" : 0.000418,
-        "Source of cross section" : "MCM",
-        "DAS Name" : "VBFToHiggs0PMContinToZZTo4muJJ_M125_GaSM_13TeV_phantom_pythia8"
-    },
-    "ZZJJTo2e2mu-EWK-phantom" : { 
-        "cross_section" : 0.000836,
-        "Source of cross section" : "MCM",
-        "DAS Name" : "VBFToHiggs0PMContinToZZTo2e2muJJ_M125_GaSM_13TeV_phantom_pythia8"
-    },
-    "ggHZZ" : {
-        "cross_section" : 0.01218,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "GluGluHToZZTo4L_M125_13TeV_powheg2_JHUgenV709_pythia8"
-    },
-    "vbfHZZ" : {
-        "cross_section" : 0.001044,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "VBF_HToZZTo4L_M125_13TeV_powheg2_JHUGenV7011_pythia8"
-    },
-    "ttH_HToZZ_4L" : {
-        "cross_section" : 0.000393,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ttH_HToZZ_4LFilter_M125_13TeV_powheg_JHUgenV709_pythia8"
-    },
-    "WminusHToZZ" : {
-        "cross_section" : 0.000147,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "WminusH_HToZZTo4L_M125_13TeV_powheg2-minlo-HWJ_JHUgenV709_pythia8"
-    },
-    "WplusHToZZ" : {
-        "cross_section" : 0.000232,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "WplusH_HToZZTo4L_M125_13TeV_powheg2-minlo-HWJ_JHUgenV709_pythia8"
-    },
-    "ZHToZZ_4L" : {
-        "cross_section" : 0.000668,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZH_HToZZ_4LFilter_M125_13TeV_powheg2-minlo-HZJ_JHUgenV709_pythia8"
-    },
-    "zz4l-sherpa" : {
-        "cross_section" : 0.455985,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_1" : {
-        "cross_section" : 4.614e-01,
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_2" : {
-        "cross_section" : 4.628e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_3" : {
-        "cross_section" : 4.616e-01,   
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_4" : {
-        "cross_section" : 4.634e-01,
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_5" : {
-        "cross_section" : 4.628e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_6" : {
-        "cross_section" :  4.634e-01,
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_7" : {
-        "cross_section" : 4.630e-01, 
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_8" : {
-        "cross_section" : 4.628e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_9" : {
-        "cross_section" : 4.636e-01, 
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_10" : {
-        "cross_section" : 4.647e-01,
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_11" : {
-        "cross_section" : 4.623e-01, 
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_12" : {
-        "cross_section" : 4.635e-01, 
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_13" : {
-        "cross_section" : 4.624e-01, 
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_14" : {
-        "cross_section" : 4.613e-01,
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_15" : {
-        "cross_section" : 4.622e-01, 
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_16" : {
-        "cross_section" : 4.623e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_17" : {
-        "cross_section" : 4.623e-01, 
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_18" : {
-        "cross_section" : 4.611e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_19" : {
-        "cross_section" : 4.606e-01,
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_20" : {
-        "cross_section" : 4.632e-01,
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_21" : {
-        "cross_section" : 4.634e-01, 
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_22" : {
-        "cross_section" : 4.637e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_23" : {
-        "cross_section" : 4.634e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_24" : {
-        "cross_section" : 4.620e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_25" : {
-        "cross_section" : 4.624e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_26" : {
-        "cross_section" : 4.620e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_27" : {
-        "cross_section" : 4.591e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_28" : {
-        "cross_section" : 4.618e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_29" : {
-        "cross_section" : 4.620e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_30" : {
-        "cross_section" : 4.623e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_31" : {
-        "cross_section" : 4.627e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_32" : {
-        "cross_section" : 4.628e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_33" : {
-        "cross_section" : 4.653e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_34" : {
-        "cross_section" : 4.622e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_35" : {
-        "cross_section" : 4.621e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_36" : {
-        "cross_section" : 4.634e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_37" : {
-        "cross_section" : 4.620e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_38" : {
-        "cross_section" : 4.621e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_39" : {
-        "cross_section" : 4.636e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_40" : {
-        "cross_section" : 4.644e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_41" : {
-        "cross_section" : 4.627e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_42" : {
-        "cross_section" : 4.626e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "zz4l-atgc_43" : {
-        "cross_section" : 4.616e-01,  
-        "kfactor" : 1.239,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "ZZ4l-Sherpa"
-    },
-    "2018SignalSync" : {
-        "cross_section" : 1.0,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "2018 Signal Sync Files"
-    },
-    "2017SignalSync" : {
-        "cross_section" : 1.0,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "2017 Signal Sync Files"
-    },
-    "2016SignalSync" : {
-        "cross_section" : 1.0,
-        "Source of cross section" : "AN2017_342_V9",
-        "DAS Name" : "2016 Signal Sync Files"
+    "pp_eemm-cHWB_massless": {
+        "cross_section": 13.7197751
+    }, 
+    "pp_eemm-cHG_massless": {
+        "cross_section": 1903.8730727
+    }, 
+    "pp_eemm-cll1_massless": {
+        "cross_section": 4.713
+    }, 
+    "pp_eemm-SMlimit_massless": {
+        "cross_section": 0.02867
+    }, 
+    "zz4l-amcatnlo": {
+        "cross_section": 1.218, 
+        "kfactor": 1.0835
+    }, 
+    "ggZZSpec": {
+        "cross_section": 0.00584, 
+        "kfactor": 1.53
+    }, 
+    "qqZZSpec": {
+        "cross_section": 0.07668, 
+        "kfactor": 1.0835
+    }, 
+    "EWK-Extra4l": {
+        "cross_section": 0.0035485771
+    }, 
+    "EWK-Extra2e2mujj": {
+        "cross_section": 0.00063357811897
+    }, 
+    "GGZZ2e2mu": {
+        "cross_section": 0.00391448, 
+        "kfactor": 1.7
+    }, 
+    "GGZZ4m": {
+        "cross_section": 0.00198143, 
+        "kfactor": 1.7
+    }, 
+    "GGZZ4e": {
+        "cross_section": 0.00197463, 
+        "kfactor": 1.7
+    }, 
+    "wz3lnu-powheg": {
+        "cross_section": 4.43, 
+        "Source of cross section": "POWHEG tarball", 
+        "DAS Name": "WZTo3LNu_TuneCUETP8M1_13TeV-powheg-pythia8"
+    }, 
+    "wz3lnu-mg5amcnlo": {
+        "cross_section": 4.715, 
+        "Source of cross section": "MG5_aMC@NLO gridpack", 
+        "DAS Name": "WZTo3LNu_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
+    }, 
+    "wz3lnu-amcnlo": {
+        "cross_section": 4.715, 
+        "Source of cross section": "MG5_aMC@NLO gridpack", 
+        "DAS Name": "WZTo3LNu_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
+    }, 
+    "zz4l-powheg": {
+        "cross_section": 1.256, 
+        "Source of cross section": "POWHEG tarball", 
+        "kfactor": 1.0835, 
+        "Source of k-factor": "k factor from mll only calculation of Grazzini", 
+        "DAS Name": "ZZTo4L_13TeV_powheg_pythia8"
+    }, 
+    "zz2l2q": {
+        "cross_section": 3.38, 
+        "Source of cross section": "MCM", 
+        "DAS Name": "ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8"
+    }, 
+    "ggZZ4e": {
+        "cross_section": 0.001586, 
+        "Source of cross section": "MCM", 
+        "kfactor": 1.7, 
+        "Source of k-factor": "http://arxiv.org/abs/1509.06734", 
+        "DAS Name": "GluGluToZZTo4e_BackgroundOnly_13TeV_MCFM"
+    }, 
+    "ggZZ4m": {
+        "cross_section": 0.001586, 
+        "Source of cross section": "MCM", 
+        "kfactor": 1.7, 
+        "Source of k-factor": "http://arxiv.org/abs/1509.06734", 
+        "DAS Name": "GluGluToZZTo4mu_BackgroundOnly_13TeV_MCFM"
+    }, 
+    "ggZZ4t": {
+        "cross_section": 0.001586, 
+        "Source of cross section": "MCM", 
+        "kfactor": 1.7, 
+        "Source of k-factor": "http://arxiv.org/abs/1509.06734", 
+        "DAS Name": "GluGluToZZTo4tau_BackgroundOnly_13TeV_MCFM"
+    }, 
+    "ggZZ2e2mu": {
+        "cross_section": 0.003194, 
+        "Source of cross section": "MCM", 
+        "kfactor": 1.7, 
+        "Source of k-factor": "http://arxiv.org/abs/1509.06734", 
+        "DAS Name": "GluGluToZZTo2e2mu_BackgroundOnly_13TeV_MCFM"
+    }, 
+    "ggZZ2e2tau": {
+        "cross_section": 0.003194, 
+        "Source of cross section": "MCM", 
+        "kfactor": 1.7, 
+        "Source of k-factor": "http://arxiv.org/abs/1509.06734", 
+        "DAS Name": "GluGluToZZTo2e2tau_BackgroundOnly_13TeV_MCFM"
+    }, 
+    "ggZZ2mu2tau": {
+        "cross_section": 0.003194, 
+        "Source of cross section": "MCM", 
+        "kfactor": 1.7, 
+        "Source of k-factor": "http://arxiv.org/abs/1509.06734", 
+        "DAS Name": "GluGluToZZTo2mu2tau_BackgroundOnly_13TeV_MCFM"
+    }, 
+    "DYm50-1j": {
+        "cross_section": 1012.5, 
+        "kfactor": 1.21, 
+        "Source of cross section": "HTT group", 
+        "DAS Name": "DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8"
+    }, 
+    "DYm50-2j": {
+        "cross_section": 332.8, 
+        "kfactor": 1.21, 
+        "Source of cross section": "HTT group", 
+        "DAS Name": "DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8"
+    }, 
+    "DYm50-3j": {
+        "cross_section": 101.8, 
+        "kfactor": 1.21, 
+        "Source of cross section": "HTT group", 
+        "DAS Name": "DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8"
+    }, 
+    "DYm50-4j": {
+        "cross_section": 54.8, 
+        "kfactor": 1.21, 
+        "Source of cross section": "HTT group", 
+        "DAS Name": "DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8"
+    }, 
+    "DYJetsToLLM-50": {
+        "cross_section": 6104, 
+        "Source of cross section": "https://twiki.cern.ch/twiki/bin/viewauth/CMS/SummaryTable1G25ns#DY_Z", 
+        "DAS Name": "DYJetsToLL_M-50_TuneCUETP8M1_13TeV-[amcatnloFXFX OR madgraphMLM]-pythia8"
+    }, 
+    "DYm50-filt": {
+        "cross_section": 5765, 
+        "Source of cross section": "GenXSecAnalyzer", 
+        "DAS Name": "DYJetsToLL_M-50_TuneCUETP8M1_13TeV-[amcatnloFXFX OR madgraphMLM]-pythia8", 
+        "Notes": "Filtered to remove overlap with Zgamma sample. Events with photons from q or l with pt > 10 GeV are rejected."
+    }, 
+    "DYm50-0j-nlo": {
+        "cross_section": 4770, 
+        "Source of cross section": "McM", 
+        "DAS Name": "DYToLL_0J_13TeV-amcatnloFXFX-pythia8", 
+        "Notes": ""
+    }, 
+    "DYm50-1j-nlo": {
+        "cross_section": 931.3, 
+        "Source of cross section": "McM", 
+        "DAS Name": "DYToLL_1J_13TeV-amcatnloFXFX-pythia8", 
+        "Notes": ""
+    }, 
+    "DYm50-2j-nlo": {
+        "cross_section": 374, 
+        "Source of cross section": "McM", 
+        "DAS Name": "DYToLL_2J_13TeV-amcatnloFXFX-pythia8", 
+        "Notes": ""
+    }, 
+    "DYJetsToLL_M10to50": {
+        "cross_section": 18610, 
+        "Source of cross section": "MCM", 
+        "DAS Name": "DYJetsToLL_M-10to50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
+    }, 
+    "DYm10-50-filt": {
+        "cross_section": 18610, 
+        "Source of cross section": "MCM", 
+        "DAS Name": "DYJetsToLL_M-10to50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
+    }, 
+    "tt-lep": {
+        "cross_section": 87.31, 
+        "Source of cross section": "https://twiki.cern.ch/twiki/bin/viewauth/CMS/SummaryTable1G25ns#TTbar", 
+        "DAS Name": "TTJets_DiLept_TuneCUETP8M1_13TeUETP8M2_ttHtranche3_13TeV-powheg-pythia8"
+    }, 
+    "tt-jets": {
+        "cross_section": 831.76, 
+        "Source of cross section": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO (top mass 172.5)", 
+        "DAS Name": "TTJets_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
+    }, 
+    "tzq": {
+        "cross_section": 0.0758, 
+        "Source of cross section": "MCM", 
+        "DAS Name": "tZq_ll_4f_13TeV-amcatnlo-pythia8"
+    }, 
+    "ttz": {
+        "cross_section": 0.2529, 
+        "Source of cross section": "MCM", 
+        "DAS Name": "TTZToLLNuNu_M-10_TuneCUETP8M1_13TeV-amcatnlo-pythia8"
+    }, 
+    "ttw": {
+        "cross_section": 0.2043, 
+        "Source of cross section": "MCM", 
+        "DAS Name": "TTWJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-madspin-pythia8"
+    }, 
+    "zzz": {
+        "cross_section": 0.01398, 
+        "Source of cross section": "MCM", 
+        "DAS Name": "ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8"
+    }, 
+    "wzz": {
+        "cross_section": 0.05565, 
+        "Source of cross section": "MCM", 
+        "DAS Name": "WZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8"
+    }, 
+    "wwz": {
+        "cross_section": 0.1651, 
+        "Source of cross section": "MCM", 
+        "DAS Name": "WWZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8"
+    }, 
+    "www": {
+        "cross_section": 0.2086, 
+        "Source of cross section": "MCM", 
+        "DAS Name": "WWW_4F_TuneCUETP8M1_13TeV-amcatnlo-pythia8"
+    }, 
+    "WWZJetsTo4L2Nu": {
+        "cross_section": 0.0006024, 
+        "Source of cross section": "MCM", 
+        "DAS Name": "WWZJetsTo4L2Nu_4f_TuneCP5_13TeV_amcatnloFXFX_pythia8"
+    }, 
+    "WZZJetsTo4L2Nu": {
+        "cross_section": 0.00027, 
+        "Source of cross section": "MCM", 
+        "DAS Name": "WZZJetsTo4L2Nu_4f_TuneCP5_13TeV_amcatnloFXFX_pythia8"
+    }, 
+    "ZZGJetsTo4L2Nu": {
+        "cross_section": 0.001042, 
+        "Source of cross section": "MCM", 
+        "DAS Name": "ZZGJetsTo4L2Nu_4f_TuneCP5_13TeV_amcatnloFXFX_pythia8"
+    }, 
+    "ZZZJetsTo4L2Nu": {
+        "cross_section": 0.0001907, 
+        "Source of cross section": "MCM", 
+        "DAS Name": "ZZZJetsTo4L2Nu_4f_TuneCP5_13TeV_amcatnloFXFX_pythia8"
+    }, 
+    "ZZZ": {
+        "cross_section": 0.01398, 
+        "Source of cross section": "MCM", 
+        "DAS Name": "ZZZJetsTo4L2Nu_4f_TuneCP5_13TeV_amcatnloFXFX_pythia8"
+    }, 
+    "WZZ": {
+        "cross_section": 0.05565, 
+        "Source of cross section": "MCM", 
+        "DAS Name": "ZZZJetsTo4L2Nu_4f_TuneCP5_13TeV_amcatnloFXFX_pythia8"
+    }, 
+    "WWZ": {
+        "cross_section": 0.1651, 
+        "Source of cross section": "MCM", 
+        "DAS Name": "ZZZJetsTo4L2Nu_4f_TuneCP5_13TeV_amcatnloFXFX_pythia8"
+    }, 
+    "ttZ-jets": {
+        "cross_section": 0.2529, 
+        "Source of cross section": "MCM", 
+        "DAS Name": "ttZJets_TuneCP5_13TeV_madgraphMLM_pythia8"
+    }, 
+    "ZZJJTo4L-EWK": {
+        "cross_section": 0.0004404, 
+        "Source of cross section": "MCM", 
+        "DAS Name": "ZZJJTo4L_EWK_13TeV-madgraph-pythia8"
+    }, 
+    "ZZJJTo4e-EWK-phantom": {
+        "cross_section": 0.000418, 
+        "Source of cross section": "MCM", 
+        "DAS Name": "VBFToHiggs0PMContinToZZTo4eJJ_M125_GaSM_13TeV_phantom_pythia8"
+    }, 
+    "ZZJJTo4mu-EWK-phantom": {
+        "cross_section": 0.000418, 
+        "Source of cross section": "MCM", 
+        "DAS Name": "VBFToHiggs0PMContinToZZTo4muJJ_M125_GaSM_13TeV_phantom_pythia8"
+    }, 
+    "ZZJJTo2e2mu-EWK-phantom": {
+        "cross_section": 0.000836, 
+        "Source of cross section": "MCM", 
+        "DAS Name": "VBFToHiggs0PMContinToZZTo2e2muJJ_M125_GaSM_13TeV_phantom_pythia8"
+    }, 
+    "ggHZZ": {
+        "cross_section": 0.01218, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "GluGluHToZZTo4L_M125_13TeV_powheg2_JHUgenV709_pythia8"
+    }, 
+    "vbfHZZ": {
+        "cross_section": 0.001044, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "VBF_HToZZTo4L_M125_13TeV_powheg2_JHUGenV7011_pythia8"
+    }, 
+    "ttH_HToZZ_4L": {
+        "cross_section": 0.000393, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ttH_HToZZ_4LFilter_M125_13TeV_powheg_JHUgenV709_pythia8"
+    }, 
+    "WminusHToZZ": {
+        "cross_section": 0.000147, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "WminusH_HToZZTo4L_M125_13TeV_powheg2-minlo-HWJ_JHUgenV709_pythia8"
+    }, 
+    "WplusHToZZ": {
+        "cross_section": 0.000232, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "WplusH_HToZZTo4L_M125_13TeV_powheg2-minlo-HWJ_JHUgenV709_pythia8"
+    }, 
+    "ZHToZZ_4L": {
+        "cross_section": 0.000668, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZH_HToZZ_4LFilter_M125_13TeV_powheg2-minlo-HZJ_JHUgenV709_pythia8"
+    }, 
+    "zz4l-sherpa": {
+        "cross_section": 0.455985, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_1": {
+        "cross_section": 0.4614, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_2": {
+        "cross_section": 0.4628, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_3": {
+        "cross_section": 0.4616, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_4": {
+        "cross_section": 0.4634, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_5": {
+        "cross_section": 0.4628, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_6": {
+        "cross_section": 0.4634, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_7": {
+        "cross_section": 0.463, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_8": {
+        "cross_section": 0.4628, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_9": {
+        "cross_section": 0.4636, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_10": {
+        "cross_section": 0.4647, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_11": {
+        "cross_section": 0.4623, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_12": {
+        "cross_section": 0.4635, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_13": {
+        "cross_section": 0.4624, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_14": {
+        "cross_section": 0.4613, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_15": {
+        "cross_section": 0.4622, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_16": {
+        "cross_section": 0.4623, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_17": {
+        "cross_section": 0.4623, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_18": {
+        "cross_section": 0.4611, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_19": {
+        "cross_section": 0.4606, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_20": {
+        "cross_section": 0.4632, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_21": {
+        "cross_section": 0.4634, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_22": {
+        "cross_section": 0.4637, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_23": {
+        "cross_section": 0.4634, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_24": {
+        "cross_section": 0.462, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_25": {
+        "cross_section": 0.4624, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_26": {
+        "cross_section": 0.462, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_27": {
+        "cross_section": 0.4591, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_28": {
+        "cross_section": 0.4618, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_29": {
+        "cross_section": 0.462, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_30": {
+        "cross_section": 0.4623, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_31": {
+        "cross_section": 0.4627, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_32": {
+        "cross_section": 0.4628, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_33": {
+        "cross_section": 0.4653, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_34": {
+        "cross_section": 0.4622, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_35": {
+        "cross_section": 0.4621, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_36": {
+        "cross_section": 0.4634, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_37": {
+        "cross_section": 0.462, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_38": {
+        "cross_section": 0.4621, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_39": {
+        "cross_section": 0.4636, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_40": {
+        "cross_section": 0.4644, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_41": {
+        "cross_section": 0.4627, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_42": {
+        "cross_section": 0.4626, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "zz4l-atgc_43": {
+        "cross_section": 0.4616, 
+        "kfactor": 1.239, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "ZZ4l-Sherpa"
+    }, 
+    "2018SignalSync": {
+        "cross_section": 1.0, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "2018 Signal Sync Files"
+    }, 
+    "2017SignalSync": {
+        "cross_section": 1.0, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "2017 Signal Sync Files"
+    }, 
+    "2016SignalSync": {
+        "cross_section": 1.0, 
+        "Source of cross section": "AN2017_342_V9", 
+        "DAS Name": "2016 Signal Sync Files"
     }
 }
