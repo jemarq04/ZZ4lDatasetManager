@@ -15,7 +15,7 @@
 			"file_path" : "/store/user/marquez/SMEFTsim/pp_eemm-SMlimit_massless/CMSSW_10_6_19/ntuples/*.root",
 			"plot_group" : "ZZEFT_SMlimit"
 		},
-		"pp_eemm" : {
+		"pp_eemm-SMfull" : {
 			"file_path" : "/store/user/marquez/SMEFTsim/pp_eemm/CMSSW_10_6_19/ntuples/*.root",
 			"plot_group" : "ZZEFT_SMfull"
 		},
