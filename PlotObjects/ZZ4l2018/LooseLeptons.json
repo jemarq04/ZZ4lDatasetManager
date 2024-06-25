@@ -301,7 +301,7 @@
             "xmax": 120
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "m1_{Z} [GeV]",  
+            "GetXaxis().SetTitle": "m_{Z1} [GeV]",  
             "GetYaxis().SetTitle": "Z bosons / 1 GeV", 
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -314,8 +314,34 @@
             "xmax": 120
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "m2_{Z} [GeV]",  
+            "GetXaxis().SetTitle": "m_{Z2} [GeV]",  
             "GetYaxis().SetTitle": "Z bosons / 1 GeV", 
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+  "Z1PolCos": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 100,
+            "xmin": -1,
+            "xmax": 1
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "cos#theta^{*}_{Z1}",  
+            "GetYaxis().SetTitle": "Events", 
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+  "Z2PolCos": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 100,
+            "xmin": -1,
+            "xmax": 1
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "cos#theta^{*}_{Z2}",  
+            "GetYaxis().SetTitle": "Events", 
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
@@ -686,9 +712,9 @@
    "ZZPt": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 24,
+            "nbins": 60,
             "xmin": 0,
-            "xmax": 1200
+            "xmax": 600
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "ZZ p_{T} [GeV]",  
@@ -696,6 +722,19 @@
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
+	"ZZEta": {
+		"Initialize": {
+			"type": "TH1D",
+			"nbins": 100,
+			"xmin": -5,
+			"xmax": 5
+		},
+		"Attributes": {
+			"GetXaxis().SetTitle": "ZZ #eta",
+			"GetYaxis().SetTitle": "Events",
+			"GetYaxis().SetTitleOffset": 1.2
+		}
+	},
     "nJets": {
         "Initialize": {  
             "type": "TH1D",
