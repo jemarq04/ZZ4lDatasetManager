@@ -6,12 +6,12 @@
         "cross_section": 4.788
     }, 
     "pp_eemm-cll1_massless": {
-        "cross_section": 4.713
+        "cross_section": 4.699
     }, 
     "pp_eemm-SMlimit_massless": {
-        "cross_section": 0.02867
+        "cross_section": 0.02855
     }, 
-    "pp_eemm": {
+    "pp_eemm-SMfull": {
         "cross_section": 0.03164
     }, 
     "zz4l-amcatnlo": {

@@ -1,5 +1,5 @@
 {
-        "2018SignalSync" : {
+    "2018SignalSync" : {
         "file_path" : "/data/uhussain/ZZTo4l/FullRun2/SkimTools/CMSSW_10_3_1/src/Analysis/VVAnalysis/Sync2018/*",
         "plot_group" : "HZZ-signal"
     }
