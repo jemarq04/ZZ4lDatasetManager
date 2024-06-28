@@ -1,6 +1,6 @@
 {
     "ZZEFT_cHWB" : {
-        "Name" : "q#bar{q} #rightarrow 4l (c_{HWB})",
+        "Name" : "q#bar{q} #rightarrow 4l (^{}c_{HWB})",
         "Style" : "fill-lightblue",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -8,7 +8,7 @@
         ]
     },
     "ZZEFT_cHG" : {
-        "Name" : "q#bar{q} #rightarrow 4l (c_{HG})",
+        "Name" : "q#bar{q} #rightarrow 4l (^{}c_{HG})",
         "Style" : "fill-lightblue",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -16,7 +16,7 @@
         ]
     },
     "ZZEFT_cll1" : {
-        "Name" : "q#bar{q} #rightarrow 4l (c_{ll}')",
+        "Name" : "q#bar{q} #rightarrow 4l (^{}c_{ll}')",
         "Style" : "fill-lightblue",
         "add_perc_error" : 0.0,
         "Members" : [
