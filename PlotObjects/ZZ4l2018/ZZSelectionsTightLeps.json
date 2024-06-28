@@ -21,6 +21,58 @@
             "GetYaxis().SetTitle": "Events Passing Trigger"
               }
     },
+   "Lep1Energy": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 60,
+            "xmin": 0,
+            "xmax": 600
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Lepton1 Energy [GeV]",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2  
+        }
+    },
+   "Lep2Energy": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 60,
+            "xmin": 0,
+            "xmax": 600
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Lepton2 Energy [GeV]",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2  
+        }
+    },
+   "Lep3Energy": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 60,
+            "xmin": 0,
+            "xmax": 600
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Lepton3 Energy [GeV]",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2  
+        }
+    },
+   "Lep4Energy": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 60,
+            "xmin": 0,
+            "xmax": 600
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Lepton4 Energy [GeV]",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2  
+        }
+    },
    "LepPt": {  
         "Initialize": {  
             "type": "TH1D",
