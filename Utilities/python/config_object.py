@@ -54,7 +54,7 @@ class ConfigObject:
 
     def setAttributes(self, tObject, attributes):
         functions = []
-        for function_call, params in attributes.iteritems():
+        for function_call, params in attributes.items():
             if not isinstance(params, list): 
                 params = [params]
             parsed_params = []

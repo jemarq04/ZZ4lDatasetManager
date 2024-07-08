@@ -100,7 +100,7 @@ info = {
 }
 
 tmpinfo = {}
-for key, value in info.iteritems():
+for key, value in info.items():
     tmpinfo.update({key.replace("-", "_") : value})
 
 info.update(tmpinfo)

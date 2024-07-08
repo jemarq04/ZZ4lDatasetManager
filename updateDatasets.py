@@ -31,10 +31,10 @@ with open('FileInfo/ZZ4l%s/%s'%(options.year,options.inputname)) as json_file:
   obj = json.load(json_file)
 
 if options.customSet:
-    datasets = obj.keys()
+    datasets = list(obj.keys())
     
 for key in datasets:
-    if not key in obj.keys():
+    if not key in list(obj.keys()):
         print("Current file does not contain %s"%key)
         obj[key] = {}
         #Temporary method for updating Higgs, disabled normally
@@ -58,13 +58,13 @@ for folder in options.folder.split(","):
 
     for dirname in dirlist: #handle data part
         if 'data' in dirname:
-            for key in obj.keys():
+            for key in list(obj.keys()):
                 if key in dirname:
                     obj[key]["file_path"]=os.path.join(root,dirname)+"/*"
                     count +=1
 
 #cleanup
-for key in obj.keys():
+for key in list(obj.keys()):
     if not key in datasets and not "data" in key:
         del obj[key]
     if obj[key] == {}:
@@ -76,11 +76,11 @@ with open('FileInfo/ZZ4l%s/%s'%(options.year,options.outputname),'w') as output_
 obj_data = copy.deepcopy(obj)
 obj_mc = copy.deepcopy(obj)
 
-for key in obj_data.keys():
+for key in list(obj_data.keys()):
     if not "data" in key:
         del obj_data[key]
  
-for key in obj_mc.keys():
+for key in list(obj_mc.keys()):
     if "data" in key:
         del obj_mc[key]
 
