@@ -1,4 +1,4 @@
-import commands #getstatusoutput() move to subprocess for python 3
+import subprocess #getstatusoutput() move to subprocess for python 3
 import os
 import threading
 import time
@@ -19,7 +19,7 @@ t0 = time.time()
 def copyfile(command):
     global count2
     recordname = command[1]
-    out = commands.getstatusoutput(command[0])
+    out = subprocess.getstatusoutput(command[0])
     
     
     statlist.put(recordname+' '+str(out[0])+'\n')

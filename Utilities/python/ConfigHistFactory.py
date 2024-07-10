@@ -73,18 +73,18 @@ class ConfigHistFactory(object):
         proof.ClearInput()
         alias_list = []
         if channel != "":
-            for name, value in self.aliases['State'][channel].iteritems():
+            for name, value in self.aliases['State'][channel].items():
                 alias_list.append(name)
                 proof.AddInput(ROOT.TNamed("alias:%s" % name, value))
-        for name, value in self.aliases['Event'].iteritems():
+        for name, value in self.aliases['Event'].items():
             alias_list.append(name)
             proof.AddInput(ROOT.TNamed("alias:%s" % name, value))
         proof.AddInput(ROOT.TNamed("PROOF_ListOfAliases", ','.join(alias_list)))
     def hackInAliases(self, expr, channel=""):
         if channel != "":
-            for name, value in self.aliases['State'][channel].iteritems():
+            for name, value in self.aliases['State'][channel].items():
                 expr = expr.replace(name, value)
-        for name, value in self.aliases['Event'].iteritems():
+        for name, value in self.aliases['Event'].items():
             expr = expr.replace(name, value)
         return expr
     def setHistAttributes(self, hist, object_name, plot_group):
@@ -92,7 +92,7 @@ class ConfigHistFactory(object):
         info = self.info
         # If not a valid plot group, try treating it as file entry
         plot_group = self.plot_groups[info[plot_group]['plot_group']] \
-                if plot_group not in self.plot_groups.keys() else self.plot_groups[plot_group]
+                if plot_group not in list(self.plot_groups.keys()) else self.plot_groups[plot_group]
         hist.SetTitle(plot_group['Name'])
         config.setAttributes(hist, self.styles[plot_group['Style']])
         #object_name = object_name if object_name in self.plot_objects else object_name.split("_")[0]
@@ -100,8 +100,8 @@ class ConfigHistFactory(object):
     def addErrorToHist(self, hist, plot_group_name):
         # If not a valid plot group, try treating it as file entry
         plot_group = self.plot_groups[self.info[plot_group_name]['plot_group']] \
-                if plot_group_name not in self.plot_groups.keys() else self.plot_groups[plot_group_name]
-        if "add_perc_error" in plot_group.keys():
+                if plot_group_name not in list(self.plot_groups.keys()) else self.plot_groups[plot_group_name]
+        if "add_perc_error" in list(plot_group.keys()):
             for i in range(1, hist.GetNbinsX()+1):
                 scale_fac = hist.GetBinContent(i)
                 if scale_fac < 0:
@@ -110,12 +110,12 @@ class ConfigHistFactory(object):
                 error = math.sqrt(hist.GetBinError(i)**2 + add_error**2)
                 hist.SetBinError(i, error)
     def getPlotGroupWeight(self, plot_group):
-        if plot_group in self.plot_groups.keys():
-            if "weight" in self.plot_groups[plot_group].keys():
+        if plot_group in list(self.plot_groups.keys()):
+            if "weight" in list(self.plot_groups[plot_group].keys()):
                 return self.plot_groups[plot_group]["weight"]
         return 1
     def getPlotGroupMembers(self, plot_group):
-        if plot_group in self.plot_groups.keys():
+        if plot_group in list(self.plot_groups.keys()):
             return self.plot_groups[plot_group]["Members"]
         else:
             raise ValueError("%s is not a valid PlotGroup. Must be defined in %s" % (plot_group, self.manager_path))
@@ -126,7 +126,7 @@ class ConfigHistFactory(object):
     def getMonteCarloInfo(self):
         return self.mc_info
     def getListOfPlotObjects(self):
-        return self.plot_objects.keys()
+        return list(self.plot_objects.keys())
 def main():
     test = ConfigHistFactory("/afs/cern.ch/user/u/uhussain/work/ZZ4lRun2DatasetManager",
         "ZZ4l2018", "LooseLeptons")
