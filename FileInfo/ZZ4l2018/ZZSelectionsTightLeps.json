@@ -19,6 +19,14 @@
         "plot_group": "ZZEFT_SMfull",
         "file_path": "data/marquez5/ZZ4l2018AnalysisJobs_2024-06-25/2024-06-25-pp_eemm-SMfull-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
     },
+    "qqZ0Z0" : {
+        "plot_group": "qqZ0Z0",
+        "file_path": "data/marquez5/ZZ4l2018AnalysisJobs_2024-07-07/2024-07-07-qqZ0Z0-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+    },
+    "qqZTZT" : {
+        "plot_group": "qqZTZT",
+        "file_path": "data/marquez5/ZZ4l2018AnalysisJobs_2024-07-07/2024-07-07-qqZTZT-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+    },
     "data_DoubleMuon_Run2018B-17Sep2018-v1": {
         "plot_group": "data-2018", 
         "file_path": "/hdfs/store/user/hhe62/ZZ4l2018AnalysisJobs_2022-10-22/2022-10-22-data_DoubleMuon_Run2018B-17Sep2018-v1-ZZ4l2018-loosePreselectionTo4lmass-v1/*"

@@ -14,6 +14,12 @@
     "pp_eemm-SMfull": {
         "cross_section": 0.03164
     }, 
+    "qqZ0Z0": {
+        "cross_section": 0.00362
+    },
+    "qqZTZT": {
+        "cross_section": 0.0
+    },
     "zz4l-amcatnlo": {
         "cross_section": 1.218, 
         "kfactor": 1.0835

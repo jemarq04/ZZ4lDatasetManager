@@ -39,6 +39,22 @@
             "pp_eemm-SMfull"
         ]
     },
+    "qqZ0Z0" : {
+        "Name": "q#bar{q} #rightarrow Z_{0}Z_{0}",
+        "Style": "fill-lightblue",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "qqZ0Z0"
+        ]
+    },
+    "qqZTZT" : {
+        "Name": "q#bar{q} #rightarrow Z_{0}Z_{0}",
+        "Style": "fill-lightblue",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "qqZTZT"
+        ]
+    },
     "qqZZ-powheg" : {
         "Name" : "q#bar{q} #rightarrow ZZ",
         "Style" : "fill-lightblue",
