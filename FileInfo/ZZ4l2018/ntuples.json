@@ -34,5 +34,13 @@
 		"pp_eemm-SMfull" : {
 			"file_path" : "/store/user/marquez/SMEFTsim/pp_eemm/CMSSW_10_6_19/ntuples/*.root",
 			"plot_group" : "ZZEFT_SMfull"
-		}
+		},
+    "qqZ0Z0" : {
+			"file_path" : "/store/user/marquez/ZZto4L_EWK_PolarizedZ0Z0_TuneCP5_13TeV-madgraph-pythia8/*.root",
+			"plot_group" : "qqZ0Z0"
+    },
+    "qqZTZT" : {
+			"file_path" : "/store/user/marquez/ZZto4L_EWK_PolarizedZTZT_TuneCP5_13TeV-madgraph-pythia8/*.root",
+			"plot_group" : "qqZTZT"
+    }
 }
