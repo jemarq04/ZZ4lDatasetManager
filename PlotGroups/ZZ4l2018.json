@@ -48,7 +48,7 @@
         ]
     },
     "qqZTZT" : {
-        "Name": "q#bar{q} #rightarrow Z_{0}Z_{0}",
+        "Name": "q#bar{q} #rightarrow Z_{T}Z_{T}",
         "Style": "fill-lightblue",
         "add_perc_error" : 0.0,
         "Members" : [
