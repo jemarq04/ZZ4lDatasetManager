@@ -71,7 +71,7 @@ def getDefaultParser():
     parser.add_argument("--no_scalefactors", action='store_true',
                         help="No scale factors")
     parser.add_argument("-f", "--files_to_plot", type=str, required=False,
-                        default="ZZ4l2018", help="Files to make plots from, "
+                        default="ZZ4l2022", help="Files to make plots from, "
                         "separated by a comma (match name in file_info.json)")
     parser.add_argument("-a", "--append_to_name", type=str, default="",
                         help="Name plot as <branch_name>_<append_to_name>")

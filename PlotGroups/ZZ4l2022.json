@@ -1,13 +1,12 @@
 {
-    "GGZZ" : {
-        "Name" : "gg #rightarrow ZZ",
-        "Style" : "fill-blue",
-        "add_perc_error" : 0.0,
-        "Members" : [
-            "GGZZ2e2mu",
-            "GGZZ4m",
-	    "GGZZ4e"
-        ]
+    "qqZZ" : {
+      "Name" : "q#bar{q} #rightarrow ZZ",
+      "Style" : "fill-lightblue",
+      "add_perc_error" : 0.0,
+      "Members" : [
+        "qqZZ-MCtest",
+        "qqZZ-Datatest"
+      ]
     },
     "qqZZ-powheg" : {
         "Name" : "q#bar{q} #rightarrow ZZ",
@@ -33,22 +32,6 @@
            "ZZJJTo4L-EWK"
         ]
     },
-    "EWK-Extra4lg" : {
-        "Name" : "VBF To ZZ4l",
-        "Style" : "fill-darkblue",
-        "add_perc_error" : 0.0,
-        "Members" : [
-           "EWK-Extra4l"
-        ]
-    },
-    "EWK-Extra2e2mujjg" : {
-        "Name" : "VBF To ZZ To 2e2mujj",
-        "Style" : "fill-darkblue",
-        "add_perc_error" : 0.0,
-        "Members" : [
-           "EWK-Extra2e2mujj"
-        ]
-    },
     "HZZ-signal" : {
         "Name" : "H #rightarrow ZZ",
         "Style" : "fill-lightred",
@@ -63,6 +46,14 @@
 
         ]
     },
+    "ggHZZ-only" : {
+        "Name" : "ggH #rightarrow ZZ",
+        "Style" : "fill-lightred",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "ggHZZ"         
+        ]
+    },
     "ggZZ" : {
         "Name" : "gg #rightarrow ZZ",
         "Style" : "fill-blue",
@@ -72,8 +63,7 @@
             "ggZZ4m",
             "ggZZ4t",
             "ggZZ2e2mu",
-            "ggZZ2e2tau",
-            "ggZZ2mu2tau"
+            "ggZZ2e2tau"
         ]
     },
     "ggZZSpecg" : {
@@ -82,6 +72,24 @@
         "add_perc_error" : 0.0,
         "Members" : [
             "ggZZSpec"
+        ]
+    },
+    "qqZZSpecg" : {
+        "Name" : "q#bar{q} #rightarrow ZZ",
+        "Style" : "fill-lightblue",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "qqZZSpec"
+        ]
+    },
+    "GGZZ" : {
+        "Name" : "gg #rightarrow ZZ",
+        "Style" : "fill-blue",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "GGZZ2e2mu",
+            "GGZZ4m",
+      "GGZZ4e"
         ]
     },
     "dy-jets" : {
@@ -139,62 +147,6 @@
         "Members" : [
             "AllData"
         ]
-    },
-    "data_B" : {
-        "Name" : "Data",
-        "Style" : "data",
-        "Members" : [
-            "data_DoubleEG_Run2017B-31Mar2018-v1",
-            "data_DoubleMuon_Run2017B-31Mar2018-v1",
-            "data_MuonEG_Run2017B-31Mar2018-v1",  
-            "data_SingleMuon_Run2017B-31Mar2018-v1",
-            "data_SingleElectron_Run2017B-31Mar2018-v1"
-        ]
-    },
-    "data_C" : {
-        "Name" : "Data",
-        "Style" : "data",
-        "Members" : [
-            "data_DoubleEG_Run2017C-31Mar2018-v1",
-            "data_DoubleMuon_Run2017C-31Mar2018-v1",
-            "data_MuonEG_Run2017C-31Mar2018-v1",  
-            "data_SingleMuon_Run2017C-31Mar2018-v1",
-            "data_SingleElectron_Run2017C-31Mar2018-v1"
-        ]
-    },
-    "data_D" : {
-        "Name" : "Data",
-        "Style" : "data",
-        "Members" : [
-            "data_DoubleEG_Run2017D-31Mar2018-v1",
-            "data_DoubleMuon_Run2017D-31Mar2018-v1",
-            "data_MuonEG_Run2017D-31Mar2018-v1",  
-            "data_SingleMuon_Run2017D-31Mar2018-v1",
-            "data_SingleElectron_Run2017D-31Mar2018-v1"
-        ]
-    },
-    "data_E" : {
-        "Name" : "Data",
-        "Style" : "data",
-        "Members" : [
-            "data_DoubleEG_Run2017E-31Mar2018-v1",
-            "data_DoubleMuon_Run2017E-31Mar2018-v1",
-            "data_MuonEG_Run2017E-31Mar2018-v1",  
-            "data_SingleMuon_Run2017E-31Mar2018-v1",
-            "data_SingleElectron_Run2017E-31Mar2018-v1"
-        ]
-    },
-    "data_F" : {
-        "Name" : "Data",
-        "Style" : "data",
-        "Members" : [
-            "data_DoubleEG_Run2017F-31Mar2018-v1",
-            "data_DoubleMuon_Run2017F-31Mar2018-v1",
-            "data_MuonEG_Run2017F-31Mar2018-v1",  
-            "data_SingleMuon_Run2017F-31Mar2018-v1",
-            "data_SingleElectron_Run2017F-31Mar2018-v1"
-        ]
     }
 }
-
 
