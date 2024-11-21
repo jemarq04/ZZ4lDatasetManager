@@ -1,24 +1,7 @@
 {
-    "pp_eemm-cHWB_massless": {
-        "cross_section": 13.73
-    }, 
-    "pp_eemm-cHG_massless": {
-        "cross_section": 4.788
-    }, 
-    "pp_eemm-cll1_massless": {
-        "cross_section": 4.699
-    }, 
-    "pp_eemm-SMlimit_massless": {
-        "cross_section": 0.02855
-    }, 
-    "pp_eemm-SMfull": {
-        "cross_section": 0.03164
-    }, 
-    "qqZ0Z0": {
-        "cross_section": 0.00362
-    },
-    "qqZTZT": {
-        "cross_section": 0.04352
+    "qqZZ-MCtest" : {
+        "cross_section" : 1.390,
+        "kfactor" : 1.0835
     },
     "zz4l-amcatnlo": {
         "cross_section": 1.218, 
