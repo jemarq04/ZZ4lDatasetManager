@@ -1,8 +1,4 @@
 {
-    "qqZZ-MCtest" : {
-        "cross_section" : 1.390,
-        "kfactor" : 1.0835
-    },
     "zz4l-amcatnlo": {
         "cross_section": 1.218, 
         "kfactor": 1.0835
@@ -49,11 +45,11 @@
         "DAS Name": "WZTo3LNu_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
     }, 
     "zz4l-powheg": {
-        "cross_section": 1.256, 
+        "cross_section": 1.390, 
         "Source of cross section": "POWHEG tarball", 
         "kfactor": 1.0835, 
         "Source of k-factor": "k factor from mll only calculation of Grazzini", 
-        "DAS Name": "ZZTo4L_13TeV_powheg_pythia8"
+        "DAS Name": "ZZTo4L_TuneCP5_13p6TeV_powheg-pythia8"
     }, 
     "zz2l2q": {
         "cross_section": 3.38, 
