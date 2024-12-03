@@ -297,9 +297,9 @@
    "LepEta": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 15,
-            "xmin": -2.5,
-            "xmax": 2.5
+            "nbins": 94,
+            "xmin": -4.7,
+            "xmax": 4.7
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Lepton #eta",  
