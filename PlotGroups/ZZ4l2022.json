@@ -1,12 +1,4 @@
 {
-    "qqZZ" : {
-        "Name" : "q#bar{q} #rightarrow ZZ",
-        "Style" : "fill-lightblue",
-        "add_perc_error" : 0.0,
-        "Members" : [
-            "qqZZ-MCtest"
-        ]
-    },
     "qqZZ-powheg" : {
         "Name" : "q#bar{q} #rightarrow ZZ",
         "Style" : "fill-lightblue",
