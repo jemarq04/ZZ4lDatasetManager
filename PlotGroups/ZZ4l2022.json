@@ -1,19 +1,11 @@
 {
-    "qqZZ" : {
-      "Name" : "q#bar{q} #rightarrow ZZ",
-      "Style" : "fill-lightblue",
-      "add_perc_error" : 0.0,
-      "Members" : [
-        "qqZZ-MCtest",
-        "qqZZ-Datatest"
-      ]
-    },
     "qqZZ-powheg" : {
         "Name" : "q#bar{q} #rightarrow ZZ",
         "Style" : "fill-lightblue",
         "add_perc_error" : 0.0,
         "Members" : [
-            "zz4l-powheg"
+            "zz4l-powheg",
+            "zz4l-powheg_postEE"
         ]
     },
     "qqZZ-amcnlo" : {
@@ -63,7 +55,14 @@
             "ggZZ4m",
             "ggZZ4t",
             "ggZZ2e2mu",
-            "ggZZ2e2tau"
+            "ggZZ2e2tau",
+            "ggZZ2mu2tau",
+            "ggZZ4e_postEE",
+            "ggZZ4m_postEE",
+            "ggZZ4t_postEE",
+            "ggZZ2e2mu_postEE",
+            "ggZZ2e2tau_postEE",
+            "ggZZ2mu2tau_postEE"
         ]
     },
     "ggZZSpecg" : {
