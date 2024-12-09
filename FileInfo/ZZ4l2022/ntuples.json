@@ -1,6 +1,10 @@
 {
     "zz4l-powheg" : {
-      "file_path" : "/store/user/marquez/UWVVNtuples2022_02Dec2024/ZZto4L_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22MiniAODv4-130X_mcRun3_2022_realistic_v5-v2/*/*/*.root",
+      "file_path" : "/store/user/marquez/UWVVNtuples2022_03Dec2024/ZZto4L_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22MiniAODv4-130X_mcRun3_2022_realistic_v5*-v2/*/*/*.root",
+      "plot_group" : "qqZZ-powheg"
+    },
+    "zz4l-powheg_postEE" : {
+      "file_path" : "/store/user/marquez/UWVVNtuples2022_03Dec2024/ZZto4L_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22EEMiniAODv4-130X_mcRun3_2022_realistic_postEE_v6*-v2/*/*/*.root",
       "plot_group" : "qqZZ-powheg"
     },
     "data_MuonEG_Run2022C-22Sep2023-v1" : { 
