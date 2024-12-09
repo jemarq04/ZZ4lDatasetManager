@@ -297,7 +297,7 @@
    "LepEta": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 94,
+            "nbins": 940,
             "xmin": -4.7,
             "xmax": 4.7
         },
