@@ -55,64 +55,96 @@
       "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-06/2024-12-06-ggZZ2mu2tau_postEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "ggZZ"
     },
+    "ttZ" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-18/2024-12-18-ttZ-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group": "VVV"
+    },
+    "ttZ_postEE" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-18/2024-12-18-ttZ_postEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group": "VVV"
+    },
+    "WWZ" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-18/2024-12-18-WWZ-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group": "VVV"
+    },
+    "WWZ_postEE" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-18/2024-12-18-WWZ_postEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group": "VVV"
+    },
+    "WZZ" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-18/2024-12-18-WZZ-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group": "VVV"
+    },
+    "WZZ_postEE" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-18/2024-12-18-WZZ_postEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group": "VVV"
+    },
+    "ZZZ" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-19/2024-12-19-ZZZ-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group": "VVV"
+    },
+    "ZZZ_postEE" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-19/2024-12-19-ZZZ_postEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group": "VVV"
+    },
     "data_MuonEG_Run2022C-22Sep2023-v1" : { 
-      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-05/2024-12-05-data_MuonEG_Run2022C-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-13/2024-12-13-data_MuonEG_Run2022C-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2022"
     },
     "data_MuonEG_Run2022D-22Sep2023-v1" : { 
-      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-05/2024-12-05-data_MuonEG_Run2022D-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-13/2024-12-13-data_MuonEG_Run2022D-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2022"
     },
     "data_MuonEG_Run2022E-22Sep2023-v1" : { 
-      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-05/2024-12-05-data_MuonEG_Run2022E-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-13/2024-12-13-data_MuonEG_Run2022E-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2022"
     },
     "data_MuonEG_Run2022F-22Sep2023-v1" : { 
-      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-05/2024-12-05-data_MuonEG_Run2022F-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-13/2024-12-13-data_MuonEG_Run2022F-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2022"
     },
     "data_MuonEG_Run2022G-22Sep2023-v1" : { 
-      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-05/2024-12-05-data_MuonEG_Run2022G-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-13/2024-12-13-data_MuonEG_Run2022G-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2022"
     },
     "data_Muon_Run2022C-22Sep2023-v1" : { 
-      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-05/2024-12-05-data_Muon_Run2022C-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-13/2024-12-13-data_Muon_Run2022C-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2022"
     },
     "data_Muon_Run2022D-22Sep2023-v1" : { 
-      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-05/2024-12-05-data_Muon_Run2022D-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-13/2024-12-13-data_Muon_Run2022D-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2022"
     },
     "data_Muon_Run2022E-22Sep2023-v1" : { 
-      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-05/2024-12-05-data_Muon_Run2022E-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-13/2024-12-13-data_Muon_Run2022E-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2022"
     },
     "data_Muon_Run2022F-22Sep2023-v2" : { 
-      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-05/2024-12-05-data_Muon_Run2022F-22Sep2023-v2-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-13/2024-12-13-data_Muon_Run2022F-22Sep2023-v2-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2022"
     },
     "data_Muon_Run2022G-22Sep2023-v1" : { 
-      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-05/2024-12-05-data_Muon_Run2022G-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-13/2024-12-13-data_Muon_Run2022G-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2022"
     },
     "data_EGamma_Run2022C-22Sep2023-v1" : { 
-      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-05/2024-12-05-data_EGamma_Run2022C-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-13/2024-12-13-data_EGamma_Run2022C-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2022"
     },
     "data_EGamma_Run2022D-22Sep2023-v1" : { 
-      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-05/2024-12-05-data_EGamma_Run2022D-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-13/2024-12-13-data_EGamma_Run2022D-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2022"
     },
     "data_EGamma_Run2022E-22Sep2023-v1" : { 
-      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-05/2024-12-05-data_EGamma_Run2022E-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-13/2024-12-13-data_EGamma_Run2022E-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2022"
     },
     "data_EGamma_Run2022F-22Sep2023-v1" : { 
-      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-05/2024-12-05-data_EGamma_Run2022F-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-13/2024-12-13-data_EGamma_Run2022F-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2022"
     },
     "data_EGamma_Run2022G-22Sep2023-v2" : { 
-      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-05/2024-12-05-data_EGamma_Run2022G-22Sep2023-v2-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022AnalysisJobs_2024-12-13/2024-12-13-data_EGamma_Run2022G-22Sep2023-v2-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2022"
     },
     "AllData" : {

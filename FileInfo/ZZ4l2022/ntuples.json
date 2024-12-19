@@ -55,6 +55,38 @@
       "file_path" : "/store/user/marquez/UWVVNtuples2022_05Dec2024/GluGluToContinto2Zto2Mu2Tau_TuneCP5_13p6TeV_mcfm701-pythia8/Run3Summer22EEMiniAODv4-130X_mcRun3_2022_realistic_postEE_v6-v4/*/*/*.root",
       "plot_group" : "ggZZ"
     },
+    "ttZ" : {
+      "file_path": "/store/user/marquez/UWVVNtuples2022_18Dec2024/TTZ_Zto2L_SMEFT_TuneCP5_13p6TeV_amcatnlo-pythia8/Run3Summer22MiniAODv4-130X_mcRun3_2022_realistic_v5-v2/*/*/*.root",
+      "plot_group": "VVV"
+    },
+    "ttZ_postEE" : {
+      "file_path": "/store/user/marquez/UWVVNtuples2022_18Dec2024/TTZ_Zto2L_SMEFT_TuneCP5_13p6TeV_amcatnlo-pythia8/Run3Summer22EEMiniAODv4-130X_mcRun3_2022_realistic_postEE_v6-v2/*/*/*.root",
+      "plot_group": "VVV"
+    },
+    "WWZ" : {
+      "file_path": "/store/user/marquez/UWVVNtuples2022_18Dec2024/WWZ_4F_TuneCP5_13p6TeV_amcatnlo-pythia8/Run3Summer22MiniAODv4-130X_mcRun3_2022_realistic_v5-v2/*/*/*.root",
+      "plot_group": "VVV"
+    },
+    "WWZ_postEE" : {
+      "file_path": "/store/user/marquez/UWVVNtuples2022_18Dec2024/WWZ_4F_TuneCP5_13p6TeV_amcatnlo-pythia8/Run3Summer22EEMiniAODv4-130X_mcRun3_2022_realistic_postEE_v6-v2/*/*/*.root",
+      "plot_group": "VVV"
+    },
+    "WZZ" : {
+      "file_path": "/store/user/marquez/UWVVNtuples2022_18Dec2024/WZZ_TuneCP5_13p6TeV_amcatnlo-pythia8/Run3Summer22MiniAODv4-130X_mcRun3_2022_realistic_v5-v2/*/*/*.root",
+      "plot_group": "VVV"
+    },
+    "WZZ_postEE" : {
+      "file_path": "/store/user/marquez/UWVVNtuples2022_18Dec2024/WZZ_TuneCP5_13p6TeV_amcatnlo-pythia8/Run3Summer22EEMiniAODv4-130X_mcRun3_2022_realistic_postEE_v6-v2/*/*/*.root",
+      "plot_group": "VVV"
+    },
+    "ZZZ" : {
+      "file_path": "/store/user/marquez/UWVVNtuples2022_18Dec2024/ZZZ_TuneCP5_13p6TeV_amcatnlo-pythia8/Run3Summer22MiniAODv4-130X_mcRun3_2022_realistic_v5-v2/*/*/*.root",
+      "plot_group": "VVV"
+    },
+    "ZZZ" : {
+      "file_path": "/store/user/marquez/UWVVNtuples2022_18Dec2024/ZZZ_TuneCP5_13p6TeV_amcatnlo-pythia8/Run3Summer22EEMiniAODv4-130X_mcRun3_2022_realistic_postEE_v6-v2/*/*/*.root",
+      "plot_group": "VVV"
+    },
     "data_MuonEG_Run2022C-22Sep2023-v1" : { 
       "file_path" : "/store/user/marquez/UWVVNtuples2022_25Nov2024/MuonEG/Run2022C-22Sep2023-v1/*/*/*.root",
       "plot_group" : "data-2022"
