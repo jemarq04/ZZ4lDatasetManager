@@ -122,7 +122,11 @@
             "ZZZ",
             "WZZ",
             "WWZ",
-            "ttZ-jets"
+            "ttZ",
+            "ZZZ_postEE",
+            "WZZ_postEE",
+            "WWZ_postEE",
+            "ttZ_postEE"
         ]
     },
     "nonprompt" : {
