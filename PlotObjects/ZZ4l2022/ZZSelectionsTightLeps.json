@@ -21,6 +21,84 @@
             "GetYaxis().SetTitle": "Events Passing Trigger"
               }
     },
+    "SIP3D": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": 0,
+            "xmax": 5
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "SIP3D",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+    "LepIso": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": 0,
+            "xmax": 0.5
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Lepton Isolation Value",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+    "Lep1Iso": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": 0,
+            "xmax": 0.5
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Lepton Isolation Value",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+    "Lep2Iso": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": 0,
+            "xmax": 0.5
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Lepton Isolation Value",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+    "Lep3Iso": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": 0,
+            "xmax": 0.5
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Lepton Isolation Value",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+    "Lep4Iso": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": 0,
+            "xmax": 0.5
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Lepton Isolation Value",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
    "Lep1Energy": {  
         "Initialize": {  
             "type": "TH1D",
@@ -300,6 +378,58 @@
             "nbins": 940,
             "xmin": -4.7,
             "xmax": 4.7
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Lepton #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "Lep1Eta": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 15,
+            "xmin": -2.5,
+            "xmax": 2.5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Lepton #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "Lep2Eta": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 15,
+            "xmin": -2.5,
+            "xmax": 2.5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Lepton #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "Lep3Eta": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 15,
+            "xmin": -2.5,
+            "xmax": 2.5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Lepton #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "Lep4Eta": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 15,
+            "xmin": -2.5,
+            "xmax": 2.5
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Lepton #eta",  
