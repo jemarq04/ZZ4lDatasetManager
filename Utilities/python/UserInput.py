@@ -117,4 +117,6 @@ def getListOfFiles(file_set, selection):
         elif "aqgc" in file_set:
             filelist.append("wzjj-aqgcfm__fm0-4")
         return filelist
+    else:
+        print("ERROR: not configured for given file_set ", file_set)
     return [x.strip() for x in file_set.split(",")]
