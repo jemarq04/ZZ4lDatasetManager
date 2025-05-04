@@ -1,0 +1,14 @@
+{
+		"pp_eemm-cHWB_massless" : {
+			"plot_group": "ZZEFT_cHWB",
+			"file_path": "data/marquez5/ZZ4l2018AnalysisJobs_2024-03-11/2024-03-11-pp_eemm-cHWB_massless-ZZ4l2018-loosePreselectionTo4lmass-v1/*"
+		},
+    "AllData" : {
+        "file_path" : "",
+        "plot_group" : "data_all"
+    },
+    "DataEWKCorrected" : {
+        "file_path" : "",
+        "plot_group" : "nonprompt"
+    }
+}
