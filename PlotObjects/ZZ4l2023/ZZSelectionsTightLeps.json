@@ -743,7 +743,7 @@
             "xmax": 2500
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "m_{4l} [GeV]",  
+            "GetXaxis().SetTitle": "m_{4l}(0 jets) [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -756,7 +756,7 @@
             "xmax": 2500
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "m_{4l} [GeV]",  
+            "GetXaxis().SetTitle": "m_{4l}(1 jet) [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -769,7 +769,7 @@
             "xmax": 2500
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "m_{4l} [GeV]",  
+            "GetXaxis().SetTitle": "m_{4l}(2 jets) [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -782,7 +782,7 @@
             "xmax": 2500
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "m_{4l} [GeV]",  
+            "GetXaxis().SetTitle": "m_{4l}(3 jets) [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -795,7 +795,7 @@
             "xmax": 2500
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "m_{4l} [GeV]",  
+            "GetXaxis().SetTitle": "m_{4l}(#geq 3 jets) [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -808,7 +808,7 @@
             "xmax": 2500
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "m_{4l} [GeV]",  
+            "GetXaxis().SetTitle": "m_{4l}(#geq 4 jets) [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -821,7 +821,7 @@
             "xmax": 2500
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "Gen m_{4l} [GeV]",  
+            "GetXaxis().SetTitle": "Gen m_{4l}(0 jets) [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -834,7 +834,7 @@
             "xmax": 2500
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "Gen m_{4l} [GeV]",  
+            "GetXaxis().SetTitle": "Gen m_{4l}(1 jet) [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -847,7 +847,7 @@
             "xmax": 2500
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "Gen m_{4l} [GeV]",  
+            "GetXaxis().SetTitle": "Gen m_{4l}(2 jets) [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -860,7 +860,7 @@
             "xmax": 2500
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "Gen m_{4l} [GeV]",  
+            "GetXaxis().SetTitle": "Gen m_{4l}(3 jets) [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -873,7 +873,7 @@
             "xmax": 2500
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "Gen m_{4l} [GeV]",  
+            "GetXaxis().SetTitle": "Gen m_{4l}(#geq 3 jets) [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -886,7 +886,7 @@
             "xmax": 2500
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "Gen m_{4l} [GeV]",  
+            "GetXaxis().SetTitle": "Gen m_{4l}(#geq 4 jets) [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -1326,7 +1326,7 @@
             "xmax": 5
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "Leading jet |#eta|",  
+            "GetXaxis().SetTitle": "|#eta_{j1}|",
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -1443,7 +1443,7 @@
             "xmax": 5
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "Leading Genjet |#eta|",  
+            "GetXaxis().SetTitle": "Gen |#eta_{j1}|",
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -1456,7 +1456,7 @@
             "xmax": 5
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "Sub-leading jet |#eta|",  
+            "GetXaxis().SetTitle": "|#eta_{j2}|",
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -1469,7 +1469,7 @@
             "xmax": 5
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "Sub-leading Genjet |#eta|",  
+            "GetXaxis().SetTitle": "Gen |#eta_{j2}|",
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
