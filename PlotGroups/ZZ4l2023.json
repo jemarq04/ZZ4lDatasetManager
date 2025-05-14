@@ -4,7 +4,7 @@
         "Style" : "fill-lightblue",
         "add_perc_error" : 0.0,
         "Members" : [
-            "zz4l-powheg",
+            "zz4l-powheg_preBPix",
             "zz4l-powheg_postBPix"
         ]
     },
@@ -51,12 +51,12 @@
         "Style" : "fill-blue",
         "add_perc_error" : 0.0,
         "Members" : [
-            "ggZZ4e",
-            "ggZZ4m",
-            "ggZZ4t",
-            "ggZZ2e2mu",
-            "ggZZ2e2tau",
-            "ggZZ2mu2tau",
+            "ggZZ4e_preBPix",
+            "ggZZ4m_preBPix",
+            "ggZZ4t_preBPix",
+            "ggZZ2e2mu_preBPix",
+            "ggZZ2e2tau_preBPix",
+            "ggZZ2mu2tau_preBPix",
             "ggZZ4e_postBPix",
             "ggZZ4m_postBPix",
             "ggZZ4t_postBPix",
@@ -119,10 +119,10 @@
         "Style" : "fill-yellow",
         "add_perc_error" : 0.0,
         "Members" : [
-            "ZZZ",
-            "WZZ",
-            "WWZ",
-            "ttZ",
+            "ZZZ_preBPix",
+            "WZZ_preBPix",
+            "WWZ_preBPix",
+            "ttZ_preBPix",
             "ZZZ_postBPix",
             "WZZ_postBPix",
             "WWZ_postBPix",
