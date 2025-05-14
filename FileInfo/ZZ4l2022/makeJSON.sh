@@ -18,7 +18,10 @@ sims=(
   ZZZ,ZZZ,VVV
 )
 streams="EGamma MuonEG Muon"
-suffixes=(_preEE _postEE)
+eras=(
+  _preEE,Run3Summer22Mini
+  _postEE,Run3Summer22EEMini
+)
 
 echo "{" > $outfile
 
@@ -28,10 +31,13 @@ for sim in ${sims[@]}; do
   campaign=$(cut -d , -f 2 <<< $sim)
   plotgroup=$(cut -d , -f 3 <<< $sim)
 
-  for suff in "${suffixes[@]}"; do
+  for era in "${eras[@]}"; do
+    suff=$(cut -d , -f 1 <<< $era)
+    conditions=$(cut -d , -f 2 <<< $era)
+
     echo ${name}${suff}
     echo -e "    \"${name}${suff}\" : {" >> $outfile
-    echo -e "      \"file_path\" : \"${srcdir/\/hdfs/}/${campaign}*/*${suff}*/*/*/*.root\"," >> $outfile
+    echo -e "      \"file_path\" : \"${srcdir/\/hdfs/}/${campaign}*/${conditions}*/*/*/*.root\"," >> $outfile
     echo -e "      \"plot_group\" : \"${plotgroup}\"" >> $outfile
     echo -e "    }," >> $outfile
   done
