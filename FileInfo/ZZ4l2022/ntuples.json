@@ -1,150 +1,150 @@
 {
-    "zz4l-powheg" : {
-      "file_path" : "/store/user/marquez/Run3-ntuples/ZZto4L_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22MiniAODv4-130X_mcRun3_2022_realistic_v5*-v2/*/*/*.root",
+    "zz4l-powheg_preEE" : {
+      "file_path" : "/store/user/marquez/Run3-ntuples/ZZto4L*/Run3Summer22Mini*/*/*/*.root",
       "plot_group" : "qqZZ-powheg"
     },
     "zz4l-powheg_postEE" : {
-      "file_path" : "/store/user/marquez/Run3-ntuples/ZZto4L_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22EEMiniAODv4-130X_mcRun3_2022_realistic_postEE_v6*-v2/*/*/*.root",
+      "file_path" : "/store/user/marquez/Run3-ntuples/ZZto4L*/Run3Summer22EEMini*/*/*/*.root",
       "plot_group" : "qqZZ-powheg"
     },
-    "ggZZ4e" : {
-      "file_path" : "/store/user/marquez/Run3-ntuples/GluGlutoContinto2Zto4E_TuneCP5_13p6TeV_mcfm-pythia8/Run3Summer22MiniAODv4-130X_mcRun3_2022_realistic_v5-v2/*/*/*.root",
+    "ggZZ4e_preEE" : {
+      "file_path" : "/store/user/marquez/Run3-ntuples/GluGlu*Continto2Zto4E*/Run3Summer22Mini*/*/*/*.root",
       "plot_group" : "ggZZ"
     },
     "ggZZ4e_postEE" : {
-      "file_path" : "/store/user/marquez/Run3-ntuples/GluGlutoContinto2Zto4E_TuneCP5_13p6TeV_mcfm-pythia8/Run3Summer22EEMiniAODv4-130X_mcRun3_2022_realistic_postEE_v6-v2/*/*/*.root",
+      "file_path" : "/store/user/marquez/Run3-ntuples/GluGlu*Continto2Zto4E*/Run3Summer22EEMini*/*/*/*.root",
       "plot_group" : "ggZZ"
     },
-    "ggZZ4m" : {
-      "file_path" : "/store/user/marquez/Run3-ntuples/GluGlutoContinto2Zto4Mu_TuneCP5_13p6TeV_mcfm-pythia8/Run3Summer22MiniAODv4-130X_mcRun3_2022_realistic_v5-v2/*/*/*.root",
+    "ggZZ4m_preEE" : {
+      "file_path" : "/store/user/marquez/Run3-ntuples/GluGlu*Continto2Zto4Mu*/Run3Summer22Mini*/*/*/*.root",
       "plot_group" : "ggZZ"
     },
     "ggZZ4m_postEE" : {
-      "file_path" : "/store/user/marquez/Run3-ntuples/GluGlutoContinto2Zto4Mu_TuneCP5_13p6TeV_mcfm-pythia8/Run3Summer22EEMiniAODv4-130X_mcRun3_2022_realistic_postEE_v6-v2/*/*/*.root",
+      "file_path" : "/store/user/marquez/Run3-ntuples/GluGlu*Continto2Zto4Mu*/Run3Summer22EEMini*/*/*/*.root",
       "plot_group" : "ggZZ"
     },
-    "ggZZ4t" : {
-      "file_path" : "/store/user/marquez/Run3-ntuples/GluGlutoContinto2Zto4Tau_TuneCP5_13p6TeV_mcfm-pythia8/Run3Summer22MiniAODv4-130X_mcRun3_2022_realistic_v5-v2/*/*/*.root",
+    "ggZZ4t_preEE" : {
+      "file_path" : "/store/user/marquez/Run3-ntuples/GluGlu*Continto2Zto4Tau*/Run3Summer22Mini*/*/*/*.root",
       "plot_group" : "ggZZ"
     },
     "ggZZ4t_postEE" : {
-      "file_path" : "/store/user/marquez/Run3-ntuples/GluGlutoContinto2Zto4Tau_TuneCP5_13p6TeV_mcfm-pythia8/Run3Summer22EEMiniAODv4-130X_mcRun3_2022_realistic_postEE_v6-v2/*/*/*.root",
+      "file_path" : "/store/user/marquez/Run3-ntuples/GluGlu*Continto2Zto4Tau*/Run3Summer22EEMini*/*/*/*.root",
       "plot_group" : "ggZZ"
     },
-    "ggZZ2e2mu" : {
-      "file_path" : "/store/user/marquez/Run3-ntuples/GluGlutoContinto2Zto2E2Mu_TuneCP5_13p6TeV_mcfm701-pythia8/Run3Summer22MiniAODv4-130X_mcRun3_2022_realistic_v5-v1/*/*/*.root",
+    "ggZZ2e2mu_preEE" : {
+      "file_path" : "/store/user/marquez/Run3-ntuples/GluGlu*Continto2Zto2E2Mu*/Run3Summer22Mini*/*/*/*.root",
       "plot_group" : "ggZZ"
     },
     "ggZZ2e2mu_postEE" : {
-      "file_path" : "/store/user/marquez/Run3-ntuples/GluGluToContinto2Zto2E2Mu_TuneCP5_13p6TeV_mcfm701-pythia8/Run3Summer22EEMiniAODv4-130X_mcRun3_2022_realistic_postEE_v6-v2/*/*/*.root",
+      "file_path" : "/store/user/marquez/Run3-ntuples/GluGlu*Continto2Zto2E2Mu*/Run3Summer22EEMini*/*/*/*.root",
       "plot_group" : "ggZZ"
     },
-    "ggZZ2e2tau" : {
-      "file_path" : "/store/user/marquez/Run3-ntuples/GluGlutoContinto2Zto2E2Tau_TuneCP5_13p6TeV_mcfm701-pythia8/Run3Summer22MiniAODv4-130X_mcRun3_2022_realistic_v5-v1/*/*/*.root",
+    "ggZZ2e2tau_preEE" : {
+      "file_path" : "/store/user/marquez/Run3-ntuples/GluGlu*Continto2Zto2E2Tau*/Run3Summer22Mini*/*/*/*.root",
       "plot_group" : "ggZZ"
     },
     "ggZZ2e2tau_postEE" : {
-      "file_path" : "/store/user/marquez/Run3-ntuples/GluGluToContinto2Zto2E2Tau_TuneCP5_13p6TeV_mcfm701-pythia8/Run3Summer22EEMiniAODv4-130X_mcRun3_2022_realistic_postEE_v6-v4/*/*/*.root",
+      "file_path" : "/store/user/marquez/Run3-ntuples/GluGlu*Continto2Zto2E2Tau*/Run3Summer22EEMini*/*/*/*.root",
       "plot_group" : "ggZZ"
     },
-    "ggZZ2mu2tau" : {
-      "file_path" : "/store/user/marquez/Run3-ntuples/GluGlutoContinto2Zto2Mu2Tau_TuneCP5_13p6TeV_mcfm701-pythia8/Run3Summer22MiniAODv4-130X_mcRun3_2022_realistic_v5-v1/*/*/*.root",
+    "ggZZ2mu2tau_preEE" : {
+      "file_path" : "/store/user/marquez/Run3-ntuples/GluGlu*Continto2Zto2Mu2Tau*/Run3Summer22Mini*/*/*/*.root",
       "plot_group" : "ggZZ"
     },
     "ggZZ2mu2tau_postEE" : {
-      "file_path" : "/store/user/marquez/Run3-ntuples/GluGluToContinto2Zto2Mu2Tau_TuneCP5_13p6TeV_mcfm701-pythia8/Run3Summer22EEMiniAODv4-130X_mcRun3_2022_realistic_postEE_v6-v4/*/*/*.root",
+      "file_path" : "/store/user/marquez/Run3-ntuples/GluGlu*Continto2Zto2Mu2Tau*/Run3Summer22EEMini*/*/*/*.root",
       "plot_group" : "ggZZ"
     },
-    "ttZ" : {
-      "file_path": "/store/user/marquez/Run3-ntuples/TTZ_Zto2L_SMEFT_TuneCP5_13p6TeV_amcatnlo-pythia8/Run3Summer22MiniAODv4-130X_mcRun3_2022_realistic_v5-v2/*/*/*.root",
-      "plot_group": "VVV"
+    "ttZ_preEE" : {
+      "file_path" : "/store/user/marquez/Run3-ntuples/TTZ_Zto2L*/Run3Summer22Mini*/*/*/*.root",
+      "plot_group" : "VVV"
     },
     "ttZ_postEE" : {
-      "file_path": "/store/user/marquez/Run3-ntuples/TTZ_Zto2L_SMEFT_TuneCP5_13p6TeV_amcatnlo-pythia8/Run3Summer22EEMiniAODv4-130X_mcRun3_2022_realistic_postEE_v6-v2/*/*/*.root",
-      "plot_group": "VVV"
+      "file_path" : "/store/user/marquez/Run3-ntuples/TTZ_Zto2L*/Run3Summer22EEMini*/*/*/*.root",
+      "plot_group" : "VVV"
     },
-    "WWZ" : {
-      "file_path": "/store/user/marquez/Run3-ntuples/WWZ_4F_TuneCP5_13p6TeV_amcatnlo-pythia8/Run3Summer22MiniAODv4-130X_mcRun3_2022_realistic_v5-v2/*/*/*.root",
-      "plot_group": "VVV"
+    "WWZ_preEE" : {
+      "file_path" : "/store/user/marquez/Run3-ntuples/WWZ*/Run3Summer22Mini*/*/*/*.root",
+      "plot_group" : "VVV"
     },
     "WWZ_postEE" : {
-      "file_path": "/store/user/marquez/Run3-ntuples/WWZ_4F_TuneCP5_13p6TeV_amcatnlo-pythia8/Run3Summer22EEMiniAODv4-130X_mcRun3_2022_realistic_postEE_v6-v2/*/*/*.root",
-      "plot_group": "VVV"
+      "file_path" : "/store/user/marquez/Run3-ntuples/WWZ*/Run3Summer22EEMini*/*/*/*.root",
+      "plot_group" : "VVV"
     },
-    "WZZ" : {
-      "file_path": "/store/user/marquez/Run3-ntuples/WZZ_TuneCP5_13p6TeV_amcatnlo-pythia8/Run3Summer22MiniAODv4-130X_mcRun3_2022_realistic_v5-v2/*/*/*.root",
-      "plot_group": "VVV"
+    "WZZ_preEE" : {
+      "file_path" : "/store/user/marquez/Run3-ntuples/WZZ*/Run3Summer22Mini*/*/*/*.root",
+      "plot_group" : "VVV"
     },
     "WZZ_postEE" : {
-      "file_path": "/store/user/marquez/Run3-ntuples/WZZ_TuneCP5_13p6TeV_amcatnlo-pythia8/Run3Summer22EEMiniAODv4-130X_mcRun3_2022_realistic_postEE_v6-v2/*/*/*.root",
-      "plot_group": "VVV"
+      "file_path" : "/store/user/marquez/Run3-ntuples/WZZ*/Run3Summer22EEMini*/*/*/*.root",
+      "plot_group" : "VVV"
     },
-    "ZZZ" : {
-      "file_path": "/store/user/marquez/Run3-ntuples/ZZZ_TuneCP5_13p6TeV_amcatnlo-pythia8/Run3Summer22MiniAODv4-130X_mcRun3_2022_realistic_v5-v2/*/*/*.root",
-      "plot_group": "VVV"
+    "ZZZ_preEE" : {
+      "file_path" : "/store/user/marquez/Run3-ntuples/ZZZ*/Run3Summer22Mini*/*/*/*.root",
+      "plot_group" : "VVV"
     },
     "ZZZ_postEE" : {
-      "file_path": "/store/user/marquez/Run3-ntuples/ZZZ_TuneCP5_13p6TeV_amcatnlo-pythia8/Run3Summer22EEMiniAODv4-130X_mcRun3_2022_realistic_postEE_v6-v2/*/*/*.root",
-      "plot_group": "VVV"
+      "file_path" : "/store/user/marquez/Run3-ntuples/ZZZ*/Run3Summer22EEMini*/*/*/*.root",
+      "plot_group" : "VVV"
     },
-    "data_MuonEG_Run2022C-22Sep2023-v1" : { 
-      "file_path" : "/store/user/marquez/Run3-ntuples/MuonEG/Run2022C-22Sep2023-v1/*/*/*.root",
-      "plot_group" : "data-2022"
-    },
-    "data_MuonEG_Run2022D-22Sep2023-v1" : { 
-      "file_path" : "/store/user/marquez/Run3-ntuples/MuonEG/Run2022D-22Sep2023-v1/*/*/*.root",
-      "plot_group" : "data-2022"
-    },
-    "data_MuonEG_Run2022E-22Sep2023-v1" : { 
-      "file_path" : "/store/user/marquez/Run3-ntuples/MuonEG/Run2022E-22Sep2023-v1/*/*/*.root",
-      "plot_group" : "data-2022"
-    },
-    "data_MuonEG_Run2022F-22Sep2023-v1" : { 
-      "file_path" : "/store/user/marquez/Run3-ntuples/MuonEG/Run2022F-22Sep2023-v1/*/*/*.root",
-      "plot_group" : "data-2022"
-    },
-    "data_MuonEG_Run2022G-22Sep2023-v1" : { 
-      "file_path" : "/store/user/marquez/Run3-ntuples/MuonEG/Run2022G-22Sep2023-v1/*/*/*.root",
-      "plot_group" : "data-2022"
-    },
-    "data_Muon_Run2022C-22Sep2023-v1" : { 
-      "file_path" : "/store/user/marquez/Run3-ntuples/Muon/Run2022C-22Sep2023-v1/*/*/*.root",
-      "plot_group" : "data-2022"
-    },
-    "data_Muon_Run2022D-22Sep2023-v1" : { 
-      "file_path" : "/store/user/marquez/Run3-ntuples/Muon/Run2022D-22Sep2023-v1/*/*/*.root",
-      "plot_group" : "data-2022"
-    },
-    "data_Muon_Run2022E-22Sep2023-v1" : { 
-      "file_path" : "/store/user/marquez/Run3-ntuples/Muon/Run2022E-22Sep2023-v1/*/*/*.root",
-      "plot_group" : "data-2022"
-    },
-    "data_Muon_Run2022F-22Sep2023-v2" : { 
-      "file_path" : "/store/user/marquez/Run3-ntuples/Muon/Run2022F-22Sep2023-v2/*/*/*.root",
-      "plot_group" : "data-2022"
-    },
-    "data_Muon_Run2022G-22Sep2023-v1" : { 
-      "file_path" : "/store/user/marquez/Run3-ntuples/Muon/Run2022G-22Sep2023-v1/*/*/*.root",
-      "plot_group" : "data-2022"
-    },
-    "data_EGamma_Run2022C-22Sep2023-v1" : { 
+    "data_EGamma_Run2022C-22Sep2023-v1" : {
       "file_path" : "/store/user/marquez/Run3-ntuples/EGamma/Run2022C-22Sep2023-v1/*/*/*.root",
       "plot_group" : "data-2022"
     },
-    "data_EGamma_Run2022D-22Sep2023-v1" : { 
+    "data_EGamma_Run2022D-22Sep2023-v1" : {
       "file_path" : "/store/user/marquez/Run3-ntuples/EGamma/Run2022D-22Sep2023-v1/*/*/*.root",
       "plot_group" : "data-2022"
     },
-    "data_EGamma_Run2022E-22Sep2023-v1" : { 
+    "data_EGamma_Run2022E-22Sep2023-v1" : {
       "file_path" : "/store/user/marquez/Run3-ntuples/EGamma/Run2022E-22Sep2023-v1/*/*/*.root",
       "plot_group" : "data-2022"
     },
-    "data_EGamma_Run2022F-22Sep2023-v1" : { 
+    "data_EGamma_Run2022F-22Sep2023-v1" : {
       "file_path" : "/store/user/marquez/Run3-ntuples/EGamma/Run2022F-22Sep2023-v1/*/*/*.root",
       "plot_group" : "data-2022"
     },
-    "data_EGamma_Run2022G-22Sep2023-v2" : { 
+    "data_EGamma_Run2022G-22Sep2023-v2" : {
       "file_path" : "/store/user/marquez/Run3-ntuples/EGamma/Run2022G-22Sep2023-v2/*/*/*.root",
+      "plot_group" : "data-2022"
+    },
+    "data_MuonEG_Run2022C-22Sep2023-v1" : {
+      "file_path" : "/store/user/marquez/Run3-ntuples/MuonEG/Run2022C-22Sep2023-v1/*/*/*.root",
+      "plot_group" : "data-2022"
+    },
+    "data_MuonEG_Run2022D-22Sep2023-v1" : {
+      "file_path" : "/store/user/marquez/Run3-ntuples/MuonEG/Run2022D-22Sep2023-v1/*/*/*.root",
+      "plot_group" : "data-2022"
+    },
+    "data_MuonEG_Run2022E-22Sep2023-v1" : {
+      "file_path" : "/store/user/marquez/Run3-ntuples/MuonEG/Run2022E-22Sep2023-v1/*/*/*.root",
+      "plot_group" : "data-2022"
+    },
+    "data_MuonEG_Run2022F-22Sep2023-v1" : {
+      "file_path" : "/store/user/marquez/Run3-ntuples/MuonEG/Run2022F-22Sep2023-v1/*/*/*.root",
+      "plot_group" : "data-2022"
+    },
+    "data_MuonEG_Run2022G-22Sep2023-v1" : {
+      "file_path" : "/store/user/marquez/Run3-ntuples/MuonEG/Run2022G-22Sep2023-v1/*/*/*.root",
+      "plot_group" : "data-2022"
+    },
+    "data_Muon_Run2022C-22Sep2023-v1" : {
+      "file_path" : "/store/user/marquez/Run3-ntuples/Muon/Run2022C-22Sep2023-v1/*/*/*.root",
+      "plot_group" : "data-2022"
+    },
+    "data_Muon_Run2022D-22Sep2023-v1" : {
+      "file_path" : "/store/user/marquez/Run3-ntuples/Muon/Run2022D-22Sep2023-v1/*/*/*.root",
+      "plot_group" : "data-2022"
+    },
+    "data_Muon_Run2022E-22Sep2023-v1" : {
+      "file_path" : "/store/user/marquez/Run3-ntuples/Muon/Run2022E-22Sep2023-v1/*/*/*.root",
+      "plot_group" : "data-2022"
+    },
+    "data_Muon_Run2022F-22Sep2023-v2" : {
+      "file_path" : "/store/user/marquez/Run3-ntuples/Muon/Run2022F-22Sep2023-v2/*/*/*.root",
+      "plot_group" : "data-2022"
+    },
+    "data_Muon_Run2022G-22Sep2023-v1" : {
+      "file_path" : "/store/user/marquez/Run3-ntuples/Muon/Run2022G-22Sep2023-v1/*/*/*.root",
       "plot_group" : "data-2022"
     }
 }
