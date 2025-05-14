@@ -54,4 +54,10 @@ done
 sed -i "$ s/.$//" $outfile
 echo "}" >> $outfile
 
-$overwrite && mv $outfile ntuples.json
+echo
+if $overwrite; then
+  mv $outfile ntuples.json
+  echo Output file: ntuples.json
+else
+  echo Output file: $outfile
+fi
