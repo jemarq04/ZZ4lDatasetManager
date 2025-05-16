@@ -1,5 +1,5 @@
 year=2022
-srcdir=/hdfs/store/user/marquez/Run3-skimmed
+srcdir=/hdfs/store/user/marquez/Run3-skimmed-${year}
 overwrite=true
 
 sims=(
