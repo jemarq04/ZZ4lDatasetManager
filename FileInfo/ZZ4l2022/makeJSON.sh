@@ -1,5 +1,5 @@
 year=2022
-srcdir=/hdfs/store/user/marquez/Run3-ntuples
+srcdir=/hdfs/store/user/marquez/Run3-ntuples-${year}
 outfile=ntuples_temp.json
 overwrite=false
 
