@@ -3,6 +3,9 @@ srcdir=/hdfs/store/user/marquez/Run3-ntuples-${year}
 outfile=ntuples_temp.json
 overwrite=false
 
+[[ -d $1 ]] && srcdir=$1
+srcdir=${srcdir%/}
+
 sims=(
   #member_name,campaign_prefix,plot_group
   zz4l-powheg,ZZto4L,qqZZ-powheg
@@ -12,7 +15,7 @@ sims=(
   ggZZ2e2mu,GluGlu*Continto2Zto2E2Mu,ggZZ
   ggZZ2e2tau,GluGlu*Continto2Zto2E2Tau,ggZZ
   ggZZ2mu2tau,GluGlu*Continto2Zto2Mu2Tau,ggZZ
-  ttZ,TTZ_Zto2L,VVV #not yet available for 2023
+  ttZ,TTZ_Zto2L,VVV
   WWZ,WWZ,VVV
   WZZ,WZZ,VVV
   ZZZ,ZZZ,VVV
@@ -34,6 +37,9 @@ for sim in ${sims[@]}; do
   for era in "${eras[@]}"; do
     suff=$(cut -d , -f 1 <<< $era)
     conditions=$(cut -d , -f 2 <<< $era)
+
+    fdirs=( ${srcdir}/${campaign}*/${conditions}*/ )
+    [[ ${#fdirs[@]} -lt 1 || ! -d ${fdirs[0]} ]] && continue 
 
     echo ${name}${suff}
     echo -e "    \"${name}${suff}\" : {" >> $outfile
