@@ -2,6 +2,9 @@ year=2022
 srcdir=/hdfs/store/user/marquez/Run3-skimmed-${year}
 overwrite=true
 
+[[ -d $1 ]] && srcdir=$1
+srcdir=${srcdir%/}
+
 sims=(
   #member_name,campaign_prefix,plot_group
   zz4l-powheg,ZZto4L,qqZZ-powheg
