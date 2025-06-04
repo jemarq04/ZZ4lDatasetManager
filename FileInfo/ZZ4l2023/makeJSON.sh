@@ -39,7 +39,10 @@ for sim in ${sims[@]}; do
     conditions=$(cut -d , -f 2 <<< $era)
 
     fdirs=( ${srcdir}/${campaign}*/${conditions}*/ )
-    [[ ${#fdirs[@]} -lt 1 || ! -d ${fdirs[0]} ]] && continue 
+    if [[ ${#fdirs[@]} -lt 1 || ! -d ${fdirs[0]} ]]; then
+      echo Skipping ${name}${suff}
+      continue 
+    fi
 
     echo ${name}${suff}
     echo -e "    \"${name}${suff}\" : {" >> $outfile
