@@ -1,5 +1,5 @@
 year=2023
-srcdir=/hdfs/store/user/marquez/Run3-skimmed-${year}
+srcdir=/hdfs/store/user/marquez/ZZ4l${year}-skimmed
 overwrite=true
 
 [[ -d $1 ]] && srcdir=$1
