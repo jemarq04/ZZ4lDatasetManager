@@ -1,82 +1,82 @@
 {
     "zz4l-powheg_preBPix" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-zz4l-powheg_preBPix-ZZ4l2023*/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-zz4l-powheg_preBPix-ZplusL2023*/*.root",
       "plot_group" : "qqZZ-powheg"
     },
     "zz4l-powheg_postBPix" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-zz4l-powheg_postBPix-ZZ4l2023*/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-zz4l-powheg_postBPix-ZplusL2023*/*.root",
       "plot_group" : "qqZZ-powheg"
     },
     "ggZZ4e_preBPix" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ggZZ4e_preBPix-ZZ4l2023*/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ggZZ4e_preBPix-ZplusL2023*/*.root",
       "plot_group" : "ggZZ"
     },
     "ggZZ4e_postBPix" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ggZZ4e_postBPix-ZZ4l2023*/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ggZZ4e_postBPix-ZplusL2023*/*.root",
       "plot_group" : "ggZZ"
     },
     "ggZZ4m_preBPix" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ggZZ4m_preBPix-ZZ4l2023*/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ggZZ4m_preBPix-ZplusL2023*/*.root",
       "plot_group" : "ggZZ"
     },
     "ggZZ4m_postBPix" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ggZZ4m_postBPix-ZZ4l2023*/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ggZZ4m_postBPix-ZplusL2023*/*.root",
       "plot_group" : "ggZZ"
     },
     "ggZZ4t_preBPix" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ggZZ4t_preBPix-ZZ4l2023*/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ggZZ4t_preBPix-ZplusL2023*/*.root",
       "plot_group" : "ggZZ"
     },
     "ggZZ4t_postBPix" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ggZZ4t_postBPix-ZZ4l2023*/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ggZZ4t_postBPix-ZplusL2023*/*.root",
       "plot_group" : "ggZZ"
     },
     "ggZZ2e2mu_preBPix" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ggZZ2e2mu_preBPix-ZZ4l2023*/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ggZZ2e2mu_preBPix-ZplusL2023*/*.root",
       "plot_group" : "ggZZ"
     },
     "ggZZ2e2mu_postBPix" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ggZZ2e2mu_postBPix-ZZ4l2023*/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ggZZ2e2mu_postBPix-ZplusL2023*/*.root",
       "plot_group" : "ggZZ"
     },
     "ggZZ2e2tau_preBPix" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ggZZ2e2tau_preBPix-ZZ4l2023*/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ggZZ2e2tau_preBPix-ZplusL2023*/*.root",
       "plot_group" : "ggZZ"
     },
     "ggZZ2e2tau_postBPix" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ggZZ2e2tau_postBPix-ZZ4l2023*/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ggZZ2e2tau_postBPix-ZplusL2023*/*.root",
       "plot_group" : "ggZZ"
     },
     "ggZZ2mu2tau_preBPix" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ggZZ2mu2tau_preBPix-ZZ4l2023*/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ggZZ2mu2tau_preBPix-ZplusL2023*/*.root",
       "plot_group" : "ggZZ"
     },
     "ggZZ2mu2tau_postBPix" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ggZZ2mu2tau_postBPix-ZZ4l2023*/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ggZZ2mu2tau_postBPix-ZplusL2023*/*.root",
       "plot_group" : "ggZZ"
     },
     "WWZ_preBPix" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-WWZ_preBPix-ZZ4l2023*/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-WWZ_preBPix-ZplusL2023*/*.root",
       "plot_group" : "VVV"
     },
     "WWZ_postBPix" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-WWZ_postBPix-ZZ4l2023*/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-WWZ_postBPix-ZplusL2023*/*.root",
       "plot_group" : "VVV"
     },
     "WZZ_preBPix" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-WZZ_preBPix-ZZ4l2023*/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-WZZ_preBPix-ZplusL2023*/*.root",
       "plot_group" : "VVV"
     },
     "WZZ_postBPix" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-WZZ_postBPix-ZZ4l2023*/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-WZZ_postBPix-ZplusL2023*/*.root",
       "plot_group" : "VVV"
     },
     "ZZZ_preBPix" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ZZZ_preBPix-ZZ4l2023*/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ZZZ_preBPix-ZplusL2023*/*.root",
       "plot_group" : "VVV"
     },
     "ZZZ_postBPix" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ZZZ_postBPix-ZZ4l2023*/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/*-ZZZ_postBPix-ZplusL2023*/*.root",
       "plot_group" : "VVV"
     }
 }

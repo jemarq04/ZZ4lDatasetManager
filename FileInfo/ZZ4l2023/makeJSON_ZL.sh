@@ -33,7 +33,7 @@ for sim in "${sims[@]}"; do
 
   for suff in "${suffixes[@]}"; do
     echo ${name}${suff}
-    dirs=( ${srcdir}/*-${name}${suff}-ZZ4l${year}*/ )
+    dirs=( ${srcdir}/*-${name}${suff}-ZplusL${year}*/ )
     if [[ ${#dirs[@]} -gt 1 ]]; then
       echo "Found too many directories with the name ${name}${suff} in ${srcdir}!"
       continue
@@ -50,7 +50,7 @@ for stream in $streams; do
   for dir in ${srcdir}/*-data_${stream}_Run${year}*; do
     [[ ! -d $dir ]] && continue
     name=${dir#*data_}
-    name=data_${name%-ZZ4l*}
+    name=data_${name%-ZplusL*}
     echo $name
 
     echo -e "    \"${name}\" : {" >> $outfile
