@@ -8,12 +8,12 @@ srcdir=${srcdir%/}
 sims=(
   #member_name,campaign_prefix,plot_group
   zz4l-powheg,ZZto4L,qqZZ-powheg
-  ggZZ4e,GluGlutoContinto2Zto4E,ggZZ
-  ggZZ4m,GluGlutoContinto2Zto4Mu,ggZZ
-  ggZZ4t,GluGlutoContinto2Zto4Tau,ggZZ
-  ggZZ2e2mu,GluGluToContinto2Zto2E2Mu,ggZZ
-  ggZZ2e2tau,GluGlutoContinto2Zto2E2Tau,ggZZ
-  ggZZ2mu2tau,GluGlutoContinto2Zto2Mu2Tau,ggZZ
+  ggZZ4e,GluGlu*Continto2Zto4E,ggZZ
+  ggZZ4m,GluGlu*Continto2Zto4Mu,ggZZ
+  ggZZ4t,GluGlu*Continto2Zto4Tau,ggZZ
+  ggZZ2e2mu,GluGlu*Continto2Zto2E2Mu,ggZZ
+  ggZZ2e2tau,GluGlu*Continto2Zto2E2Tau,ggZZ
+  ggZZ2mu2tau,GluGlu*Continto2Zto2Mu2Tau,ggZZ
 #  ttZ,TTZ_Zto2L,VVV #not yet available for 2023
   WWZ,WWZ,VVV
   WZZ,WZZ,VVV
