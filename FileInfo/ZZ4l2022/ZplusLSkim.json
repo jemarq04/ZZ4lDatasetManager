@@ -47,10 +47,6 @@
       "file_path" : "/hdfs/store/user/marquez/ZplusL2022-skimmed/2025-08-21-ggZZ2e2tau_postEE-ZplusL2022-ZplusLBaseTo4lVeto-v1/*.root",
       "plot_group" : "ggZZ"
     },
-    "ggZZ2mu2tau_preEE" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2022-skimmed/*-ggZZ2mu2tau_preEE-ZplusL2022*/*.root",
-      "plot_group" : "ggZZ"
-    },
     "ggZZ2mu2tau_postEE" : {
       "file_path" : "/hdfs/store/user/marquez/ZplusL2022-skimmed/2025-08-21-ggZZ2mu2tau_postEE-ZplusL2022-ZplusLBaseTo4lVeto-v1/*.root",
       "plot_group" : "ggZZ"
