@@ -54,7 +54,7 @@ for stream in $streams; do
     fi
 
     name=${dir#*data_}
-    name=data_${name%-ZplusL*}
+    name=data_${name%%-ZplusL*}
     echo $name
 
     echo -e "    \"${name}\" : {" >> $outfile
