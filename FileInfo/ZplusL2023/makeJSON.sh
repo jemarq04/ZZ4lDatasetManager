@@ -8,7 +8,9 @@ srcdir=${srcdir%/}
 
 sims=(
   #member_name,campaign_prefix,plot_group
-  zz4l-powheg,ZZto4L,qqZZ-powheg
+  zz4l-powheg,ZZto4L_,qqZZ-powheg
+  zzjj4l-ewk,ZZto4L-2Jets,qqZZjj-ewk
+  ggHZZ,GluGluHtoZZ,HZZ-signal
   ggZZ4e,GluGlu*Continto2Zto4E,ggZZ
   ggZZ4m,GluGlu*Continto2Zto4Mu,ggZZ
   ggZZ4t,GluGlu*Continto2Zto4Tau,ggZZ
@@ -19,6 +21,9 @@ sims=(
   WWZ,WWZ,VVV
   WZZ,WZZ,VVV
   ZZZ,ZZZ,VVV
+  #fakes only
+  wz3lnu-powheg,WZto3LNu,wz3lnu-powheg
+  tt2l2nu-powheg,TT*2L2Nu,top
 )
 streams="EGamma0 EGamma1 MuonEG Muon0 Muon1"
 eras=(
