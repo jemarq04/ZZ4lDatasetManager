@@ -1,11 +1,27 @@
 {
     "zz4l-powheg_preEE" : {
-      "file_path" : "/store/user/marquez/ZZ4l2022-ntuples/ZZto4L*/Run3Summer22Mini*/*/*/*.root",
+      "file_path" : "/store/user/marquez/ZZ4l2022-ntuples/ZZto4L_*/Run3Summer22Mini*/*/*/*.root",
       "plot_group" : "qqZZ-powheg"
     },
     "zz4l-powheg_postEE" : {
-      "file_path" : "/store/user/marquez/ZZ4l2022-ntuples/ZZto4L*/Run3Summer22EEMini*/*/*/*.root",
+      "file_path" : "/store/user/marquez/ZZ4l2022-ntuples/ZZto4L_*/Run3Summer22EEMini*/*/*/*.root",
       "plot_group" : "qqZZ-powheg"
+    },
+    "zzjj4l-ewk_preEE" : {
+      "file_path" : "/store/user/marquez/ZZ4l2022-ntuples/ZZto4L-2Jets*/Run3Summer22Mini*/*/*/*.root",
+      "plot_group" : "qqZZjj-ewk"
+    },
+    "zzjj4l-ewk_postEE" : {
+      "file_path" : "/store/user/marquez/ZZ4l2022-ntuples/ZZto4L-2Jets*/Run3Summer22EEMini*/*/*/*.root",
+      "plot_group" : "qqZZjj-ewk"
+    },
+    "ggHZZ_preEE" : {
+      "file_path" : "/store/user/marquez/ZZ4l2022-ntuples/GluGluHtoZZ*/Run3Summer22Mini*/*/*/*.root",
+      "plot_group" : "HZZ-signal"
+    },
+    "ggHZZ_postEE" : {
+      "file_path" : "/store/user/marquez/ZZ4l2022-ntuples/GluGluHtoZZ*/Run3Summer22EEMini*/*/*/*.root",
+      "plot_group" : "HZZ-signal"
     },
     "ggZZ4e_preEE" : {
       "file_path" : "/store/user/marquez/ZZ4l2022-ntuples/GluGlu*Continto2Zto4E*/Run3Summer22Mini*/*/*/*.root",
