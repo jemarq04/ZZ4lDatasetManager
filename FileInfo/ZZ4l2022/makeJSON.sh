@@ -22,7 +22,7 @@ sims=(
   WZZ,WZZ,VVV
   ZZZ,ZZZ,VVV
 )
-streams="EGamma MuonEG Muon"
+streams="EGamma MuonEG Muon SingleMuon DoubleMuon"
 eras=(
   _preEE,Run3Summer22Mini
   _postEE,Run3Summer22EEMini

@@ -162,5 +162,13 @@
     "data_Muon_Run2022G-22Sep2023-v1" : {
       "file_path" : "/store/user/marquez/ZZ4l2022-ntuples/Muon/Run2022G-22Sep2023-v1/*/*/*.root",
       "plot_group" : "data-2022"
+    },
+    "data_SingleMuon_Run2022C-22Sep2023-v1" : {
+      "file_path" : "/store/user/marquez/ZZ4l2022-ntuples/SingleMuon/Run2022C-22Sep2023-v1/*/*/*.root",
+      "plot_group" : "data-2022"
+    },
+    "data_DoubleMuon_Run2022C-22Sep2023-v1" : {
+      "file_path" : "/store/user/marquez/ZZ4l2022-ntuples/DoubleMuon/Run2022C-22Sep2023-v1/*/*/*.root",
+      "plot_group" : "data-2022"
     }
 }
