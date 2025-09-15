@@ -16,12 +16,13 @@
             "zz4l-amcatnlo"
         ]
     },
-    "zzjj4l-ewk" : {
+    "qqZZjj-ewk" : {
         "Name" : "ZZ + 2 jets EWK",
         "Style" : "fill-darkblue",
         "add_perc_error" : 0.0,
         "Members" : [
-           "ZZJJTo4L-EWK"
+           "zzjj4l-ewk_preBPix",
+           "zzjj4l-ewk_postBPix"
         ]
     },
     "HZZ-signal" : {
@@ -29,7 +30,8 @@
         "Style" : "fill-lightred",
         "add_perc_error" : 0.0,
         "Members" : [
-            "ggHZZ",
+            "ggHZZ_preBPix",
+            "ggHZZ_postBPix",
             "vbfHZZ",
             "ttH_HToZZ_4L",
             "WminusHToZZ",
@@ -103,7 +105,9 @@
         "Style" : "fill-red",
         "add_perc_error" : 0.0,
         "Members" : [
-            "tt-jets"
+            "tt-jets",
+            "tt2l2nu-powheg_preBPix",
+            "tt2l2nu-powheg_postBPix"
         ]
     },
     "wz3lnu-powheg" : {
@@ -111,7 +115,8 @@
         "Style" : "fill-maroon",
         "add_perc_error" : 0.0,
         "Members" : [
-            "wz3lnu-powheg"
+            "wz3lnu-powheg_preBPix",
+            "wz3lnu-powheg_postBPix"
         ]
     },
     "VVV" : {
