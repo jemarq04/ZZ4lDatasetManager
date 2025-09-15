@@ -31,13 +31,7 @@
         "add_perc_error" : 0.0,
         "Members" : [
             "ggHZZ_preBPix",
-            "ggHZZ_postBPix",
-            "vbfHZZ",
-            "ttH_HToZZ_4L",
-            "WminusHToZZ",
-            "WplusHToZZ",
-            "ZHToZZ_4L"
-
+            "ggHZZ_postBPix"
         ]
     },
     "ggHZZ-only" : {
