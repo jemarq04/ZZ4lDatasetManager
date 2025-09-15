@@ -59,25 +59,25 @@
       "DAS Name": "ZZto4L-2Jets_EW_TuneCP5_13p6TeV_madgraph-pythia8"
     },
     "ggHZZ_preEE": {
-      "cross_section": 23.16,
+      "cross_section": 0.02316,
       "Source of cross section": "XSDB",
       "kfactor": 0.23,
       "DAS Name": "GluGluHtoZZto4L_M-125_TuneCP5_13p6TeV_powheg2-JHUGenV752-pythia8"
     },
     "ggHZZ_postEE": {
-      "cross_section": 23.16,
+      "cross_section": 0.02316,
       "Source of cross section": "XSDB",
       "kfactor": 0.77,
       "DAS Name": "GluGluHtoZZto4L_M-125_TuneCP5_13p6TeV_powheg2-JHUGenV752-pythia8"
     },
     "ggHZZ_preBPix": {
-      "cross_section": 23.16,
+      "cross_section": 0.02316,
       "Source of cross section": "XSDB",
       "kfactor": 0.64,
       "DAS Name": "GluGluHtoZZto4L_M-125_TuneCP5_13p6TeV_powheg2-JHUGenV752-pythia8"
     },
     "ggHZZ_postBPix": {
-      "cross_section": 23.16,
+      "cross_section": 0.02316,
       "Source of cross section": "XSDB",
       "kfactor": 0.36,
       "DAS Name": "GluGluHtoZZto4L_M-125_TuneCP5_13p6TeV_powheg2-JHUGenV752-pythia8"
