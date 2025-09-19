@@ -1,11 +1,27 @@
 {
     "zz4l-powheg_preBPix" : {
-      "file_path" : "/store/user/marquez/ZZ4l2023-ntuples/ZZto4L*/Run3Summer23Mini*/*/*/*.root",
+      "file_path" : "/store/user/marquez/ZZ4l2023-ntuples/ZZto4L_*/Run3Summer23Mini*/*/*/*.root",
       "plot_group" : "qqZZ-powheg"
     },
     "zz4l-powheg_postBPix" : {
-      "file_path" : "/store/user/marquez/ZZ4l2023-ntuples/ZZto4L*/Run3Summer23BPixMini*/*/*/*.root",
+      "file_path" : "/store/user/marquez/ZZ4l2023-ntuples/ZZto4L_*/Run3Summer23BPixMini*/*/*/*.root",
       "plot_group" : "qqZZ-powheg"
+    },
+    "zzjj4l-ewk_preBPix" : {
+      "file_path" : "/store/user/marquez/ZZ4l2023-ntuples/ZZto4L-2Jets*/Run3Summer23Mini*/*/*/*.root",
+      "plot_group" : "qqZZjj-ewk"
+    },
+    "zzjj4l-ewk_postBPix" : {
+      "file_path" : "/store/user/marquez/ZZ4l2023-ntuples/ZZto4L-2Jets*/Run3Summer23BPixMini*/*/*/*.root",
+      "plot_group" : "qqZZjj-ewk"
+    },
+    "ggHZZ_preBPix" : {
+      "file_path" : "/store/user/marquez/ZZ4l2023-ntuples/GluGluHtoZZ*/Run3Summer23Mini*/*/*/*.root",
+      "plot_group" : "HZZ-signal"
+    },
+    "ggHZZ_postBPix" : {
+      "file_path" : "/store/user/marquez/ZZ4l2023-ntuples/GluGluHtoZZ*/Run3Summer23BPixMini*/*/*/*.root",
+      "plot_group" : "HZZ-signal"
     },
     "ggZZ4e_preBPix" : {
       "file_path" : "/store/user/marquez/ZZ4l2023-ntuples/GluGlu*Continto2Zto4E*/Run3Summer23Mini*/*/*/*.root",
