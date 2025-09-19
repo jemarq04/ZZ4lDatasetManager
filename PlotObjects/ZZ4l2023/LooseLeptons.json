@@ -161,7 +161,7 @@
         "Attributes": {  
             "GetXaxis().SetTitle": "Lepton p_{T} [GeV]",  
             "GetYaxis().SetTitle": "Events",
-            "GetYaxis().SetTitleOffset": 1.2  
+            "GetYaxis().SetTitleOffset": 1.5  
         }
     },
    "LepPt1": {  
@@ -472,7 +472,7 @@
         "Attributes": {  
             "GetXaxis().SetTitle": "m_{Z} [GeV]",  
             "GetYaxis().SetTitle": "Z bosons", 
-            "GetYaxis().SetTitleOffset": 1.2
+            "GetYaxis().SetTitleOffset": 1.5
         }
     },
   "Z1Mass": {  
@@ -484,8 +484,8 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "m_{Z1} [GeV]",  
-            "GetYaxis().SetTitle": "Z bosons / 1 GeV", 
-            "GetYaxis().SetTitleOffset": 1.2
+            "GetYaxis().SetTitle": "Z bosons", 
+            "GetYaxis().SetTitleOffset": 1.5
         }
     },
   "Z2Mass": {  
@@ -497,8 +497,8 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "m_{Z2} [GeV]",  
-            "GetYaxis().SetTitle": "Z bosons / 1 GeV", 
-            "GetYaxis().SetTitleOffset": 1.2
+            "GetYaxis().SetTitle": "Z bosons", 
+            "GetYaxis().SetTitleOffset": 1.5
         }
     },
   "Z1PolCos": {  
@@ -537,7 +537,7 @@
         "Attributes": {  
             "GetXaxis().SetTitle": "m_{4l} [GeV]",  
             "GetYaxis().SetTitle": "Events",
-            "GetYaxis().SetTitleOffset": 1.2
+            "GetYaxis().SetTitleOffset": 1.5
         }
     },
    "GenMass": {  
