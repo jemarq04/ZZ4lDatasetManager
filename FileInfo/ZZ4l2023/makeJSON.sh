@@ -43,7 +43,7 @@ for sim in ${sims[@]}; do
     fdirs=( ${srcdir}/${campaign}*/${conditions}*/ )
     if [[ ${#fdirs[@]} -lt 1 || ! -d ${fdirs[0]} ]]; then
       echo Skipping ${name}${suff}
-      continue 
+      continue
     fi
 
     echo ${name}${suff}
