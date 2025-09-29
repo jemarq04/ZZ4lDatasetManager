@@ -25,7 +25,7 @@ sims=(
   wz3lnu-powheg,WZto3LNu,wz3lnu-powheg
   tt2l2nu-powheg,TTto2L2Nu,top
 )
-streams="EGamma MuonEG Muon SingleMuon DoubleMuon"
+streams="EGamma0 EGamma1 MuonEG Muon0 Muon1"
 eras=(
   ,RunIII2024Summer24Mini
 )
