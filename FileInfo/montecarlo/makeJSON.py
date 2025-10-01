@@ -4,11 +4,24 @@ import json
 import argparse
 
 def main():
+    lumi_map = {
+        2022: {
+            "_preEE": 7.980315199,
+            "_postEE": 26.671326001,
+        },
+        2023: {
+            "_preBPix": 18.062658998,
+            "_postBPix": 9.693130030,
+        },
+        #2024: {"": 0},
+    }
+
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument("-i", "--base-file", dest="infile", default="base.txt", help="template file used to create full JSON")
     parser.add_argument("-o", "--outfile", default="montecarlo_zzanalysis.json", help="output file")
     parser.add_argument("-f", "--force", action="store_true", help="overwrite output file if it exists")
     parser.add_argument("-k", "--k-factors", action="store_true", help="include k-factors")
+    parser.add_argument("-c", "--combined", action="store_true", help="provide xsecs with year identifiers for combined plot group")
 
     args = parser.parse_args()
 
@@ -28,17 +41,22 @@ def main():
         if key == "example":
             continue
         
-        fracs = {
-            #2022
-            "_preEE": 0.23, "_postEE": 0.77,
-            #2023
-            "_preBPix": 0.64, "_postBPix": 0.36,
-        }
-        for suff,frac in fracs.items():
-            temp = vals.copy()
-            kfactor = temp.get("kfactor", 1.0) if args.k_factors else 1.0
-            temp["kfactor"] = float(f'{kfactor * frac:.4f}')
-            xsec_info[f'{key}{suff}'] = temp
+        for year,lumis in lumi_map.items():
+            total = sum([lumi for lumi in lumis.values()])
+            for suff,lumi in lumis.items():
+                temp = vals.copy()
+                kfactor = temp.get("kfactor", 1.0) if args.k_factors else 1.0
+                temp["kfactor"] = float(f'{kfactor * lumi/total:.4f}')
+                xsec_info[f'{key}{suff}'] = temp
+
+        if args.combined:
+            total = sum([lumi for lumis in lumi_map.values() for lumi in lumis.values()])
+            for year,lumis in lumi_map.items():
+                for suff,lumi in lumis.items():
+                    temp = vals.copy()
+                    kfactor = temp.get("kfactor", 1.0) if args.k_factors else 1.0
+                    temp["kfactor"] = float(f'{kfactor * lumi/total:.4f}')
+                    xsec_info[f'{key}_{year}{suff}'] = temp
 
     with open(args.outfile, "w") as outfile:
         json.dump(xsec_info, outfile, indent=2)

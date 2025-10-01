@@ -3,7 +3,7 @@
     "cross_section": 1.0,
     "Source of cross section": "DAS, XSDB, tarball, etc. given in pb",
     "kfactor": 1.0,
-    "Source of k-factor": "Note that (unless stated otherwise) 2022preEE (postEE) includes a factor of 0.23 (0.77) and 2023preBPix (post) includes 0.64 (0.36)",
+    "Source of k-factor": "Note that (unless stated otherwise) 2022preEE (postEE) includes a factor of 0.23 (0.77) and 2023preBPix (post) includes 0.65 (0.35)",
     "DAS Name": "Helpful for XSDB requests"
   },
   "zz4l-powheg": {
