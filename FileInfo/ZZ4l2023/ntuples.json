@@ -71,6 +71,14 @@
       "file_path" : "/store/user/marquez/ZZ4l2023-ntuples/GluGlu*Continto2Zto2Mu2Tau*/Run3Summer23BPixMini*/*/*/*.root",
       "plot_group" : "ggZZ"
     },
+    "ttZ_preBPix" : {
+      "file_path" : "/store/user/marquez/ZZ4l2023-ntuples/CustomTTZ_2023*/*130X_mcRun3_2023_realistic_v14*/*/*/*.root",
+      "plot_group" : "VVV"
+    },
+    "ttZ_postBPix" : {
+      "file_path" : "/store/user/marquez/ZZ4l2023-ntuples/CustomTTZ_2023*/*130X_mcRun3_2023_realistic_postBPix_v2*/*/*/*.root",
+      "plot_group" : "VVV"
+    },
     "WWZ_preBPix" : {
       "file_path" : "/store/user/marquez/ZZ4l2023-ntuples/WWZ*/Run3Summer23Mini*/*/*/*.root",
       "plot_group" : "VVV"
