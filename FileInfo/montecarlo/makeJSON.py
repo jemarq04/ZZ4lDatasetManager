@@ -13,7 +13,7 @@ def main():
             "_preBPix": 18.062658998,
             "_postBPix": 9.693130030,
         },
-        #2024: {"": 0},
+        #2024: {"": 109.335002001},
     }
 
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
@@ -42,6 +42,8 @@ def main():
             continue
         
         for year,lumis in lumi_map.items():
+            if len(lumis) == 1:
+                continue
             total = sum([lumi for lumi in lumis.values()])
             for suff,lumi in lumis.items():
                 temp = vals.copy()
