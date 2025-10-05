@@ -1,0 +1,10 @@
+{
+    "AllData" : {
+        "file_path" : "",
+        "plot_group" : "data_all"
+    },
+    "DataEWKCorrected" : {
+        "file_path" : "",
+        "plot_group" : "nonprompt"
+    }
+}
