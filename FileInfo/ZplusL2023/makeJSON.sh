@@ -1,5 +1,5 @@
 year=2023
-srcdir=/hdfs/store/user/marquez/Run3-ntuples-${year}
+srcdir=/hdfs/store/user/marquez/ZplusL${year}-ntuples
 outfile=ntuples_temp.json
 overwrite=true
 
@@ -8,7 +8,9 @@ srcdir=${srcdir%/}
 
 sims=(
   #member_name,campaign_prefix,plot_group
-  zz4l-powheg,ZZto4L,qqZZ-powheg
+  zz4l-powheg,ZZto4L_,qqZZ-powheg
+  zzjj4l-ewk,ZZto4L-2Jets,qqZZjj-ewk
+  ggHZZ,GluGluHtoZZ,HZZ-signal
   ggZZ4e,GluGlu*Continto2Zto4E,ggZZ
   ggZZ4m,GluGlu*Continto2Zto4Mu,ggZZ
   ggZZ4t,GluGlu*Continto2Zto4Tau,ggZZ
@@ -16,14 +18,19 @@ sims=(
   ggZZ2e2tau,GluGlu*Continto2Zto2E2Tau,ggZZ
   ggZZ2mu2tau,GluGlu*Continto2Zto2Mu2Tau,ggZZ
 #  ttZ,TTZ_Zto2L,VVV #not yet available for 2023
+  ttZ,CustomTTZ_2023,VVV
   WWZ,WWZ,VVV
   WZZ,WZZ,VVV
   ZZZ,ZZZ,VVV
+  #fakes only
+  wz3lnu-powheg,WZto3LNu,wz3lnu-powheg
+  tt2l2nu-powheg,TT*2L2Nu,top
 )
 streams="EGamma0 EGamma1 MuonEG Muon0 Muon1"
 eras=(
-  _preBPix,Run3Summer23Mini
-  _postBPix,Run3Summer23BPixMini
+  #suffix,campaign_conditions,custom_globaltag
+  _preBPix,Run3Summer23Mini,130X_mcRun3_2023_realistic_v14
+  _postBPix,Run3Summer23BPixMini,130X_mcRun3_2023_realistic_postBPix_v2
 )
 
 echo "{" > $outfile
@@ -37,11 +44,12 @@ for sim in ${sims[@]}; do
   for era in "${eras[@]}"; do
     suff=$(cut -d , -f 1 <<< $era)
     conditions=$(cut -d , -f 2 <<< $era)
+    [[ $campaign =~ ^Custom ]] && conditions="*$(cut -d , -f 3 <<< $era)"
 
     fdirs=( ${srcdir}/${campaign}*/${conditions}*/ )
     if [[ ${#fdirs[@]} -lt 1 || ! -d ${fdirs[0]} ]]; then
       echo Skipping ${name}${suff}
-      continue 
+      continue
     fi
 
     echo ${name}${suff}

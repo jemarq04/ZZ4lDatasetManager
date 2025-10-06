@@ -16,7 +16,7 @@ sims=(
   ggZZ2e2mu,GluGlu*Continto2Zto2E2Mu,ggZZ
   ggZZ2e2tau,GluGlu*Continto2Zto2E2Tau,ggZZ
   ggZZ2mu2tau,GluGlu*Continto2Zto2Mu2Tau,ggZZ
-#  ttZ,TTZ_Zto2L,VVV #not yet available for 2023
+  ttZ,TTZ_Zto2L,VVV #not yet available for 2023, use private sample
   WWZ,WWZ,VVV
   WZZ,WZZ,VVV
   ZZZ,ZZZ,VVV
@@ -37,12 +37,13 @@ for sim in "${sims[@]}"; do
   plotgroup=$(cut -d , -f 3 <<< $sim)
 
   for suff in "${suffixes[@]}"; do
-    echo ${name}${suff}
     dirs=( ${srcdir}/*-${name}${suff}-ZplusL${year}*/ )
     if [[ ${#dirs[@]} -lt 1 || ! -d ${dirs[0]} ]]; then
       echo Skipping ${name}${suff}
       continue
     fi
+    echo ${name}${suff}
+
     echo -e "    \"${name}${suff}\" : {" >> $outfile
     echo -e "      \"file_path\" : \"${dirs[0]}*.root\"," >> $outfile
     echo -e "      \"plot_group\" : \"${plotgroup}\"" >> $outfile
