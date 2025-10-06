@@ -251,6 +251,14 @@
     "file_path": "/hdfs/store/user/marquez/ZplusL2023-skimmed/2025-09-11-ggZZ2mu2tau_postBPix-ZplusL2023-ZplusLBaseTo4lVeto-v1/*.root",
     "plot_group": "ggZZ"
   },
+  "ttZ_2023_preBPix": {
+    "file_path": "/hdfs/store/user/marquez/ZplusL2023-skimmed/2025-10-04-ttZ_preBPix-ZplusL2023-ZplusLBaseTo4lVeto-v1/*.root",
+    "plot_group": "VVV"
+  },
+  "ttZ_2023_postBPix": {
+    "file_path": "/hdfs/store/user/marquez/ZplusL2023-skimmed/2025-10-04-ttZ_postBPix-ZplusL2023-ZplusLBaseTo4lVeto-v1/*.root",
+    "plot_group": "VVV"
+  },
   "WWZ_2023_preBPix": {
     "file_path": "/hdfs/store/user/marquez/ZplusL2023-skimmed/2025-09-11-WWZ_preBPix-ZplusL2023-ZplusLBaseTo4lVeto-v1/*.root",
     "plot_group": "VVV"
