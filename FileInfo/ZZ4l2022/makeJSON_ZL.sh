@@ -23,8 +23,10 @@ sims=(
   #fakes only
   wz3lnu-powheg,WZto3LNu,wz3lnu-powheg
   tt2l2nu-powheg,TT*2L2Nu,top
+  DYm10to50-2j,DYto2L-2Jets_MLL-10to50,dy-jets
+  DYm50-2j,DYto2L-2Jets_MLL-50,dy-jets
 )
-streams="EGamma MuonEG Muon"
+streams="EGamma MuonEG Muon SingleMuon DoubleMuon"
 suffixes=(_preEE _postEE)
 
 # Begin output
@@ -37,14 +39,15 @@ for sim in "${sims[@]}"; do
   plotgroup=$(cut -d , -f 3 <<< $sim)
 
   for suff in "${suffixes[@]}"; do
-    echo ${name}${suff}
-    dirs=( ${srcdir}/*-${name}${suff}-ZplusL${year}*/ )
-    if [[ ${#dirs[@]} -lt 1 || ! -d ${dirs[0]} ]]; then
+    fdirs=( ${srcdir}/*-${name}${suff}-ZplusL${year}*/ )
+    if [[ ${#fdirs[@]} -lt 1 || ! -d ${fdirs[0]} ]]; then
       echo Skipping ${name}${suff}
       continue
     fi
+
+    echo ${name}${suff}
     echo -e "    \"${name}${suff}\" : {" >> $outfile
-    echo -e "      \"file_path\" : \"${dirs[0]}*.root\"," >> $outfile
+    echo -e "      \"file_path\" : \"${fdirs[0]}*.root\"," >> $outfile
     echo -e "      \"plot_group\" : \"${plotgroup}\"" >> $outfile
     echo -e "    }," >> $outfile
   done
@@ -59,10 +62,9 @@ for stream in $streams; do
     fi
 
     name=${dir#*data_}
-    echo $name
     name=data_${name%%-ZplusL*}
-    echo $name
 
+    echo $name
     echo -e "    \"${name}\" : {" >> $outfile
     echo -e "      \"file_path\" : \"${dir}/*.root\"," >> $outfile
     echo -e "      \"plot_group\" : \"data-${year}\"" >> $outfile
