@@ -25,6 +25,8 @@ sims=(
   #fakes only
   wz3lnu-powheg,WZto3LNu,wz3lnu-powheg
   tt2l2nu-powheg,TT*2L2Nu,top
+  DYm10to50-2j,DYto2L-2Jets_MLL-10to50,dy-jets
+  DYm50-2j,DYto2L-2Jets_MLL-50,dy-jets
 )
 streams="EGamma0 EGamma1 MuonEG Muon0 Muon1"
 eras=(
@@ -59,6 +61,17 @@ for sim in ${sims[@]}; do
     echo -e "    }," >> $outfile
   done
 done
+# FIXME: temporarily using 2022EE DY MLL=50 with preBPix conditions
+fdirs=( ${srcdir}/DYto2L-2Jets_MLL-50*/Run3Summer22EEMini*/ )
+if [[ ${#fdirs[@]} -lt 1 || ! -d ${fdirs[0]} ]]; then
+  echo "Skipping DYm50-2j_preBPix (postEE)"
+else
+  echo "DYm50-2j_preBPix (postEE)"
+  echo -e "    \"DYm50-2j_preBPix\" : {" >> $outfile
+  echo -e "      \"file_path\" : \"${srcdir/\/hdfs/}/DYto2L-2Jets_MLL-50*/Run3Summer22EEMini*/*/*/*.root\"," >> $outfile
+  echo -e "      \"plot_group\" : \"dy-jets\"" >> $outfile
+  echo -e "    }," >> $outfile
+fi
 
 # Data
 for stream in $streams; do
