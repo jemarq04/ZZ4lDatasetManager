@@ -102,5 +102,17 @@
     "Source of cross section": "XSDB",
     "kfactor": 1.0,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
+  },
+  "DYm10to50-2j": {
+    "cross_section": 2808.0,
+    "Source of cross section": "XSDB",
+    "kfactor": 1.0,
+    "DAS Name": "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+  },
+  "DYm50-2j": {
+    "cross_section": 1164.0,
+    "Source of cross section": "XSDB",
+    "kfactor": 1.0,
+    "DAS Name": "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   }
 }
