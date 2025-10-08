@@ -119,6 +119,22 @@
       "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/2025-09-11-tt2l2nu-powheg_postBPix-ZplusL2023-ZplusLBaseTo4lVeto-v1/*.root",
       "plot_group" : "top"
     },
+    "DYm10to50-2j_preBPix" : {
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/2025-10-07-DYm10to50-2j_preBPix-ZplusL2023-ZplusLBaseTo4lVeto-v1/*.root",
+      "plot_group" : "dy-jets"
+    },
+    "DYm10to50-2j_postBPix" : {
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/2025-10-07-DYm10to50-2j_postBPix-ZplusL2023-ZplusLBaseTo4lVeto-v1/*.root",
+      "plot_group" : "dy-jets"
+    },
+    "DYm50-2j_preBPix" : {
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/2025-10-07-DYm50-2j_preBPix-ZplusL2023-ZplusLBaseTo4lVeto-v1/*.root",
+      "plot_group" : "dy-jets"
+    },
+    "DYm50-2j_postBPix" : {
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/2025-10-07-DYm50-2j_postBPix-ZplusL2023-ZplusLBaseTo4lVeto-v1/*.root",
+      "plot_group" : "dy-jets"
+    },
     "data_EGamma0_Run2023C-22Sep2023_v1-v1" : {
       "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/2025-09-11-data_EGamma0_Run2023C-22Sep2023_v1-v1-ZplusL2023-ZplusLBaseTo4lVeto-v1/*.root",
       "plot_group" : "data-2023"
