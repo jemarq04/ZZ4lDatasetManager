@@ -11,6 +11,10 @@
       "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/GluGluH-Hto2Zto4L*/RunIII2024Summer24Mini*/*/*/*.root",
       "plot_group" : "HZZ-signal"
     },
+    "ttZ" : {
+      "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/CustomTTZ_2024*/*140X_mcRun3_2024_realistic_v26*/*/*/*.root",
+      "plot_group" : "VVV"
+    },
     "WWZ" : {
       "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/WWZ*/RunIII2024Summer24Mini*/*/*/*.root",
       "plot_group" : "VVV"
