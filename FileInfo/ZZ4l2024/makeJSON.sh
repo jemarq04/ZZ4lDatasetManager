@@ -16,7 +16,7 @@ sims=(
 #  ggZZ2e2mu,GluGlu*Continto2Zto2E2Mu,ggZZ #not yet available for 2024
 #  ggZZ2e2tau,GluGlu*Continto2Zto2E2Tau,ggZZ #not yet available for 2024
 #  ggZZ2mu2tau,GluGlu*Continto2Zto2Mu2Tau,ggZZ #not yet available for 2024
-#  ttZ,TTZ_Zto2L,VVV #not yet available for 2024
+  ttZ,TTZ_Zto2L,VVV #not yet available for 2024, use private sample
   WWZ,WWZ,VVV
   WZZ,WZZ,VVV
   ZZZ,ZZZ,VVV
