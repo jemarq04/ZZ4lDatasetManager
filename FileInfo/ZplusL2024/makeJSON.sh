@@ -18,6 +18,7 @@ sims=(
 #  ggZZ2e2tau,GluGlu*Continto2Zto2E2Tau,ggZZ #not yet available for 2024
 #  ggZZ2mu2tau,GluGlu*Continto2Zto2Mu2Tau,ggZZ #not yet available for 2024
 #  ttZ,TTZ_Zto2L,VVV #not yet available for 2024
+  ttZ,CustomTTZ_2023,VVV
   WWZ,WWZ,VVV
   WZZ,WZZ,VVV
   ZZZ,ZZZ,VVV
@@ -27,7 +28,8 @@ sims=(
 )
 streams="EGamma0 EGamma1 MuonEG Muon0 Muon1"
 eras=(
-  ,RunIII2024Summer24Mini
+  #suffix,campaign_conditions,custom_globaltag
+  ,RunIII2024Summer24Mini,140X_mcRun3_2024_realistic_v26
 )
 
 echo "{" > $outfile
@@ -41,6 +43,7 @@ for sim in ${sims[@]}; do
   for era in "${eras[@]}"; do
     suff=$(cut -d , -f 1 <<< $era)
     conditions=$(cut -d , -f 2 <<< $era)
+    [[ $campaign =~ ^Custom ]] && conditions="*$(cut -d , -f 3 <<< $era)"
 
     fdirs=( ${srcdir}/${campaign}*/${conditions}*/ )
     if [[ ${#fdirs[@]} -lt 1 || ! -d ${fdirs[0]} ]]; then
