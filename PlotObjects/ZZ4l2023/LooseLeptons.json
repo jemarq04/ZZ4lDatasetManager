@@ -172,7 +172,7 @@
             "xmax": 200
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "Lepton1 p_{T} [GeV]",  
+            "GetXaxis().SetTitle": "Leading Lepton p_{T} [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2  
         }
@@ -185,7 +185,7 @@
             "xmax": 200
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "Lepton2 p_{T} [GeV]",  
+            "GetXaxis().SetTitle": "Subleading Lepton p_{T} [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2  
         }
