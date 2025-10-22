@@ -103,6 +103,38 @@
       "file_path" : "/hdfs/store/user/marquez/ZZ4l2023-skimmed/2025-09-14-ZZZ_postBPix-ZZ4l2023-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "VVV"
     },
+    "wz3lnu-powheg_preBPix" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2023-skimmed/2025-10-20-wz3lnu-powheg_preBPix-ZZ4l2023-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "wz3lnu-powheg"
+    },
+    "wz3lnu-powheg_postBPix" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2023-skimmed/2025-10-20-wz3lnu-powheg_postBPix-ZZ4l2023-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "wz3lnu-powheg"
+    },
+    "tt2l2nu-powheg_preBPix" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2023-skimmed/2025-10-20-tt2l2nu-powheg_preBPix-ZZ4l2023-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "top"
+    },
+    "tt2l2nu-powheg_postBPix" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2023-skimmed/2025-10-20-tt2l2nu-powheg_postBPix-ZZ4l2023-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "top"
+    },
+    "DYm10to50-2j_preBPix" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2023-skimmed/2025-10-20-DYm10to50-2j_preBPix-ZZ4l2023-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "dy-jets"
+    },
+    "DYm10to50-2j_postBPix" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2023-skimmed/2025-10-21-DYm10to50-2j_postBPix-ZZ4l2023-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "dy-jets"
+    },
+    "DYm50-2j_preBPix" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2023-skimmed/2025-10-21-DYm50-2j_preBPix-ZZ4l2023-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "dy-jets"
+    },
+    "DYm50-2j_postBPix" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2023-skimmed/2025-10-21-DYm50-2j_postBPix-ZZ4l2023-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "dy-jets"
+    },
     "data_EGamma0_Run2023C-22Sep2023_v1-v1" : {
       "file_path" : "/hdfs/store/user/marquez/ZZ4l2023-skimmed/2025-09-14-data_EGamma0_Run2023C-22Sep2023_v1-v1-ZZ4l2023-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2023"
