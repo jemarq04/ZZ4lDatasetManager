@@ -103,6 +103,38 @@
       "file_path" : "/store/user/marquez/ZZ4l2022-ntuples/ZZZ*/Run3Summer22EEMini*/*/*/*.root",
       "plot_group" : "VVV"
     },
+    "wz3lnu-powheg_preEE" : {
+      "file_path" : "/store/user/marquez/ZZ4l2022-ntuples/WZto3LNu*/Run3Summer22Mini*/*/*/*.root",
+      "plot_group" : "wz3lnu-powheg"
+    },
+    "wz3lnu-powheg_postEE" : {
+      "file_path" : "/store/user/marquez/ZZ4l2022-ntuples/WZto3LNu*/Run3Summer22EEMini*/*/*/*.root",
+      "plot_group" : "wz3lnu-powheg"
+    },
+    "tt2l2nu-powheg_preEE" : {
+      "file_path" : "/store/user/marquez/ZZ4l2022-ntuples/TT*2L2Nu*/Run3Summer22Mini*/*/*/*.root",
+      "plot_group" : "top"
+    },
+    "tt2l2nu-powheg_postEE" : {
+      "file_path" : "/store/user/marquez/ZZ4l2022-ntuples/TT*2L2Nu*/Run3Summer22EEMini*/*/*/*.root",
+      "plot_group" : "top"
+    },
+    "DYm10to50-2j_preEE" : {
+      "file_path" : "/store/user/marquez/ZZ4l2022-ntuples/DYto2L-2Jets_MLL-10to50*/Run3Summer22Mini*/*/*/*.root",
+      "plot_group" : "dy-jets"
+    },
+    "DYm10to50-2j_postEE" : {
+      "file_path" : "/store/user/marquez/ZZ4l2022-ntuples/DYto2L-2Jets_MLL-10to50*/Run3Summer22EEMini*/*/*/*.root",
+      "plot_group" : "dy-jets"
+    },
+    "DYm50-2j_preEE" : {
+      "file_path" : "/store/user/marquez/ZZ4l2022-ntuples/DYto2L-2Jets_MLL-50*/Run3Summer22Mini*/*/*/*.root",
+      "plot_group" : "dy-jets"
+    },
+    "DYm50-2j_postEE" : {
+      "file_path" : "/store/user/marquez/ZZ4l2022-ntuples/DYto2L-2Jets_MLL-50*/Run3Summer22EEMini*/*/*/*.root",
+      "plot_group" : "dy-jets"
+    },
     "data_EGamma_Run2022C-22Sep2023-v1" : {
       "file_path" : "/store/user/marquez/ZZ4l2022-ntuples/EGamma/Run2022C-22Sep2023-v1/*/*/*.root",
       "plot_group" : "data-2022"

@@ -103,6 +103,38 @@
       "file_path" : "/hdfs/store/user/marquez/ZZ4l2022-skimmed/2025-09-11-ZZZ_postEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "VVV"
     },
+    "wz3lnu-powheg_preEE" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022-skimmed/2025-10-20-wz3lnu-powheg_preEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "wz3lnu-powheg"
+    },
+    "wz3lnu-powheg_postEE" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022-skimmed/2025-10-20-wz3lnu-powheg_postEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "wz3lnu-powheg"
+    },
+    "tt2l2nu-powheg_preEE" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022-skimmed/2025-10-20-tt2l2nu-powheg_preEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "top"
+    },
+    "tt2l2nu-powheg_postEE" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022-skimmed/2025-10-20-tt2l2nu-powheg_postEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "top"
+    },
+    "DYm10to50-2j_preEE" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022-skimmed/2025-10-20-DYm10to50-2j_preEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "dy-jets"
+    },
+    "DYm10to50-2j_postEE" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022-skimmed/2025-10-20-DYm10to50-2j_postEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "dy-jets"
+    },
+    "DYm50-2j_preEE" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022-skimmed/2025-10-20-DYm50-2j_preEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "dy-jets"
+    },
+    "DYm50-2j_postEE" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022-skimmed/2025-10-20-DYm50-2j_postEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "dy-jets"
+    },
     "data_EGamma_Run2022C-22Sep2023-v1" : {
       "file_path" : "/hdfs/store/user/marquez/ZZ4l2022-skimmed/2025-09-11-data_EGamma_Run2022C-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2022"
