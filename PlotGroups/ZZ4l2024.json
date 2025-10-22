@@ -15,12 +15,12 @@
             "zz4l-amcatnlo"
         ]
     },
-    "zzjj4l-ewk" : {
+    "qqZZjj-ewk" : {
         "Name" : "ZZ + 2 jets EWK",
         "Style" : "fill-darkblue",
         "add_perc_error" : 0.0,
         "Members" : [
-           "ZZJJTo4L-EWK"
+           "zzjj4l-ewk"
         ]
     },
     "HZZ-signal" : {
@@ -28,13 +28,7 @@
         "Style" : "fill-lightred",
         "add_perc_error" : 0.0,
         "Members" : [
-            "ggHZZ",
-            "vbfHZZ",
-            "ttH_HToZZ_4L",
-            "WminusHToZZ",
-            "WplusHToZZ",
-            "ZHToZZ_4L"
-
+            "ggHZZ"
         ]
     },
     "ggHZZ-only" : {
@@ -96,7 +90,8 @@
         "Style" : "fill-red",
         "add_perc_error" : 0.0,
         "Members" : [
-            "tt-jets"
+            "tt-jets",
+            "tt2l2nu-powheg"
         ]
     },
     "wz3lnu-powheg" : {
