@@ -82,7 +82,8 @@
         "Name" : "Drell-Yan",
         "Style" : "fill-green",
         "Members" : [
-            "DYJetsToLLM-50"
+            "DYm10to50-2j",
+            "DYm50-2j"
         ]
     },
     "top" : {

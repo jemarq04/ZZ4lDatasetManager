@@ -91,7 +91,10 @@
         "Name" : "Drell-Yan",
         "Style" : "fill-green",
         "Members" : [
-            "DYJetsToLLM-50"
+            "DYm10to50-2j_preEE",
+            "DYm10to50-2j_postEE",
+            "DYm50-2j_preEE",
+            "DYm50-2j_postEE"
         ]
     },
     "top" : {
