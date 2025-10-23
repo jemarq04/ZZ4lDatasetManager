@@ -1680,5 +1680,83 @@
             "GetYAxis().SetTitle": "Scale Weight IDs",
             "GetYaxis().SetTitleOffset": 1.2
         }
+    },
+    "Z1Mass_PPPF": {
+      "Initialize": {
+        "type": "TH1D",
+        "nbins": 60,
+        "xmin": 0,
+        "xmax": 120
+      },
+      "Attributes": {
+        "GetXaxis().SetTitle": "m_{Z_{1}} [GeV]",
+        "GetYaxis().SetTitle": "Events / 2 GeV",
+        "GetYaxis().SetTitleOffset": 1.2
+      }
+    },
+    "Z1Mass_PPFF": {
+      "Initialize": {
+        "type": "TH1D",
+        "nbins": 60,
+        "xmin": 0,
+        "xmax": 120
+      },
+      "Attributes": {
+        "GetXaxis().SetTitle": "m_{Z_{1}} [GeV]",
+        "GetYaxis().SetTitle": "Events / 2 GeV",
+        "GetYaxis().SetTitleOffset": 1.2
+      }
+    },
+    "Z2Mass_PPPF": {
+      "Initialize": {
+        "type": "TH1D",
+        "nbins": 60,
+        "xmin": 0,
+        "xmax": 120
+      },
+      "Attributes": {
+        "GetXaxis().SetTitle": "m_{Z_{2}} [GeV]",
+        "GetYaxis().SetTitle": "Events / 2 GeV",
+        "GetYaxis().SetTitleOffset": 1.2
+      }
+    },
+    "Z2Mass_PPFF": {
+      "Initialize": {
+        "type": "TH1D",
+        "nbins": 60,
+        "xmin": 0,
+        "xmax": 120
+      },
+      "Attributes": {
+        "GetXaxis().SetTitle": "m_{Z_{2}} [GeV]",
+        "GetYaxis().SetTitle": "Events / 2 GeV",
+        "GetYaxis().SetTitleOffset": 1.2
+      }
+    },
+    "Mass_PPPF": {
+      "Initialize": {
+        "type": "TH1D",
+        "nbins": 40,
+        "xmin": 70,
+        "xmax": 870
+      },
+      "Attributes": {
+        "GetXaxis().SetTitle": "m_{4l} [GeV]",
+        "GetYaxis().SetTitle": "Events / 20 GeV",
+        "GetYaxis().SetTitleOffset": 1.2
+      }
+    },
+    "Mass_PPFF": {
+      "Initialize": {
+        "type": "TH1D",
+        "nbins": 40,
+        "xmin": 70,
+        "xmax": 870
+      },
+      "Attributes": {
+        "GetXaxis().SetTitle": "m_{4l} [GeV]",
+        "GetYaxis().SetTitle": "Events / 20 GeV",
+        "GetYaxis().SetTitleOffset": 1.2
+      }
     }
 }
