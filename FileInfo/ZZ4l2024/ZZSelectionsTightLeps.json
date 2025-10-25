@@ -51,6 +51,14 @@
       "file_path" : "/hdfs/store/user/marquez/ZZ4l2024-skimmed/2025-10-03-data_EGamma0_Run2024I-PromptReco-v2-ZZ4l2024-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2024"
     },
+    "data_EGamma0_Run2024F-PromptReco-v1" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2024-skimmed/2025-10-24-data_EGamma0_Run2024F-PromptReco-v1-ZZ4l2024-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "data-2024"
+    },
+    "data_EGamma0_Run2024G-PromptReco-v1" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2024-skimmed/2025-10-24-data_EGamma0_Run2024G-PromptReco-v1-ZZ4l2024-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "data-2024"
+    },
     "data_EGamma1_Run2024C-2024CDEReprocessing-v1" : {
       "file_path" : "/hdfs/store/user/marquez/ZZ4l2024-skimmed/2025-10-03-data_EGamma1_Run2024C-2024CDEReprocessing-v1-ZZ4l2024-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2024"
@@ -73,6 +81,14 @@
     },
     "data_EGamma1_Run2024I-PromptReco-v2" : {
       "file_path" : "/hdfs/store/user/marquez/ZZ4l2024-skimmed/2025-10-03-data_EGamma1_Run2024I-PromptReco-v2-ZZ4l2024-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "data-2024"
+    },
+    "data_EGamma1_Run2024F-PromptReco-v1" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2024-skimmed/2025-10-24-data_EGamma1_Run2024F-PromptReco-v1-ZZ4l2024-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "data-2024"
+    },
+    "data_EGamma1_Run2024G-PromptReco-v1" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2024-skimmed/2025-10-24-data_EGamma1_Run2024G-PromptReco-v1-ZZ4l2024-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2024"
     },
     "data_MuonEG_Run2024C-2024CDEReprocessing-v1" : {
@@ -135,6 +151,10 @@
       "file_path" : "/hdfs/store/user/marquez/ZZ4l2024-skimmed/2025-10-03-data_Muon0_Run2024I-PromptReco-v2-ZZ4l2024-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2024"
     },
+    "data_Muon0_Run2024G-PromptReco-v1" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2024-skimmed/2025-10-24-data_Muon0_Run2024G-PromptReco-v1-ZZ4l2024-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "data-2024"
+    },
     "data_Muon1_Run2024C-2024CDEReprocessing-v1" : {
       "file_path" : "/hdfs/store/user/marquez/ZZ4l2024-skimmed/2025-10-03-data_Muon1_Run2024C-2024CDEReprocessing-v1-ZZ4l2024-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2024"
@@ -161,6 +181,10 @@
     },
     "data_Muon1_Run2024I-PromptReco-v2" : {
       "file_path" : "/hdfs/store/user/marquez/ZZ4l2024-skimmed/2025-10-03-data_Muon1_Run2024I-PromptReco-v2-ZZ4l2024-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "data-2024"
+    },
+    "data_Muon1_Run2024G-PromptReco-v1" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2024-skimmed/2025-10-24-data_Muon1_Run2024G-PromptReco-v1-ZZ4l2024-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2024"
     },
     "AllData" : {

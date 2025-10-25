@@ -11,6 +11,10 @@
       "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/GluGluH-Hto2Zto4L*/RunIII2024Summer24Mini*/*/*/*.root",
       "plot_group" : "HZZ-signal"
     },
+    "ttZ" : {
+      "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/CustomTTZ_2024*/*140X_mcRun3_2024_realistic_v26*/*/*/*.root",
+      "plot_group" : "VVV"
+    },
     "WWZ" : {
       "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/WWZ*/RunIII2024Summer24Mini*/*/*/*.root",
       "plot_group" : "VVV"
@@ -35,6 +39,14 @@
       "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/EGamma0/Run2024E-2024CDEReprocessing-v1/*/*/*.root",
       "plot_group" : "data-2024"
     },
+    "data_EGamma0_Run2024F-PromptReco-v1" : {
+      "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/EGamma0/Run2024F-PromptReco-v1/*/*/*.root",
+      "plot_group" : "data-2024"
+    },
+    "data_EGamma0_Run2024G-PromptReco-v1" : {
+      "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/EGamma0/Run2024G-PromptReco-v1/*/*/*.root",
+      "plot_group" : "data-2024"
+    },
     "data_EGamma0_Run2024H-PromptReco-v1" : {
       "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/EGamma0/Run2024H-PromptReco-v1/*/*/*.root",
       "plot_group" : "data-2024"
@@ -57,6 +69,14 @@
     },
     "data_EGamma1_Run2024E-2024CDEReprocessing-v1" : {
       "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/EGamma1/Run2024E-2024CDEReprocessing-v1/*/*/*.root",
+      "plot_group" : "data-2024"
+    },
+    "data_EGamma1_Run2024F-PromptReco-v1" : {
+      "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/EGamma1/Run2024F-PromptReco-v1/*/*/*.root",
+      "plot_group" : "data-2024"
+    },
+    "data_EGamma1_Run2024G-PromptReco-v1" : {
+      "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/EGamma1/Run2024G-PromptReco-v1/*/*/*.root",
       "plot_group" : "data-2024"
     },
     "data_EGamma1_Run2024H-PromptReco-v1" : {
@@ -119,6 +139,10 @@
       "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/Muon0/Run2024F-PromptReco-v1/*/*/*.root",
       "plot_group" : "data-2024"
     },
+    "data_Muon0_Run2024G-PromptReco-v1" : {
+      "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/Muon0/Run2024G-PromptReco-v1/*/*/*.root",
+      "plot_group" : "data-2024"
+    },
     "data_Muon0_Run2024H-PromptReco-v1" : {
       "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/Muon0/Run2024H-PromptReco-v1/*/*/*.root",
       "plot_group" : "data-2024"
@@ -145,6 +169,10 @@
     },
     "data_Muon1_Run2024F-PromptReco-v1" : {
       "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/Muon1/Run2024F-PromptReco-v1/*/*/*.root",
+      "plot_group" : "data-2024"
+    },
+    "data_Muon1_Run2024G-PromptReco-v1" : {
+      "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/Muon1/Run2024G-PromptReco-v1/*/*/*.root",
       "plot_group" : "data-2024"
     },
     "data_Muon1_Run2024H-PromptReco-v1" : {
