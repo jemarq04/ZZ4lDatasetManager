@@ -826,163 +826,163 @@
     "DAS Name": "WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg": {
-    "cross_section": 762.1,
+    "cross_section": 76.21,
     "Source of cross section": "XSDB",
     "kfactor": 1.0,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_preEE": {
-    "cross_section": 762.1,
+    "cross_section": 76.21,
     "Source of cross section": "XSDB",
     "kfactor": 0.2303,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_postEE": {
-    "cross_section": 762.1,
+    "cross_section": 76.21,
     "Source of cross section": "XSDB",
     "kfactor": 0.7697,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_preBPix": {
-    "cross_section": 762.1,
+    "cross_section": 76.21,
     "Source of cross section": "XSDB",
     "kfactor": 0.6508,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_postBPix": {
-    "cross_section": 762.1,
+    "cross_section": 76.21,
     "Source of cross section": "XSDB",
     "kfactor": 0.3492,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_2022_preEE": {
-    "cross_section": 762.1,
+    "cross_section": 76.21,
     "Source of cross section": "XSDB",
     "kfactor": 0.1279,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_2022_postEE": {
-    "cross_section": 762.1,
+    "cross_section": 76.21,
     "Source of cross section": "XSDB",
     "kfactor": 0.4274,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_2023_preBPix": {
-    "cross_section": 762.1,
+    "cross_section": 76.21,
     "Source of cross section": "XSDB",
     "kfactor": 0.2894,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_2023_postBPix": {
-    "cross_section": 762.1,
+    "cross_section": 76.21,
     "Source of cross section": "XSDB",
     "kfactor": 0.1553,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DYm10to50-2j": {
-    "cross_section": 2808.0,
+    "cross_section": 21130.0,
     "Source of cross section": "XSDB",
     "kfactor": 1.0,
     "DAS Name": "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm10to50-2j_preEE": {
-    "cross_section": 2808.0,
+    "cross_section": 21130.0,
     "Source of cross section": "XSDB",
     "kfactor": 0.2303,
     "DAS Name": "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm10to50-2j_postEE": {
-    "cross_section": 2808.0,
+    "cross_section": 21130.0,
     "Source of cross section": "XSDB",
     "kfactor": 0.7697,
     "DAS Name": "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm10to50-2j_preBPix": {
-    "cross_section": 2808.0,
+    "cross_section": 21130.0,
     "Source of cross section": "XSDB",
     "kfactor": 0.6508,
     "DAS Name": "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm10to50-2j_postBPix": {
-    "cross_section": 2808.0,
+    "cross_section": 21130.0,
     "Source of cross section": "XSDB",
     "kfactor": 0.3492,
     "DAS Name": "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm10to50-2j_2022_preEE": {
-    "cross_section": 2808.0,
+    "cross_section": 21130.0,
     "Source of cross section": "XSDB",
     "kfactor": 0.1279,
     "DAS Name": "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm10to50-2j_2022_postEE": {
-    "cross_section": 2808.0,
+    "cross_section": 21130.0,
     "Source of cross section": "XSDB",
     "kfactor": 0.4274,
     "DAS Name": "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm10to50-2j_2023_preBPix": {
-    "cross_section": 2808.0,
+    "cross_section": 21130.0,
     "Source of cross section": "XSDB",
     "kfactor": 0.2894,
     "DAS Name": "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm10to50-2j_2023_postBPix": {
-    "cross_section": 2808.0,
+    "cross_section": 21130.0,
     "Source of cross section": "XSDB",
     "kfactor": 0.1553,
     "DAS Name": "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm50-2j": {
-    "cross_section": 1164.0,
+    "cross_section": 6727.0,
     "Source of cross section": "XSDB",
     "kfactor": 1.0,
     "DAS Name": "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm50-2j_preEE": {
-    "cross_section": 1164.0,
+    "cross_section": 6727.0,
     "Source of cross section": "XSDB",
     "kfactor": 0.2303,
     "DAS Name": "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm50-2j_postEE": {
-    "cross_section": 1164.0,
+    "cross_section": 6727.0,
     "Source of cross section": "XSDB",
     "kfactor": 0.7697,
     "DAS Name": "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm50-2j_preBPix": {
-    "cross_section": 1164.0,
+    "cross_section": 6727.0,
     "Source of cross section": "XSDB",
     "kfactor": 0.6508,
     "DAS Name": "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm50-2j_postBPix": {
-    "cross_section": 1164.0,
+    "cross_section": 6727.0,
     "Source of cross section": "XSDB",
     "kfactor": 0.3492,
     "DAS Name": "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm50-2j_2022_preEE": {
-    "cross_section": 1164.0,
+    "cross_section": 6727.0,
     "Source of cross section": "XSDB",
     "kfactor": 0.1279,
     "DAS Name": "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm50-2j_2022_postEE": {
-    "cross_section": 1164.0,
+    "cross_section": 6727.0,
     "Source of cross section": "XSDB",
     "kfactor": 0.4274,
     "DAS Name": "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm50-2j_2023_preBPix": {
-    "cross_section": 1164.0,
+    "cross_section": 6727.0,
     "Source of cross section": "XSDB",
     "kfactor": 0.2894,
     "DAS Name": "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm50-2j_2023_postBPix": {
-    "cross_section": 1164.0,
+    "cross_section": 6727.0,
     "Source of cross section": "XSDB",
     "kfactor": 0.1553,
     "DAS Name": "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
