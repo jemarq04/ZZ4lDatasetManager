@@ -11,12 +11,12 @@ sims=(
   zz4l-powheg,ZZto4L,qqZZ-powheg
   zzjj4l-ewk,ZZJJto4L,qqZZjj-ewk
   ggHZZ,GluGluH-Hto2Zto4L,HZZ-signal
-#  ggZZ4e,GluGlu*Continto2Zto4E,ggZZ #not yet available for 2024
-#  ggZZ4m,GluGlu*Continto2Zto4Mu,ggZZ #not yet available for 2024
-#  ggZZ4t,GluGlu*Continto2Zto4Tau,ggZZ #not yet available for 2024
-#  ggZZ2e2mu,GluGlu*Continto2Zto2E2Mu,ggZZ #not yet available for 2024
-#  ggZZ2e2tau,GluGlu*Continto2Zto2E2Tau,ggZZ #not yet available for 2024
-#  ggZZ2mu2tau,GluGlu*Continto2Zto2Mu2Tau,ggZZ #not yet available for 2024
+  ggZZ4e,GluGlu*2Zto4E,ggZZ
+  ggZZ4m,GluGlu*2Zto4Mu,ggZZ
+  ggZZ4t,GluGlu*2Zto4Tau,ggZZ
+  ggZZ2e2mu,GluGlu*2Zto2E2Mu,ggZZ
+  ggZZ2e2tau,GluGlu*2Zto2E2Tau,ggZZ
+  ggZZ2mu2tau,GluGlu*2Zto2Mu2Tau,ggZZ
 #  ttZ,TTZ_Zto2L,VVV #not yet available for 2024
   ttZ,CustomTTZ_2024,VVV
   WWZ,WWZ,VVV
@@ -26,7 +26,7 @@ sims=(
 streams="EGamma0 EGamma1 MuonEG Muon0 Muon1"
 eras=(
   #suffix,campaign_conditions,custom_globaltag
-  ,RunIII2024Summer24Mini,140X_mcRun3_2024_realistic_v26
+  ,RunIII2024Summer24Mini,150X_mcRun3_2024_realistic_v2
 )
 
 echo "{" > $outfile
