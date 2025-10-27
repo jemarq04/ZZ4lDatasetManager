@@ -37,6 +37,8 @@ def main():
     xsec_info = {}
     for key,vals in base_info.items():
         xsec_info[key] = vals
+        if not args.k_factors:
+            xsec_info[key]["kfactor"] = 1.0
 
         if key == "example":
             continue
