@@ -7,7 +7,7 @@ def main():
     suberas = {
         2022: ["_preEE", "_postEE"],
         2023: ["_preBPix", "_postBPix"],
-        #2024: [""],
+        2024: [],
     }
 
     for name in ["ntuples", "ZplusLSkim", "LooseLeptons"]:
@@ -23,6 +23,8 @@ def main():
             for key,vals in info.items():
                 if key.startswith("data"):
                     total_info[key] = vals
+                elif not suberas[year]:
+                    total_info[f'{key}_{year}'] = vals
                 else:
                     for suff in suberas[year]:
                         if key.endswith(suff):

@@ -458,5 +458,217 @@
   "data_Muon1_Run2023D-22Sep2023_v2-v1": {
     "file_path": "/store/user/marquez/ZZ4l2023-ntuples/Muon1/Run2023D-22Sep2023_v2-v1/*/*/*.root",
     "plot_group": "data-2023"
+  },
+  "zz4l-powheg_2024": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/ZZto4L*/RunIII2024Summer24Mini*/*/*/*.root",
+    "plot_group": "qqZZ-powheg"
+  },
+  "zzjj4l-ewk_2024": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/ZZJJto4L*/RunIII2024Summer24Mini*/*/*/*.root",
+    "plot_group": "qqZZjj-ewk"
+  },
+  "ggHZZ_2024": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/GluGluH-Hto2Zto4L*/RunIII2024Summer24Mini*/*/*/*.root",
+    "plot_group": "HZZ-signal"
+  },
+  "ggZZ4e_2024": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/GluGlu*2Zto4E*/RunIII2024Summer24Mini*/*/*/*.root",
+    "plot_group": "ggZZ"
+  },
+  "ggZZ4m_2024": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/GluGlu*2Zto4Mu*/RunIII2024Summer24Mini*/*/*/*.root",
+    "plot_group": "ggZZ"
+  },
+  "ggZZ4t_2024": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/GluGlu*2Zto4Tau*/RunIII2024Summer24Mini*/*/*/*.root",
+    "plot_group": "ggZZ"
+  },
+  "ggZZ2e2mu_2024": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/GluGlu*2Zto2E2Mu*/RunIII2024Summer24Mini*/*/*/*.root",
+    "plot_group": "ggZZ"
+  },
+  "ggZZ2e2tau_2024": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/GluGlu*2Zto2E2Tau*/RunIII2024Summer24Mini*/*/*/*.root",
+    "plot_group": "ggZZ"
+  },
+  "ggZZ2mu2tau_2024": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/GluGlu*2Zto2Mu2Tau*/RunIII2024Summer24Mini*/*/*/*.root",
+    "plot_group": "ggZZ"
+  },
+  "ttZ_2024": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/CustomTTZ_2024*/*150X_mcRun3_2024_realistic_v2*/*/*/*.root",
+    "plot_group": "VVV"
+  },
+  "WWZ_2024": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/WWZ*/RunIII2024Summer24Mini*/*/*/*.root",
+    "plot_group": "VVV"
+  },
+  "WZZ_2024": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/WZZ*/RunIII2024Summer24Mini*/*/*/*.root",
+    "plot_group": "VVV"
+  },
+  "ZZZ_2024": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/ZZZ*/RunIII2024Summer24Mini*/*/*/*.root",
+    "plot_group": "VVV"
+  },
+  "data_EGamma0_Run2024C-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/EGamma0/Run2024C-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_EGamma0_Run2024D-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/EGamma0/Run2024D-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_EGamma0_Run2024E-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/EGamma0/Run2024E-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_EGamma0_Run2024F-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/EGamma0/Run2024F-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_EGamma0_Run2024G-MINIv6NANOv15-v2": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/EGamma0/Run2024G-MINIv6NANOv15-v2/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_EGamma0_Run2024H-MINIv6NANOv15-v2": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/EGamma0/Run2024H-MINIv6NANOv15-v2/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_EGamma0_Run2024I-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/EGamma0/Run2024I-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_EGamma0_Run2024I-MINIv6NANOv15_v2-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/EGamma0/Run2024I-MINIv6NANOv15_v2-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_EGamma1_Run2024C-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/EGamma1/Run2024C-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_EGamma1_Run2024D-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/EGamma1/Run2024D-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_EGamma1_Run2024E-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/EGamma1/Run2024E-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_EGamma1_Run2024F-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/EGamma1/Run2024F-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_EGamma1_Run2024G-MINIv6NANOv15-v2": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/EGamma1/Run2024G-MINIv6NANOv15-v2/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_EGamma1_Run2024H-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/EGamma1/Run2024H-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_EGamma1_Run2024I-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/EGamma1/Run2024I-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_EGamma1_Run2024I-MINIv6NANOv15_v2-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/EGamma1/Run2024I-MINIv6NANOv15_v2-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_MuonEG_Run2024C-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/MuonEG/Run2024C-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_MuonEG_Run2024D-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/MuonEG/Run2024D-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_MuonEG_Run2024E-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/MuonEG/Run2024E-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_MuonEG_Run2024F-MINIv6NANOv15-v2": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/MuonEG/Run2024F-MINIv6NANOv15-v2/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_MuonEG_Run2024G-MINIv6NANOv15-v3": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/MuonEG/Run2024G-MINIv6NANOv15-v3/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_MuonEG_Run2024H-MINIv6NANOv15-v2": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/MuonEG/Run2024H-MINIv6NANOv15-v2/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_MuonEG_Run2024I-MINIv6NANOv15-v2": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/MuonEG/Run2024I-MINIv6NANOv15-v2/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_MuonEG_Run2024I-MINIv6NANOv15_v2-v2": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/MuonEG/Run2024I-MINIv6NANOv15_v2-v2/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_Muon0_Run2024C-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/Muon0/Run2024C-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_Muon0_Run2024D-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/Muon0/Run2024D-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_Muon0_Run2024E-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/Muon0/Run2024E-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_Muon0_Run2024F-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/Muon0/Run2024F-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_Muon0_Run2024G-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/Muon0/Run2024G-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_Muon0_Run2024H-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/Muon0/Run2024H-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_Muon0_Run2024I-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/Muon0/Run2024I-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_Muon0_Run2024I-MINIv6NANOv15_v2-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/Muon0/Run2024I-MINIv6NANOv15_v2-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_Muon1_Run2024C-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/Muon1/Run2024C-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_Muon1_Run2024D-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/Muon1/Run2024D-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_Muon1_Run2024E-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/Muon1/Run2024E-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_Muon1_Run2024F-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/Muon1/Run2024F-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_Muon1_Run2024G-MINIv6NANOv15-v2": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/Muon1/Run2024G-MINIv6NANOv15-v2/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_Muon1_Run2024H-MINIv6NANOv15-v2": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/Muon1/Run2024H-MINIv6NANOv15-v2/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_Muon1_Run2024I-MINIv6NANOv15-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/Muon1/Run2024I-MINIv6NANOv15-v1/*/*/*.root",
+    "plot_group": "data-2024"
+  },
+  "data_Muon1_Run2024I-MINIv6NANOv15_v2-v1": {
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/Muon1/Run2024I-MINIv6NANOv15_v2-v1/*/*/*.root",
+    "plot_group": "data-2024"
   }
 }
