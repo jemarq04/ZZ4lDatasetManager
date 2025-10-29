@@ -7,7 +7,8 @@
             "zz4l-powheg_2022_preEE",
             "zz4l-powheg_2022_postEE",
             "zz4l-powheg_2023_preBPix",
-            "zz4l-powheg_2023_postBPix"
+            "zz4l-powheg_2023_postBPix",
+            "zz4l-powheg_2024"
         ]
     },
     "qqZZ-amcnlo" : {
@@ -26,7 +27,8 @@
            "zzjj4l-ewk_2022_preEE",
            "zzjj4l-ewk_2022_postEE",
            "zzjj4l-ewk_2023_preBPix",
-           "zzjj4l-ewk_2023_postBPix"
+           "zzjj4l-ewk_2023_postBPix",
+           "zzjj4l-ewk_2024"
         ]
     },
     "HZZ-signal" : {
@@ -37,7 +39,8 @@
             "ggHZZ_2022_preEE",
             "ggHZZ_2022_postEE",
             "ggHZZ_2023_preBPix",
-            "ggHZZ_2023_postBPix"
+            "ggHZZ_2023_postBPix",
+            "ggHZZ_2024"
         ]
     },
     "ggHZZ-only" : {
@@ -76,7 +79,13 @@
             "ggZZ4t_2023_postBPix",
             "ggZZ2e2mu_2023_postBPix",
             "ggZZ2e2tau_2023_postBPix",
-            "ggZZ2mu2tau_2023_postBPix"
+            "ggZZ2mu2tau_2023_postBPix",
+            "ggZZ4e_2024",
+            "ggZZ4m_2024",
+            "ggZZ4t_2024",
+            "ggZZ2e2mu_2024",
+            "ggZZ2e2tau_2024",
+            "ggZZ2mu2tau_2024"
         ]
     },
     "ggZZSpecg" : {
@@ -116,7 +125,9 @@
             "DYm10to50-2j_2023_preBPix",
             "DYm10to50-2j_2023_postBPix",
             "DYm50-2j_2023_preBPix",
-            "DYm50-2j_2023_postBPix"
+            "DYm50-2j_2023_postBPix",
+            "DYm10to50-2j_2024",
+            "DYm50-2j_2024"
         ]
     },
     "top" : {
@@ -128,7 +139,8 @@
             "tt2l2nu-powheg_2022_preEE",
             "tt2l2nu-powheg_2022_postEE",
             "tt2l2nu-powheg_2023_preBPix",
-            "tt2l2nu-powheg_2023_postBPix"
+            "tt2l2nu-powheg_2023_postBPix",
+            "tt2l2nu-powheg_2024"
         ]
     },
     "wz3lnu-powheg" : {
@@ -139,7 +151,8 @@
             "wz3lnu-powheg_2022_preEE",
             "wz3lnu-powheg_2022_postEE",
             "wz3lnu-powheg_2023_preBPix",
-            "wz3lnu-powheg_2023_postBPix"
+            "wz3lnu-powheg_2023_postBPix",
+            "wz3lnu-powheg_2024"
         ]
     },
     "VVV" : {
@@ -162,7 +175,11 @@
             "ZZZ_2023_postBPix",
             "WZZ_2023_postBPix",
             "WWZ_2023_postBPix",
-            "ttZ_2023_postBPix"
+            "ttZ_2023_postBPix",
+            "ZZZ_2024",
+            "WZZ_2024",
+            "WWZ_2024",
+            "ttZ_2024"
         ]
     },
     "nonprompt" : {
