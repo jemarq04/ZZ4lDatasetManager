@@ -11,25 +11,28 @@ sims=(
   zz4l-powheg,ZZto4L,qqZZ-powheg
   zzjj4l-ewk,ZZJJto4L,qqZZjj-ewk
   ggHZZ,GluGluH-Hto2Zto4L,HZZ-signal
-#  ggZZ4e,GluGlu*Continto2Zto4E,ggZZ #not yet available for 2024
-#  ggZZ4m,GluGlu*Continto2Zto4Mu,ggZZ #not yet available for 2024
-#  ggZZ4t,GluGlu*Continto2Zto4Tau,ggZZ #not yet available for 2024
-#  ggZZ2e2mu,GluGlu*Continto2Zto2E2Mu,ggZZ #not yet available for 2024
-#  ggZZ2e2tau,GluGlu*Continto2Zto2E2Tau,ggZZ #not yet available for 2024
-#  ggZZ2mu2tau,GluGlu*Continto2Zto2Mu2Tau,ggZZ #not yet available for 2024
+  ggZZ4e,GluGlu*2Zto4E,ggZZ
+  ggZZ4m,GluGlu*2Zto4Mu,ggZZ
+  ggZZ4t,GluGlu*2Zto4Tau,ggZZ
+  ggZZ2e2mu,GluGlu*2Zto2E2Mu,ggZZ
+  ggZZ2e2tau,GluGlu*2Zto2E2Tau,ggZZ
+  ggZZ2mu2tau,GluGlu*2Zto2Mu2Tau,ggZZ
 #  ttZ,TTZ_Zto2L,VVV #not yet available for 2024
-  ttZ,CustomTTZ_2023,VVV
+  ttZ,CustomTTZ_2024,VVV
   WWZ,WWZ,VVV
   WZZ,WZZ,VVV
   ZZZ,ZZZ,VVV
-  #fakes only
   wz3lnu-powheg,WZto3LNu,wz3lnu-powheg
-  tt2l2nu-powheg,TTto2L2Nu,top
+  tt2l2nu-powheg,TT*2L2Nu,top
+#  DYm10to50-2j,DYto2L-2Jets_MLL-10to50,dy-jets
+#  DYm50-2j,DYto2L-2Jets_MLL-50,dy-jets
+  DYm10to50-2j,CustomDY_MLL-10to50_2024,dy-jets
+  DYm50-2j,CustomDY_MLL-50_2024,dy-jets
 )
 streams="EGamma0 EGamma1 MuonEG Muon0 Muon1"
 eras=(
   #suffix,campaign_conditions,custom_globaltag
-  ,RunIII2024Summer24Mini,140X_mcRun3_2024_realistic_v26
+  ,RunIII2024Summer24Mini,150X_mcRun3_2024_realistic_v2
 )
 
 echo "{" > $outfile
