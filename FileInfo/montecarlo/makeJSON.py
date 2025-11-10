@@ -13,7 +13,7 @@ def main():
             "_preBPix": 18.062658998,
             "_postBPix": 9.693130030,
         },
-        2024: {"": 109.335002001},
+        2024: {"": 108.95},
     }
 
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
