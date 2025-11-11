@@ -36,7 +36,7 @@
       "plot_group" : "ggZZ"
     },
     "ttZ" : {
-      "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/CustomTTZ_2024*/*150X_mcRun3_2024_realistic_v2*/*/*/*.root",
+      "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/TTLL*/RunIII2024Summer24Mini*/*/*/*.root",
       "plot_group" : "VVV"
     },
     "WWZ" : {

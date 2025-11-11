@@ -72,11 +72,11 @@
       "plot_group" : "ggZZ"
     },
     "ttZ_preEE" : {
-      "file_path" : "/store/user/marquez/ZplusL2022-ntuples/TTZ_Zto2L*/Run3Summer22Mini*/*/*/*.root",
+      "file_path" : "/store/user/marquez/ZplusL2022-ntuples/TTLL*/Run3Summer22Mini*/*/*/*.root",
       "plot_group" : "VVV"
     },
     "ttZ_postEE" : {
-      "file_path" : "/store/user/marquez/ZplusL2022-ntuples/TTZ_Zto2L*/Run3Summer22EEMini*/*/*/*.root",
+      "file_path" : "/store/user/marquez/ZplusL2022-ntuples/TTLL*/Run3Summer22EEMini*/*/*/*.root",
       "plot_group" : "VVV"
     },
     "WWZ_preEE" : {

@@ -17,8 +17,9 @@ sims=(
   ggZZ2e2mu,GluGlu*2Zto2E2Mu,ggZZ
   ggZZ2e2tau,GluGlu*2Zto2E2Tau,ggZZ
   ggZZ2mu2tau,GluGlu*2Zto2Mu2Tau,ggZZ
-#  ttZ,TTZ_Zto2L,VVV #not yet available for 2024
-  ttZ,CustomTTZ_2024,VVV
+  #ttZ,TTZ_Zto2L,VVV #not yet available for 2024
+  #ttZ,CustomTTZ_2024,VVV
+  ttZ,TTLL,VVV
   WWZ,WWZ,VVV
   WZZ,WZZ,VVV
   ZZZ,ZZZ,VVV

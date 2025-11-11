@@ -17,7 +17,8 @@ sims=(
   ggZZ2e2mu,GluGlu*Continto2Zto2E2Mu,ggZZ
   ggZZ2e2tau,GluGlu*Continto2Zto2E2Tau,ggZZ
   ggZZ2mu2tau,GluGlu*Continto2Zto2Mu2Tau,ggZZ
-  ttZ,TTZ_Zto2L,VVV
+  #ttZ,TTZ_Zto2L,VVV
+  ttZ,TTLL,VVV
   WWZ,WWZ,VVV
   WZZ,WZZ,VVV
   ZZZ,ZZZ,VVV
