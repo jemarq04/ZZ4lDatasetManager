@@ -4,17 +4,15 @@ import json
 import argparse
 
 def main():
-    lumi_map = {
-        2022: {
-            "_preEE": 7.980315199,
-            "_postEE": 26.671326001,
-        },
-        2023: {
-            "_preBPix": 18.062658998,
-            "_postBPix": 9.693130030,
-        },
-        2024: {"": 108.95},
-    }
+    with open("../../luminosityMap.json") as infile:
+        lumi_info = json.load(infile)
+
+    lumi_map = {}
+    for year in lumi_info["Run3Combined"]["years"]:
+        if "eras" in lumi_info[year]:
+            lumi_map[int(year)] = {f"_{era}": lumi for era,lumi in lumi_info[year]["eras"].items()}
+        else:
+            lumi_map[int(year)] = {"": lumi_info[year]["lumi"]}
 
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument("-i", "--base-file", dest="infile", default="base.txt", help="template file used to create full JSON")
