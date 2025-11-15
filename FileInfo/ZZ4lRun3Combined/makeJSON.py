@@ -4,11 +4,15 @@ import json
 import argparse
 
 def main():
-    suberas = {
-        2022: ["_preEE", "_postEE"],
-        2023: ["_preBPix", "_postBPix"],
-        2024: [],
-    }
+    with open("../../luminosityMap.json") as infile:
+        lumi_info = json.load(infile)
+
+    suberas = {}
+    for year in lumi_info["Run3Combined"]["years"]:
+        if "eras" in lumi_info[year]:
+            suberas[int(year)] = [f"_{era}" for era in lumi_info[year]["eras"].keys()]
+        else:
+            suberas[int(year)] = []
 
     for name in ["ntuples", "ZplusLSkim", "LooseLeptons"]:
         info = {}
