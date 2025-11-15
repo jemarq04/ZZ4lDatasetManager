@@ -1,6 +1,6 @@
 {
     "qqZZ-powheg" : {
-        "Name" : "q#bar{q} #rightarrow ZZ",
+        "Name" : "q#bar{q} #kern[-0.5]{#rightarrow} ZZ",
         "Style" : "fill-lightblue",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -8,7 +8,7 @@
         ]
     },
     "qqZZ-amcnlo" : {
-        "Name" : "q#bar{q} #rightarrow ZZ",
+        "Name" : "q#bar{q} #kern[-0.5]{#rightarrow} ZZ",
         "Style" : "fill-lightblue",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -24,7 +24,7 @@
         ]
     },
     "HZZ-signal" : {
-        "Name" : "H #rightarrow ZZ",
+        "Name" : "H #kern[-0.5]{#rightarrow} ZZ",
         "Style" : "fill-lightred",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -32,7 +32,7 @@
         ]
     },
     "ggHZZ-only" : {
-        "Name" : "ggH #rightarrow ZZ",
+        "Name" : "ggH #kern[-0.5]{#rightarrow} ZZ",
         "Style" : "fill-lightred",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -40,7 +40,7 @@
         ]
     },
     "ggZZ" : {
-        "Name" : "gg #rightarrow ZZ",
+        "Name" : "gg #kern[-0.5]{#rightarrow} ZZ",
         "Style" : "fill-blue",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -53,7 +53,7 @@
         ]
     },
     "ggZZSpecg" : {
-        "Name" : "gg #rightarrow ZZ,Z#gamma^{*}",
+        "Name" : "gg #kern[-0.5]{#rightarrow} ZZ,Z#gamma^{*}",
         "Style" : "fill-blue",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -61,7 +61,7 @@
         ]
     },
     "qqZZSpecg" : {
-        "Name" : "q#bar{q} #rightarrow ZZ",
+        "Name" : "q#bar{q} #kern[-0.5]{#rightarrow} ZZ",
         "Style" : "fill-lightblue",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -69,7 +69,7 @@
         ]
     },
     "GGZZ" : {
-        "Name" : "gg #rightarrow ZZ",
+        "Name" : "gg #kern[-0.5]{#rightarrow} ZZ",
         "Style" : "fill-blue",
         "add_perc_error" : 0.0,
         "Members" : [
