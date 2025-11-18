@@ -7,8 +7,14 @@ def main():
     with open("../../luminosityMap.json") as infile:
         lumi_info = json.load(infile)
 
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-s", "--skip", type=lambda x: [i.strip() for i in x.split(",")], default=[], help="comma-separated list of years to skip")
+    args = parser.parse_args()
+
     suberas = {}
     for year in lumi_info["Run3Combined"]["years"]:
+        if year in args.skip:
+            continue
         if "eras" in lumi_info[year]:
             suberas[int(year)] = [f"_{era}" for era in lumi_info[year]["eras"].keys()]
         else:
