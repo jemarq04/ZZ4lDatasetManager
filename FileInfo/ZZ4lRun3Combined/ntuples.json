@@ -72,11 +72,11 @@
     "plot_group": "ggZZ"
   },
   "ttZ_2022_preEE": {
-    "file_path": "/store/user/marquez/ZZ4l2022-ntuples/TTZ_Zto2L*/Run3Summer22Mini*/*/*/*.root",
+    "file_path": "/store/user/marquez/ZZ4l2022-ntuples/TTLL*/Run3Summer22Mini*/*/*/*.root",
     "plot_group": "VVV"
   },
   "ttZ_2022_postEE": {
-    "file_path": "/store/user/marquez/ZZ4l2022-ntuples/TTZ_Zto2L*/Run3Summer22EEMini*/*/*/*.root",
+    "file_path": "/store/user/marquez/ZZ4l2022-ntuples/TTLL*/Run3Summer22EEMini*/*/*/*.root",
     "plot_group": "VVV"
   },
   "WWZ_2022_preEE": {
@@ -276,11 +276,11 @@
     "plot_group": "ggZZ"
   },
   "ttZ_2023_preBPix": {
-    "file_path": "/store/user/marquez/ZZ4l2023-ntuples/CustomTTZ_2023*/*130X_mcRun3_2023_realistic_v14*/*/*/*.root",
+    "file_path": "/store/user/marquez/ZZ4l2023-ntuples/TTLL*/Run3Summer23Mini*/*/*/*.root",
     "plot_group": "VVV"
   },
   "ttZ_2023_postBPix": {
-    "file_path": "/store/user/marquez/ZZ4l2023-ntuples/CustomTTZ_2023*/*130X_mcRun3_2023_realistic_postBPix_v2*/*/*/*.root",
+    "file_path": "/store/user/marquez/ZZ4l2023-ntuples/TTLL*/Run3Summer23BPixMini*/*/*/*.root",
     "plot_group": "VVV"
   },
   "WWZ_2023_preBPix": {
@@ -496,7 +496,7 @@
     "plot_group": "ggZZ"
   },
   "ttZ_2024": {
-    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/CustomTTZ_2024*/*150X_mcRun3_2024_realistic_v2*/*/*/*.root",
+    "file_path": "/store/user/marquez/ZZ4l2024-ntuples/TTLL*/RunIII2024Summer24Mini*/*/*/*.root",
     "plot_group": "VVV"
   },
   "WWZ_2024": {

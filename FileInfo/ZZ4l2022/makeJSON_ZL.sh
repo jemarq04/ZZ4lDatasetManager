@@ -16,7 +16,8 @@ sims=(
   ggZZ2e2mu,GluGlu*Continto2Zto2E2Mu,ggZZ
   ggZZ2e2tau,GluGlu*Continto2Zto2E2Tau,ggZZ
   ggZZ2mu2tau,GluGlu*Continto2Zto2Mu2Tau,ggZZ
-  ttZ,TTZ_Zto2L,VVV #not yet available for 2023
+  #ttZ,TTZ_Zto2L,VVV #not yet available for 2023
+  ttZ,TTLL,VVV
   WWZ,WWZ,VVV
   WZZ,WZZ,VVV
   ZZZ,ZZZ,VVV
