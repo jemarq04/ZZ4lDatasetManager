@@ -86,10 +86,10 @@
     "DAS Name": "ZZZ_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ttZ": {
-    "cross_section": 0.08385,
+    "cross_section": 0.08646,
     "Source of cross section": "MCM for ttZ-jets",
     "kfactor": 1.0,
-    "DAS Name": "TTZ_Zto2L_SMEFT_TuneCP5_13p6TeV_amcatnlo-pythia8"
+    "DAS Name": "TTLL_MLL-50_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "wz3lnu-powheg": {
     "cross_section": 4.924,

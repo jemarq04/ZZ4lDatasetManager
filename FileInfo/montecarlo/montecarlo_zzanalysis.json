@@ -797,64 +797,64 @@
     "DAS Name": "ZZZ_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ttZ": {
-    "cross_section": 0.08385,
+    "cross_section": 0.08646,
     "Source of cross section": "MCM for ttZ-jets",
     "kfactor": 1.0,
-    "DAS Name": "TTZ_Zto2L_SMEFT_TuneCP5_13p6TeV_amcatnlo-pythia8"
+    "DAS Name": "TTLL_MLL-50_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ttZ_preEE": {
-    "cross_section": 0.08385,
+    "cross_section": 0.08646,
     "Source of cross section": "MCM for ttZ-jets",
     "kfactor": 0.2303,
-    "DAS Name": "TTZ_Zto2L_SMEFT_TuneCP5_13p6TeV_amcatnlo-pythia8"
+    "DAS Name": "TTLL_MLL-50_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ttZ_postEE": {
-    "cross_section": 0.08385,
+    "cross_section": 0.08646,
     "Source of cross section": "MCM for ttZ-jets",
     "kfactor": 0.7697,
-    "DAS Name": "TTZ_Zto2L_SMEFT_TuneCP5_13p6TeV_amcatnlo-pythia8"
+    "DAS Name": "TTLL_MLL-50_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ttZ_preBPix": {
-    "cross_section": 0.08385,
+    "cross_section": 0.08646,
     "Source of cross section": "MCM for ttZ-jets",
     "kfactor": 0.6508,
-    "DAS Name": "TTZ_Zto2L_SMEFT_TuneCP5_13p6TeV_amcatnlo-pythia8"
+    "DAS Name": "TTLL_MLL-50_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ttZ_postBPix": {
-    "cross_section": 0.08385,
+    "cross_section": 0.08646,
     "Source of cross section": "MCM for ttZ-jets",
     "kfactor": 0.3492,
-    "DAS Name": "TTZ_Zto2L_SMEFT_TuneCP5_13p6TeV_amcatnlo-pythia8"
+    "DAS Name": "TTLL_MLL-50_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ttZ_2022_preEE": {
-    "cross_section": 0.08385,
+    "cross_section": 0.08646,
     "Source of cross section": "MCM for ttZ-jets",
     "kfactor": 0.0466,
-    "DAS Name": "TTZ_Zto2L_SMEFT_TuneCP5_13p6TeV_amcatnlo-pythia8"
+    "DAS Name": "TTLL_MLL-50_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ttZ_2022_postEE": {
-    "cross_section": 0.08385,
+    "cross_section": 0.08646,
     "Source of cross section": "MCM for ttZ-jets",
     "kfactor": 0.1556,
-    "DAS Name": "TTZ_Zto2L_SMEFT_TuneCP5_13p6TeV_amcatnlo-pythia8"
+    "DAS Name": "TTLL_MLL-50_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ttZ_2023_preBPix": {
-    "cross_section": 0.08385,
+    "cross_section": 0.08646,
     "Source of cross section": "MCM for ttZ-jets",
     "kfactor": 0.1054,
-    "DAS Name": "TTZ_Zto2L_SMEFT_TuneCP5_13p6TeV_amcatnlo-pythia8"
+    "DAS Name": "TTLL_MLL-50_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ttZ_2023_postBPix": {
-    "cross_section": 0.08385,
+    "cross_section": 0.08646,
     "Source of cross section": "MCM for ttZ-jets",
     "kfactor": 0.0566,
-    "DAS Name": "TTZ_Zto2L_SMEFT_TuneCP5_13p6TeV_amcatnlo-pythia8"
+    "DAS Name": "TTLL_MLL-50_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ttZ_2024": {
-    "cross_section": 0.08385,
+    "cross_section": 0.08646,
     "Source of cross section": "MCM for ttZ-jets",
     "kfactor": 0.6358,
-    "DAS Name": "TTZ_Zto2L_SMEFT_TuneCP5_13p6TeV_amcatnlo-pythia8"
+    "DAS Name": "TTLL_MLL-50_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "wz3lnu-powheg": {
     "cross_section": 4.924,
