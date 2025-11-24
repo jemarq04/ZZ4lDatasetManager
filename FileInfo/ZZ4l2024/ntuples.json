@@ -59,12 +59,28 @@
       "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/TT*2L2Nu*/RunIII2024Summer24Mini*/*/*/*.root",
       "plot_group" : "top"
     },
-    "DYm10to50-2j" : {
-      "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/CustomDY_MLL-10to50_2024*/*150X_mcRun3_2024_realistic_v2*/*/*/*.root",
+    "DY2e-m10to50" : {
+      "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/DYto2E_Bin-MLL-10to50*/RunIII2024Summer24Mini*/*/*/*.root",
       "plot_group" : "dy-jets"
     },
-    "DYm50-2j" : {
-      "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/CustomDY_MLL-50_2024*/*150X_mcRun3_2024_realistic_v2*/*/*/*.root",
+    "DY2m-m10to50" : {
+      "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/DYto2Mu_Bin-MLL-10to50*/RunIII2024Summer24Mini*/*/*/*.root",
+      "plot_group" : "dy-jets"
+    },
+    "DY2t-m10to50" : {
+      "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/DYto2Tau_Bin-MLL-10to50*/RunIII2024Summer24Mini*/*/*/*.root",
+      "plot_group" : "dy-jets"
+    },
+    "DY2e-m50-2j" : {
+      "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/DYto2E-2Jets_Bin-MLL-50*/RunIII2024Summer24Mini*/*/*/*.root",
+      "plot_group" : "dy-jets"
+    },
+    "DY2m-m50-2j" : {
+      "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/DYto2Mu-2Jets_Bin-MLL-50*/RunIII2024Summer24Mini*/*/*/*.root",
+      "plot_group" : "dy-jets"
+    },
+    "DY2t-m50-2j" : {
+      "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/DYto2Tau-2Jets_Bin-MLL-50*/RunIII2024Summer24Mini*/*/*/*.root",
       "plot_group" : "dy-jets"
     },
     "data_EGamma0_Run2024C-MINIv6NANOv15-v1" : {
