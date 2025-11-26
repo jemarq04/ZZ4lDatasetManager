@@ -17,11 +17,10 @@ sims=(
   ggZZ2e2mu,GluGlu*Continto2Zto2E2Mu,ggZZ
   ggZZ2e2tau,GluGlu*Continto2Zto2E2Tau,ggZZ
   ggZZ2mu2tau,GluGlu*Continto2Zto2Mu2Tau,ggZZ
-  ttZ,TTZ_Zto2L,VVV
+  ttZ,TTLL,VVV
   WWZ,WWZ,VVV
   WZZ,WZZ,VVV
   ZZZ,ZZZ,VVV
-  #fakes only
   wz3lnu-powheg,WZto3LNu,wz3lnu-powheg
   tt2l2nu-powheg,TT*2L2Nu,top
   DYm10to50-2j,DYto2L-2Jets_MLL-10to50,dy-jets
