@@ -72,11 +72,11 @@
       "plot_group" : "ggZZ"
     },
     "ttZ_preBPix" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/2025-11-04-ttZ_preBPix-ZplusL2023-ZplusLBaseTo4lVeto-v1/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/2025-11-11-ttZ_preBPix-ZplusL2023-ZplusLBaseTo4lVeto-v1/*.root",
       "plot_group" : "VVV"
     },
     "ttZ_postBPix" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/2025-11-04-ttZ_postBPix-ZplusL2023-ZplusLBaseTo4lVeto-v1/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2023-skimmed/2025-11-11-ttZ_postBPix-ZplusL2023-ZplusLBaseTo4lVeto-v1/*.root",
       "plot_group" : "VVV"
     },
     "WWZ_preBPix" : {
