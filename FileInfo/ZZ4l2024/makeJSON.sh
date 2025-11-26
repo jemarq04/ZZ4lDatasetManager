@@ -17,15 +17,18 @@ sims=(
   ggZZ2e2mu,GluGlu*2Zto2E2Mu,ggZZ
   ggZZ2e2tau,GluGlu*2Zto2E2Tau,ggZZ
   ggZZ2mu2tau,GluGlu*2Zto2Mu2Tau,ggZZ
-  #ttZ,TTZ_Zto2L,VVV #not yet available for 2024, use private sample
   ttZ,TTLL,VVV
   WWZ,WWZ,VVV
   WZZ,WZZ,VVV
   ZZZ,ZZZ,VVV
   wz3lnu-powheg,WZto3LNu,wz3lnu-powheg
   tt2l2nu-powheg,TT*2L2Nu,top
-  DYm10to50-2j,DYto2L-2Jets_MLL-10to50,dy-jets #not yet available for 2024, use private sample
-  DYm50-2j,DYto2L-2Jets_MLL-50,dy-jets #not yet available for 2024, use private sample
+  DY2e-m10to50,DYto2E_Bin-MLL-10to50,dy-jets
+  DY2m-m10to50,DYto2Mu_Bin-MLL-10to50,dy-jets
+  DY2t-m10to50,DYto2Tau_Bin-MLL-10to50,dy-jets
+  DY2e-m50-2j,DYto2E-2Jets_Bin-MLL-50,dy-jets
+  DY2m-m50-2j,DYto2Mu-2Jets_Bin-MLL-50,dy-jets
+  DY2t-m50-2j,DYto2Tau-2Jets_Bin-MLL-50,dy-jets
 )
 streams="EGamma0 EGamma1 MuonEG Muon0 Muon1"
 suffixes=("")

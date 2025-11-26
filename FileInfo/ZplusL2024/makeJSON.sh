@@ -23,10 +23,12 @@ sims=(
   ZZZ,ZZZ,VVV
   wz3lnu-powheg,WZto3LNu,wz3lnu-powheg
   tt2l2nu-powheg,TT*2L2Nu,top
-#  DYm10to50-2j,DYto2L-2Jets_MLL-10to50,dy-jets
-#  DYm50-2j,DYto2L-2Jets_MLL-50,dy-jets
-  DYm10to50-2j,CustomDY_MLL-10to50_2024,dy-jets
-  DYm50-2j,CustomDY_MLL-50_2024,dy-jets
+  DY2e-m10to50,DYto2E_Bin-MLL-10to50,dy-jets
+  DY2m-m10to50,DYto2Mu_Bin-MLL-10to50,dy-jets
+  DY2t-m10to50,DYto2Tau_Bin-MLL-10to50,dy-jets
+  DY2e-m50-2j,DYto2E-2Jets_Bin-MLL-50,dy-jets
+  DY2m-m50-2j,DYto2Mu-2Jets_Bin-MLL-50,dy-jets
+  DY2t-m50-2j,DYto2Tau-2Jets_Bin-MLL-50,dy-jets
 )
 streams="EGamma0 EGamma1 MuonEG Muon0 Muon1"
 eras=(

@@ -126,8 +126,12 @@
             "DYm10to50-2j_2023_postBPix",
             "DYm50-2j_2023_preBPix",
             "DYm50-2j_2023_postBPix",
-            "DYm10to50-2j_2024",
-            "DYm50-2j_2024"
+            "DY2e-m10to50_2024",
+            "DY2m-m10to50_2024",
+            "DY2t-m10to50_2024",
+            "DY2e-m50-2j_2024",
+            "DY2m-m50-2j_2024",
+            "DY2t-m50-2j_2024"
         ]
     },
     "top" : {
