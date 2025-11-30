@@ -60,27 +60,27 @@
       "plot_group" : "top"
     },
     "DY2e-m10to50" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2024-skimmed/2025-11-25-DY2e-m10to50-ZplusL2024-ZplusLBaseTo4lVeto-v1/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2024-skimmed/2025-11-26-DY2e-m10to50-ZplusL2024-ZplusLBaseTo4lVeto-v1/*.root",
       "plot_group" : "dy-jets"
     },
     "DY2m-m10to50" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2024-skimmed/2025-11-25-DY2m-m10to50-ZplusL2024-ZplusLBaseTo4lVeto-v1/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2024-skimmed/2025-11-26-DY2m-m10to50-ZplusL2024-ZplusLBaseTo4lVeto-v1/*.root",
       "plot_group" : "dy-jets"
     },
     "DY2t-m10to50" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2024-skimmed/2025-11-25-DY2t-m10to50-ZplusL2024-ZplusLBaseTo4lVeto-v1/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2024-skimmed/2025-11-26-DY2t-m10to50-ZplusL2024-ZplusLBaseTo4lVeto-v1/*.root",
       "plot_group" : "dy-jets"
     },
     "DY2e-m50-2j" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2024-skimmed/2025-11-25-DY2e-m50-2j-ZplusL2024-ZplusLBaseTo4lVeto-v1/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2024-skimmed/2025-11-29-DY2e-m50-2j-ZplusL2024-ZplusLBaseTo4lVeto-v1/*.root",
       "plot_group" : "dy-jets"
     },
     "DY2m-m50-2j" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2024-skimmed/2025-11-25-DY2m-m50-2j-ZplusL2024-ZplusLBaseTo4lVeto-v1/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2024-skimmed/2025-11-26-DY2m-m50-2j-ZplusL2024-ZplusLBaseTo4lVeto-v1/*.root",
       "plot_group" : "dy-jets"
     },
     "DY2t-m50-2j" : {
-      "file_path" : "/hdfs/store/user/marquez/ZplusL2024-skimmed/2025-11-25-DY2t-m50-2j-ZplusL2024-ZplusLBaseTo4lVeto-v1/*.root",
+      "file_path" : "/hdfs/store/user/marquez/ZplusL2024-skimmed/2025-11-26-DY2t-m50-2j-ZplusL2024-ZplusLBaseTo4lVeto-v1/*.root",
       "plot_group" : "dy-jets"
     },
     "data_EGamma0_Run2024C-MINIv6NANOv15-v1" : {
