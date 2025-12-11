@@ -137,18 +137,18 @@
     "cross_section": 6639.0,
     "Source of cross section": "XSDB",
     "kfactor": 1.0,
-    "DAS Name": "DYto2E_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
+    "DAS Name": "DYto2E-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2m-m50-2j": {
     "cross_section": 6662.0,
     "Source of cross section": "XSDB",
     "kfactor": 1.0,
-    "DAS Name": "DYto2Mu_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
+    "DAS Name": "DYto2Mu-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2t-m50-2j": {
     "cross_section": 6639.0,
     "Source of cross section": "XSDB",
     "kfactor": 1.0,
-    "DAS Name": "DYto2Tau_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
+    "DAS Name": "DYto2Tau-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   }
 }
