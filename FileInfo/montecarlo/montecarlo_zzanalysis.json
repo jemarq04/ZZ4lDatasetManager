@@ -16,63 +16,63 @@
   "zz4l-powheg_preEE": {
     "cross_section": 1.39,
     "Source of cross section": "POWHEG tarball",
-    "kfactor": 0.2487,
+    "kfactor": 0.248725,
     "Source of k-factor": "k factor from mll only calculation of Grazzini",
     "DAS Name": "ZZTo4L_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "zz4l-powheg_postEE": {
     "cross_section": 1.39,
     "Source of cross section": "POWHEG tarball",
-    "kfactor": 0.8313,
+    "kfactor": 0.831275,
     "Source of k-factor": "k factor from mll only calculation of Grazzini",
     "DAS Name": "ZZTo4L_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "zz4l-powheg_preBPix": {
     "cross_section": 1.39,
     "Source of cross section": "POWHEG tarball",
-    "kfactor": 0.7028,
+    "kfactor": 0.702833,
     "Source of k-factor": "k factor from mll only calculation of Grazzini",
     "DAS Name": "ZZTo4L_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "zz4l-powheg_postBPix": {
     "cross_section": 1.39,
     "Source of cross section": "POWHEG tarball",
-    "kfactor": 0.3772,
+    "kfactor": 0.377167,
     "Source of k-factor": "k factor from mll only calculation of Grazzini",
     "DAS Name": "ZZTo4L_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "zz4l-powheg_2022_preEE": {
     "cross_section": 1.39,
     "Source of cross section": "POWHEG tarball",
-    "kfactor": 0.0503,
+    "kfactor": 0.050297,
     "Source of k-factor": "k factor from mll only calculation of Grazzini",
     "DAS Name": "ZZTo4L_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "zz4l-powheg_2022_postEE": {
     "cross_section": 1.39,
     "Source of cross section": "POWHEG tarball",
-    "kfactor": 0.1681,
+    "kfactor": 0.168099,
     "Source of k-factor": "k factor from mll only calculation of Grazzini",
     "DAS Name": "ZZTo4L_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "zz4l-powheg_2023_preBPix": {
     "cross_section": 1.39,
     "Source of cross section": "POWHEG tarball",
-    "kfactor": 0.1138,
+    "kfactor": 0.113842,
     "Source of k-factor": "k factor from mll only calculation of Grazzini",
     "DAS Name": "ZZTo4L_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "zz4l-powheg_2023_postBPix": {
     "cross_section": 1.39,
     "Source of cross section": "POWHEG tarball",
-    "kfactor": 0.0611,
+    "kfactor": 0.061092,
     "Source of k-factor": "k factor from mll only calculation of Grazzini",
     "DAS Name": "ZZTo4L_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "zz4l-powheg_2024": {
     "cross_section": 1.39,
     "Source of cross section": "POWHEG tarball",
-    "kfactor": 0.6867,
+    "kfactor": 0.68667,
     "Source of k-factor": "k factor from mll only calculation of Grazzini",
     "DAS Name": "ZZTo4L_TuneCP5_13p6TeV_powheg-pythia8"
   },
@@ -85,55 +85,55 @@
   "zzjj4l-ewk_preEE": {
     "cross_section": 0.001142,
     "Source of cross section": "XSDB",
-    "kfactor": 0.2303,
+    "kfactor": 0.230301,
     "DAS Name": "ZZto4L-2Jets_EW_TuneCP5_13p6TeV_madgraph-pythia8"
   },
   "zzjj4l-ewk_postEE": {
     "cross_section": 0.001142,
     "Source of cross section": "XSDB",
-    "kfactor": 0.7697,
+    "kfactor": 0.769699,
     "DAS Name": "ZZto4L-2Jets_EW_TuneCP5_13p6TeV_madgraph-pythia8"
   },
   "zzjj4l-ewk_preBPix": {
     "cross_section": 0.001142,
     "Source of cross section": "XSDB",
-    "kfactor": 0.6508,
+    "kfactor": 0.650771,
     "DAS Name": "ZZto4L-2Jets_EW_TuneCP5_13p6TeV_madgraph-pythia8"
   },
   "zzjj4l-ewk_postBPix": {
     "cross_section": 0.001142,
     "Source of cross section": "XSDB",
-    "kfactor": 0.3492,
+    "kfactor": 0.349229,
     "DAS Name": "ZZto4L-2Jets_EW_TuneCP5_13p6TeV_madgraph-pythia8"
   },
   "zzjj4l-ewk_2022_preEE": {
     "cross_section": 0.001142,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0466,
+    "kfactor": 0.046571,
     "DAS Name": "ZZto4L-2Jets_EW_TuneCP5_13p6TeV_madgraph-pythia8"
   },
   "zzjj4l-ewk_2022_postEE": {
     "cross_section": 0.001142,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1556,
+    "kfactor": 0.155647,
     "DAS Name": "ZZto4L-2Jets_EW_TuneCP5_13p6TeV_madgraph-pythia8"
   },
   "zzjj4l-ewk_2023_preBPix": {
     "cross_section": 0.001142,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1054,
+    "kfactor": 0.105409,
     "DAS Name": "ZZto4L-2Jets_EW_TuneCP5_13p6TeV_madgraph-pythia8"
   },
   "zzjj4l-ewk_2023_postBPix": {
     "cross_section": 0.001142,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0566,
+    "kfactor": 0.056567,
     "DAS Name": "ZZto4L-2Jets_EW_TuneCP5_13p6TeV_madgraph-pythia8"
   },
   "zzjj4l-ewk_2024": {
     "cross_section": 0.001142,
     "Source of cross section": "XSDB",
-    "kfactor": 0.6358,
+    "kfactor": 0.635806,
     "DAS Name": "ZZto4L-2Jets_EW_TuneCP5_13p6TeV_madgraph-pythia8"
   },
   "ggHZZ": {
@@ -145,55 +145,55 @@
   "ggHZZ_preEE": {
     "cross_section": 0.02316,
     "Source of cross section": "XSDB",
-    "kfactor": 0.2303,
+    "kfactor": 0.230301,
     "DAS Name": "GluGluHtoZZto4L_M-125_TuneCP5_13p6TeV_powheg2-JHUGenV752-pythia8"
   },
   "ggHZZ_postEE": {
     "cross_section": 0.02316,
     "Source of cross section": "XSDB",
-    "kfactor": 0.7697,
+    "kfactor": 0.769699,
     "DAS Name": "GluGluHtoZZto4L_M-125_TuneCP5_13p6TeV_powheg2-JHUGenV752-pythia8"
   },
   "ggHZZ_preBPix": {
     "cross_section": 0.02316,
     "Source of cross section": "XSDB",
-    "kfactor": 0.6508,
+    "kfactor": 0.650771,
     "DAS Name": "GluGluHtoZZto4L_M-125_TuneCP5_13p6TeV_powheg2-JHUGenV752-pythia8"
   },
   "ggHZZ_postBPix": {
     "cross_section": 0.02316,
     "Source of cross section": "XSDB",
-    "kfactor": 0.3492,
+    "kfactor": 0.349229,
     "DAS Name": "GluGluHtoZZto4L_M-125_TuneCP5_13p6TeV_powheg2-JHUGenV752-pythia8"
   },
   "ggHZZ_2022_preEE": {
     "cross_section": 0.02316,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0466,
+    "kfactor": 0.046571,
     "DAS Name": "GluGluHtoZZto4L_M-125_TuneCP5_13p6TeV_powheg2-JHUGenV752-pythia8"
   },
   "ggHZZ_2022_postEE": {
     "cross_section": 0.02316,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1556,
+    "kfactor": 0.155647,
     "DAS Name": "GluGluHtoZZto4L_M-125_TuneCP5_13p6TeV_powheg2-JHUGenV752-pythia8"
   },
   "ggHZZ_2023_preBPix": {
     "cross_section": 0.02316,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1054,
+    "kfactor": 0.105409,
     "DAS Name": "GluGluHtoZZto4L_M-125_TuneCP5_13p6TeV_powheg2-JHUGenV752-pythia8"
   },
   "ggHZZ_2023_postBPix": {
     "cross_section": 0.02316,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0566,
+    "kfactor": 0.056567,
     "DAS Name": "GluGluHtoZZto4L_M-125_TuneCP5_13p6TeV_powheg2-JHUGenV752-pythia8"
   },
   "ggHZZ_2024": {
     "cross_section": 0.02316,
     "Source of cross section": "XSDB",
-    "kfactor": 0.6358,
+    "kfactor": 0.635806,
     "DAS Name": "GluGluHtoZZto4L_M-125_TuneCP5_13p6TeV_powheg2-JHUGenV752-pythia8"
   },
   "ggZZ4e": {
@@ -206,35 +206,35 @@
   "ggZZ4e_preEE": {
     "cross_section": 0.00305851,
     "Source of cross section": "XSDB",
-    "kfactor": 0.3915,
+    "kfactor": 0.391512,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto4E_TuneCP5_13p6TeV_mcfm-pythia8"
   },
   "ggZZ4e_postEE": {
     "cross_section": 0.00305851,
     "Source of cross section": "XSDB",
-    "kfactor": 1.3085,
+    "kfactor": 1.308488,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto4E_TuneCP5_13p6TeV_mcfm-pythia8"
   },
   "ggZZ4e_preBPix": {
     "cross_section": 0.00305851,
     "Source of cross section": "XSDB",
-    "kfactor": 1.1063,
+    "kfactor": 1.10631,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto4E_TuneCP5_13p6TeV_mcfm-pythia8"
   },
   "ggZZ4e_postBPix": {
     "cross_section": 0.00305851,
     "Source of cross section": "XSDB",
-    "kfactor": 0.5937,
+    "kfactor": 0.59369,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto4E_TuneCP5_13p6TeV_mcfm-pythia8"
   },
   "ggZZ4e_2022_preEE": {
     "cross_section": 0.00305851,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0792,
+    "kfactor": 0.079171,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto4E_TuneCP5_13p6TeV_mcfm-pythia8"
   },
@@ -248,21 +248,21 @@
   "ggZZ4e_2023_preBPix": {
     "cross_section": 0.00305851,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1792,
+    "kfactor": 0.179196,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto4E_TuneCP5_13p6TeV_mcfm-pythia8"
   },
   "ggZZ4e_2023_postBPix": {
     "cross_section": 0.00305851,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0962,
+    "kfactor": 0.096163,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto4E_TuneCP5_13p6TeV_mcfm-pythia8"
   },
   "ggZZ4e_2024": {
     "cross_section": 0.00305851,
     "Source of cross section": "XSDB",
-    "kfactor": 1.0809,
+    "kfactor": 1.080869,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto4E_TuneCP5_13p6TeV_mcfm-pythia8"
   },
@@ -276,35 +276,35 @@
   "ggZZ4m_preEE": {
     "cross_section": 0.00303575,
     "Source of cross section": "XSDB",
-    "kfactor": 0.3915,
+    "kfactor": 0.391512,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto4Mu_TuneCP5_13p6TeV_mcfm-pythia8"
   },
   "ggZZ4m_postEE": {
     "cross_section": 0.00303575,
     "Source of cross section": "XSDB",
-    "kfactor": 1.3085,
+    "kfactor": 1.308488,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto4Mu_TuneCP5_13p6TeV_mcfm-pythia8"
   },
   "ggZZ4m_preBPix": {
     "cross_section": 0.00303575,
     "Source of cross section": "XSDB",
-    "kfactor": 1.1063,
+    "kfactor": 1.10631,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto4Mu_TuneCP5_13p6TeV_mcfm-pythia8"
   },
   "ggZZ4m_postBPix": {
     "cross_section": 0.00303575,
     "Source of cross section": "XSDB",
-    "kfactor": 0.5937,
+    "kfactor": 0.59369,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto4Mu_TuneCP5_13p6TeV_mcfm-pythia8"
   },
   "ggZZ4m_2022_preEE": {
     "cross_section": 0.00303575,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0792,
+    "kfactor": 0.079171,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto4Mu_TuneCP5_13p6TeV_mcfm-pythia8"
   },
@@ -318,21 +318,21 @@
   "ggZZ4m_2023_preBPix": {
     "cross_section": 0.00303575,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1792,
+    "kfactor": 0.179196,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto4Mu_TuneCP5_13p6TeV_mcfm-pythia8"
   },
   "ggZZ4m_2023_postBPix": {
     "cross_section": 0.00303575,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0962,
+    "kfactor": 0.096163,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto4Mu_TuneCP5_13p6TeV_mcfm-pythia8"
   },
   "ggZZ4m_2024": {
     "cross_section": 0.00303575,
     "Source of cross section": "XSDB",
-    "kfactor": 1.0809,
+    "kfactor": 1.080869,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto4Mu_TuneCP5_13p6TeV_mcfm-pythia8"
   },
@@ -346,35 +346,35 @@
   "ggZZ4t_preEE": {
     "cross_section": 0.00303575,
     "Source of cross section": "XSDB",
-    "kfactor": 0.3915,
+    "kfactor": 0.391512,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto4Tau_TuneCP5_13p6TeV_mcfm-pythia8"
   },
   "ggZZ4t_postEE": {
     "cross_section": 0.00303575,
     "Source of cross section": "XSDB",
-    "kfactor": 1.3085,
+    "kfactor": 1.308488,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto4Tau_TuneCP5_13p6TeV_mcfm-pythia8"
   },
   "ggZZ4t_preBPix": {
     "cross_section": 0.00303575,
     "Source of cross section": "XSDB",
-    "kfactor": 1.1063,
+    "kfactor": 1.10631,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto4Tau_TuneCP5_13p6TeV_mcfm-pythia8"
   },
   "ggZZ4t_postBPix": {
     "cross_section": 0.00303575,
     "Source of cross section": "XSDB",
-    "kfactor": 0.5937,
+    "kfactor": 0.59369,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto4Tau_TuneCP5_13p6TeV_mcfm-pythia8"
   },
   "ggZZ4t_2022_preEE": {
     "cross_section": 0.00303575,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0792,
+    "kfactor": 0.079171,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto4Tau_TuneCP5_13p6TeV_mcfm-pythia8"
   },
@@ -388,21 +388,21 @@
   "ggZZ4t_2023_preBPix": {
     "cross_section": 0.00303575,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1792,
+    "kfactor": 0.179196,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto4Tau_TuneCP5_13p6TeV_mcfm-pythia8"
   },
   "ggZZ4t_2023_postBPix": {
     "cross_section": 0.00303575,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0962,
+    "kfactor": 0.096163,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto4Tau_TuneCP5_13p6TeV_mcfm-pythia8"
   },
   "ggZZ4t_2024": {
     "cross_section": 0.00303575,
     "Source of cross section": "XSDB",
-    "kfactor": 1.0809,
+    "kfactor": 1.080869,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto4Tau_TuneCP5_13p6TeV_mcfm-pythia8"
   },
@@ -416,35 +416,35 @@
   "ggZZ2e2mu_preEE": {
     "cross_section": 0.00624157,
     "Source of cross section": "XSDB",
-    "kfactor": 0.3915,
+    "kfactor": 0.391512,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto2E2Mu_TuneCP5_13p6TeV_mcfm701-pythia8"
   },
   "ggZZ2e2mu_postEE": {
     "cross_section": 0.00624157,
     "Source of cross section": "XSDB",
-    "kfactor": 1.3085,
+    "kfactor": 1.308488,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto2E2Mu_TuneCP5_13p6TeV_mcfm701-pythia8"
   },
   "ggZZ2e2mu_preBPix": {
     "cross_section": 0.00624157,
     "Source of cross section": "XSDB",
-    "kfactor": 1.1063,
+    "kfactor": 1.10631,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto2E2Mu_TuneCP5_13p6TeV_mcfm701-pythia8"
   },
   "ggZZ2e2mu_postBPix": {
     "cross_section": 0.00624157,
     "Source of cross section": "XSDB",
-    "kfactor": 0.5937,
+    "kfactor": 0.59369,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto2E2Mu_TuneCP5_13p6TeV_mcfm701-pythia8"
   },
   "ggZZ2e2mu_2022_preEE": {
     "cross_section": 0.00624157,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0792,
+    "kfactor": 0.079171,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto2E2Mu_TuneCP5_13p6TeV_mcfm701-pythia8"
   },
@@ -458,21 +458,21 @@
   "ggZZ2e2mu_2023_preBPix": {
     "cross_section": 0.00624157,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1792,
+    "kfactor": 0.179196,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto2E2Mu_TuneCP5_13p6TeV_mcfm701-pythia8"
   },
   "ggZZ2e2mu_2023_postBPix": {
     "cross_section": 0.00624157,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0962,
+    "kfactor": 0.096163,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto2E2Mu_TuneCP5_13p6TeV_mcfm701-pythia8"
   },
   "ggZZ2e2mu_2024": {
     "cross_section": 0.00624157,
     "Source of cross section": "XSDB",
-    "kfactor": 1.0809,
+    "kfactor": 1.080869,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto2E2Mu_TuneCP5_13p6TeV_mcfm701-pythia8"
   },
@@ -486,35 +486,35 @@
   "ggZZ2e2tau_preEE": {
     "cross_section": 0.00624157,
     "Source of cross section": "XSDB",
-    "kfactor": 0.3915,
+    "kfactor": 0.391512,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto2E2Tau_TuneCP5_13p6TeV_mcfm701-pythia8"
   },
   "ggZZ2e2tau_postEE": {
     "cross_section": 0.00624157,
     "Source of cross section": "XSDB",
-    "kfactor": 1.3085,
+    "kfactor": 1.308488,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto2E2Tau_TuneCP5_13p6TeV_mcfm701-pythia8"
   },
   "ggZZ2e2tau_preBPix": {
     "cross_section": 0.00624157,
     "Source of cross section": "XSDB",
-    "kfactor": 1.1063,
+    "kfactor": 1.10631,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto2E2Tau_TuneCP5_13p6TeV_mcfm701-pythia8"
   },
   "ggZZ2e2tau_postBPix": {
     "cross_section": 0.00624157,
     "Source of cross section": "XSDB",
-    "kfactor": 0.5937,
+    "kfactor": 0.59369,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto2E2Tau_TuneCP5_13p6TeV_mcfm701-pythia8"
   },
   "ggZZ2e2tau_2022_preEE": {
     "cross_section": 0.00624157,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0792,
+    "kfactor": 0.079171,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto2E2Tau_TuneCP5_13p6TeV_mcfm701-pythia8"
   },
@@ -528,21 +528,21 @@
   "ggZZ2e2tau_2023_preBPix": {
     "cross_section": 0.00624157,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1792,
+    "kfactor": 0.179196,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto2E2Tau_TuneCP5_13p6TeV_mcfm701-pythia8"
   },
   "ggZZ2e2tau_2023_postBPix": {
     "cross_section": 0.00624157,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0962,
+    "kfactor": 0.096163,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto2E2Tau_TuneCP5_13p6TeV_mcfm701-pythia8"
   },
   "ggZZ2e2tau_2024": {
     "cross_section": 0.00624157,
     "Source of cross section": "XSDB",
-    "kfactor": 1.0809,
+    "kfactor": 1.080869,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto2E2Tau_TuneCP5_13p6TeV_mcfm701-pythia8"
   },
@@ -556,35 +556,35 @@
   "ggZZ2mu2tau_preEE": {
     "cross_section": 0.00624157,
     "Source of cross section": "XSDB",
-    "kfactor": 0.3915,
+    "kfactor": 0.391512,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto2Mu2Tau_TuneCP5_13p6TeV_mcfm701-pythia8"
   },
   "ggZZ2mu2tau_postEE": {
     "cross_section": 0.00624157,
     "Source of cross section": "XSDB",
-    "kfactor": 1.3085,
+    "kfactor": 1.308488,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto2Mu2Tau_TuneCP5_13p6TeV_mcfm701-pythia8"
   },
   "ggZZ2mu2tau_preBPix": {
     "cross_section": 0.00624157,
     "Source of cross section": "XSDB",
-    "kfactor": 1.1063,
+    "kfactor": 1.10631,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto2Mu2Tau_TuneCP5_13p6TeV_mcfm701-pythia8"
   },
   "ggZZ2mu2tau_postBPix": {
     "cross_section": 0.00624157,
     "Source of cross section": "XSDB",
-    "kfactor": 0.5937,
+    "kfactor": 0.59369,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto2Mu2Tau_TuneCP5_13p6TeV_mcfm701-pythia8"
   },
   "ggZZ2mu2tau_2022_preEE": {
     "cross_section": 0.00624157,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0792,
+    "kfactor": 0.079171,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto2Mu2Tau_TuneCP5_13p6TeV_mcfm701-pythia8"
   },
@@ -598,21 +598,21 @@
   "ggZZ2mu2tau_2023_preBPix": {
     "cross_section": 0.00624157,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1792,
+    "kfactor": 0.179196,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto2Mu2Tau_TuneCP5_13p6TeV_mcfm701-pythia8"
   },
   "ggZZ2mu2tau_2023_postBPix": {
     "cross_section": 0.00624157,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0962,
+    "kfactor": 0.096163,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto2Mu2Tau_TuneCP5_13p6TeV_mcfm701-pythia8"
   },
   "ggZZ2mu2tau_2024": {
     "cross_section": 0.00624157,
     "Source of cross section": "XSDB",
-    "kfactor": 1.0809,
+    "kfactor": 1.080869,
     "Source of k-factor": "http://arxiv.org/abs/1509.06734",
     "DAS Name": "GluGlutoContinto2Zto2Mu2Tau_TuneCP5_13p6TeV_mcfm701-pythia8"
   },
@@ -625,55 +625,55 @@
   "WWZ_preEE": {
     "cross_section": 0.1851,
     "Source of cross section": "MCM",
-    "kfactor": 0.2303,
+    "kfactor": 0.230301,
     "DAS Name": "WWZ_4F_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "WWZ_postEE": {
     "cross_section": 0.1851,
     "Source of cross section": "MCM",
-    "kfactor": 0.7697,
+    "kfactor": 0.769699,
     "DAS Name": "WWZ_4F_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "WWZ_preBPix": {
     "cross_section": 0.1851,
     "Source of cross section": "MCM",
-    "kfactor": 0.6508,
+    "kfactor": 0.650771,
     "DAS Name": "WWZ_4F_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "WWZ_postBPix": {
     "cross_section": 0.1851,
     "Source of cross section": "MCM",
-    "kfactor": 0.3492,
+    "kfactor": 0.349229,
     "DAS Name": "WWZ_4F_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "WWZ_2022_preEE": {
     "cross_section": 0.1851,
     "Source of cross section": "MCM",
-    "kfactor": 0.0466,
+    "kfactor": 0.046571,
     "DAS Name": "WWZ_4F_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "WWZ_2022_postEE": {
     "cross_section": 0.1851,
     "Source of cross section": "MCM",
-    "kfactor": 0.1556,
+    "kfactor": 0.155647,
     "DAS Name": "WWZ_4F_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "WWZ_2023_preBPix": {
     "cross_section": 0.1851,
     "Source of cross section": "MCM",
-    "kfactor": 0.1054,
+    "kfactor": 0.105409,
     "DAS Name": "WWZ_4F_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "WWZ_2023_postBPix": {
     "cross_section": 0.1851,
     "Source of cross section": "MCM",
-    "kfactor": 0.0566,
+    "kfactor": 0.056567,
     "DAS Name": "WWZ_4F_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "WWZ_2024": {
     "cross_section": 0.1851,
     "Source of cross section": "MCM",
-    "kfactor": 0.6358,
+    "kfactor": 0.635806,
     "DAS Name": "WWZ_4F_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "WZZ": {
@@ -685,55 +685,55 @@
   "WZZ_preEE": {
     "cross_section": 0.06206,
     "Source of cross section": "MCM",
-    "kfactor": 0.2303,
+    "kfactor": 0.230301,
     "DAS Name": "WZZ_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "WZZ_postEE": {
     "cross_section": 0.06206,
     "Source of cross section": "MCM",
-    "kfactor": 0.7697,
+    "kfactor": 0.769699,
     "DAS Name": "WZZ_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "WZZ_preBPix": {
     "cross_section": 0.06206,
     "Source of cross section": "MCM",
-    "kfactor": 0.6508,
+    "kfactor": 0.650771,
     "DAS Name": "WZZ_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "WZZ_postBPix": {
     "cross_section": 0.06206,
     "Source of cross section": "MCM",
-    "kfactor": 0.3492,
+    "kfactor": 0.349229,
     "DAS Name": "WZZ_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "WZZ_2022_preEE": {
     "cross_section": 0.06206,
     "Source of cross section": "MCM",
-    "kfactor": 0.0466,
+    "kfactor": 0.046571,
     "DAS Name": "WZZ_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "WZZ_2022_postEE": {
     "cross_section": 0.06206,
     "Source of cross section": "MCM",
-    "kfactor": 0.1556,
+    "kfactor": 0.155647,
     "DAS Name": "WZZ_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "WZZ_2023_preBPix": {
     "cross_section": 0.06206,
     "Source of cross section": "MCM",
-    "kfactor": 0.1054,
+    "kfactor": 0.105409,
     "DAS Name": "WZZ_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "WZZ_2023_postBPix": {
     "cross_section": 0.06206,
     "Source of cross section": "MCM",
-    "kfactor": 0.0566,
+    "kfactor": 0.056567,
     "DAS Name": "WZZ_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "WZZ_2024": {
     "cross_section": 0.06206,
     "Source of cross section": "MCM",
-    "kfactor": 0.6358,
+    "kfactor": 0.635806,
     "DAS Name": "WZZ_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ZZZ": {
@@ -745,55 +745,55 @@
   "ZZZ_preEE": {
     "cross_section": 0.01591,
     "Source of cross section": "MCM",
-    "kfactor": 0.2303,
+    "kfactor": 0.230301,
     "DAS Name": "ZZZ_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ZZZ_postEE": {
     "cross_section": 0.01591,
     "Source of cross section": "MCM",
-    "kfactor": 0.7697,
+    "kfactor": 0.769699,
     "DAS Name": "ZZZ_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ZZZ_preBPix": {
     "cross_section": 0.01591,
     "Source of cross section": "MCM",
-    "kfactor": 0.6508,
+    "kfactor": 0.650771,
     "DAS Name": "ZZZ_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ZZZ_postBPix": {
     "cross_section": 0.01591,
     "Source of cross section": "MCM",
-    "kfactor": 0.3492,
+    "kfactor": 0.349229,
     "DAS Name": "ZZZ_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ZZZ_2022_preEE": {
     "cross_section": 0.01591,
     "Source of cross section": "MCM",
-    "kfactor": 0.0466,
+    "kfactor": 0.046571,
     "DAS Name": "ZZZ_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ZZZ_2022_postEE": {
     "cross_section": 0.01591,
     "Source of cross section": "MCM",
-    "kfactor": 0.1556,
+    "kfactor": 0.155647,
     "DAS Name": "ZZZ_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ZZZ_2023_preBPix": {
     "cross_section": 0.01591,
     "Source of cross section": "MCM",
-    "kfactor": 0.1054,
+    "kfactor": 0.105409,
     "DAS Name": "ZZZ_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ZZZ_2023_postBPix": {
     "cross_section": 0.01591,
     "Source of cross section": "MCM",
-    "kfactor": 0.0566,
+    "kfactor": 0.056567,
     "DAS Name": "ZZZ_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ZZZ_2024": {
     "cross_section": 0.01591,
     "Source of cross section": "MCM",
-    "kfactor": 0.6358,
+    "kfactor": 0.635806,
     "DAS Name": "ZZZ_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ttZ": {
@@ -805,55 +805,55 @@
   "ttZ_preEE": {
     "cross_section": 0.08646,
     "Source of cross section": "MCM for ttZ-jets",
-    "kfactor": 0.2303,
+    "kfactor": 0.230301,
     "DAS Name": "TTLL_MLL-50_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ttZ_postEE": {
     "cross_section": 0.08646,
     "Source of cross section": "MCM for ttZ-jets",
-    "kfactor": 0.7697,
+    "kfactor": 0.769699,
     "DAS Name": "TTLL_MLL-50_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ttZ_preBPix": {
     "cross_section": 0.08646,
     "Source of cross section": "MCM for ttZ-jets",
-    "kfactor": 0.6508,
+    "kfactor": 0.650771,
     "DAS Name": "TTLL_MLL-50_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ttZ_postBPix": {
     "cross_section": 0.08646,
     "Source of cross section": "MCM for ttZ-jets",
-    "kfactor": 0.3492,
+    "kfactor": 0.349229,
     "DAS Name": "TTLL_MLL-50_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ttZ_2022_preEE": {
     "cross_section": 0.08646,
     "Source of cross section": "MCM for ttZ-jets",
-    "kfactor": 0.0466,
+    "kfactor": 0.046571,
     "DAS Name": "TTLL_MLL-50_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ttZ_2022_postEE": {
     "cross_section": 0.08646,
     "Source of cross section": "MCM for ttZ-jets",
-    "kfactor": 0.1556,
+    "kfactor": 0.155647,
     "DAS Name": "TTLL_MLL-50_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ttZ_2023_preBPix": {
     "cross_section": 0.08646,
     "Source of cross section": "MCM for ttZ-jets",
-    "kfactor": 0.1054,
+    "kfactor": 0.105409,
     "DAS Name": "TTLL_MLL-50_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ttZ_2023_postBPix": {
     "cross_section": 0.08646,
     "Source of cross section": "MCM for ttZ-jets",
-    "kfactor": 0.0566,
+    "kfactor": 0.056567,
     "DAS Name": "TTLL_MLL-50_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "ttZ_2024": {
     "cross_section": 0.08646,
     "Source of cross section": "MCM for ttZ-jets",
-    "kfactor": 0.6358,
+    "kfactor": 0.635806,
     "DAS Name": "TTLL_MLL-50_TuneCP5_13p6TeV_amcatnlo-pythia8"
   },
   "wz3lnu-powheg": {
@@ -865,55 +865,55 @@
   "wz3lnu-powheg_preEE": {
     "cross_section": 4.924,
     "Source of cross section": "XSDB",
-    "kfactor": 0.2303,
+    "kfactor": 0.230301,
     "DAS Name": "WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "wz3lnu-powheg_postEE": {
     "cross_section": 4.924,
     "Source of cross section": "XSDB",
-    "kfactor": 0.7697,
+    "kfactor": 0.769699,
     "DAS Name": "WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "wz3lnu-powheg_preBPix": {
     "cross_section": 4.924,
     "Source of cross section": "XSDB",
-    "kfactor": 0.6508,
+    "kfactor": 0.650771,
     "DAS Name": "WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "wz3lnu-powheg_postBPix": {
     "cross_section": 4.924,
     "Source of cross section": "XSDB",
-    "kfactor": 0.3492,
+    "kfactor": 0.349229,
     "DAS Name": "WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "wz3lnu-powheg_2022_preEE": {
     "cross_section": 4.924,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0466,
+    "kfactor": 0.046571,
     "DAS Name": "WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "wz3lnu-powheg_2022_postEE": {
     "cross_section": 4.924,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1556,
+    "kfactor": 0.155647,
     "DAS Name": "WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "wz3lnu-powheg_2023_preBPix": {
     "cross_section": 4.924,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1054,
+    "kfactor": 0.105409,
     "DAS Name": "WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "wz3lnu-powheg_2023_postBPix": {
     "cross_section": 4.924,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0566,
+    "kfactor": 0.056567,
     "DAS Name": "WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "wz3lnu-powheg_2024": {
     "cross_section": 4.924,
     "Source of cross section": "XSDB",
-    "kfactor": 0.6358,
+    "kfactor": 0.635806,
     "DAS Name": "WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg": {
@@ -925,55 +925,55 @@
   "tt2l2nu-powheg_preEE": {
     "cross_section": 76.21,
     "Source of cross section": "XSDB",
-    "kfactor": 0.2303,
+    "kfactor": 0.230301,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_postEE": {
     "cross_section": 76.21,
     "Source of cross section": "XSDB",
-    "kfactor": 0.7697,
+    "kfactor": 0.769699,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_preBPix": {
     "cross_section": 76.21,
     "Source of cross section": "XSDB",
-    "kfactor": 0.6508,
+    "kfactor": 0.650771,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_postBPix": {
     "cross_section": 76.21,
     "Source of cross section": "XSDB",
-    "kfactor": 0.3492,
+    "kfactor": 0.349229,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_2022_preEE": {
     "cross_section": 76.21,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0466,
+    "kfactor": 0.046571,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_2022_postEE": {
     "cross_section": 76.21,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1556,
+    "kfactor": 0.155647,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_2023_preBPix": {
     "cross_section": 76.21,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1054,
+    "kfactor": 0.105409,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_2023_postBPix": {
     "cross_section": 76.21,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0566,
+    "kfactor": 0.056567,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_2024": {
     "cross_section": 76.21,
     "Source of cross section": "XSDB",
-    "kfactor": 0.6358,
+    "kfactor": 0.635806,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DYm10to50-2j": {
@@ -985,55 +985,55 @@
   "DYm10to50-2j_preEE": {
     "cross_section": 21130.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.2303,
+    "kfactor": 0.230301,
     "DAS Name": "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm10to50-2j_postEE": {
     "cross_section": 21130.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.7697,
+    "kfactor": 0.769699,
     "DAS Name": "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm10to50-2j_preBPix": {
     "cross_section": 21130.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.6508,
+    "kfactor": 0.650771,
     "DAS Name": "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm10to50-2j_postBPix": {
     "cross_section": 21130.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.3492,
+    "kfactor": 0.349229,
     "DAS Name": "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm10to50-2j_2022_preEE": {
     "cross_section": 21130.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0466,
+    "kfactor": 0.046571,
     "DAS Name": "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm10to50-2j_2022_postEE": {
     "cross_section": 21130.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1556,
+    "kfactor": 0.155647,
     "DAS Name": "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm10to50-2j_2023_preBPix": {
     "cross_section": 21130.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1054,
+    "kfactor": 0.105409,
     "DAS Name": "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm10to50-2j_2023_postBPix": {
     "cross_section": 21130.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0566,
+    "kfactor": 0.056567,
     "DAS Name": "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm10to50-2j_2024": {
     "cross_section": 21130.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.6358,
+    "kfactor": 0.635806,
     "DAS Name": "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm50-2j": {
@@ -1045,55 +1045,55 @@
   "DYm50-2j_preEE": {
     "cross_section": 6727.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.2303,
+    "kfactor": 0.230301,
     "DAS Name": "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm50-2j_postEE": {
     "cross_section": 6727.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.7697,
+    "kfactor": 0.769699,
     "DAS Name": "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm50-2j_preBPix": {
     "cross_section": 6727.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.6508,
+    "kfactor": 0.650771,
     "DAS Name": "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm50-2j_postBPix": {
     "cross_section": 6727.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.3492,
+    "kfactor": 0.349229,
     "DAS Name": "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm50-2j_2022_preEE": {
     "cross_section": 6727.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0466,
+    "kfactor": 0.046571,
     "DAS Name": "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm50-2j_2022_postEE": {
     "cross_section": 6727.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1556,
+    "kfactor": 0.155647,
     "DAS Name": "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm50-2j_2023_preBPix": {
     "cross_section": 6727.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1054,
+    "kfactor": 0.105409,
     "DAS Name": "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm50-2j_2023_postBPix": {
     "cross_section": 6727.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0566,
+    "kfactor": 0.056567,
     "DAS Name": "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DYm50-2j_2024": {
     "cross_section": 6727.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.6358,
+    "kfactor": 0.635806,
     "DAS Name": "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2e-m10to50": {
@@ -1105,55 +1105,55 @@
   "DY2e-m10to50_preEE": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.2303,
+    "kfactor": 0.230301,
     "DAS Name": "DYto2E_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2e-m10to50_postEE": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.7697,
+    "kfactor": 0.769699,
     "DAS Name": "DYto2E_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2e-m10to50_preBPix": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.6508,
+    "kfactor": 0.650771,
     "DAS Name": "DYto2E_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2e-m10to50_postBPix": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.3492,
+    "kfactor": 0.349229,
     "DAS Name": "DYto2E_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2e-m10to50_2022_preEE": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0466,
+    "kfactor": 0.046571,
     "DAS Name": "DYto2E_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2e-m10to50_2022_postEE": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1556,
+    "kfactor": 0.155647,
     "DAS Name": "DYto2E_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2e-m10to50_2023_preBPix": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1054,
+    "kfactor": 0.105409,
     "DAS Name": "DYto2E_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2e-m10to50_2023_postBPix": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0566,
+    "kfactor": 0.056567,
     "DAS Name": "DYto2E_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2e-m10to50_2024": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.6358,
+    "kfactor": 0.635806,
     "DAS Name": "DYto2E_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2m-m10to50": {
@@ -1165,55 +1165,55 @@
   "DY2m-m10to50_preEE": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.2303,
+    "kfactor": 0.230301,
     "DAS Name": "DYto2Mu_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2m-m10to50_postEE": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.7697,
+    "kfactor": 0.769699,
     "DAS Name": "DYto2Mu_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2m-m10to50_preBPix": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.6508,
+    "kfactor": 0.650771,
     "DAS Name": "DYto2Mu_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2m-m10to50_postBPix": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.3492,
+    "kfactor": 0.349229,
     "DAS Name": "DYto2Mu_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2m-m10to50_2022_preEE": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0466,
+    "kfactor": 0.046571,
     "DAS Name": "DYto2Mu_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2m-m10to50_2022_postEE": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1556,
+    "kfactor": 0.155647,
     "DAS Name": "DYto2Mu_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2m-m10to50_2023_preBPix": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1054,
+    "kfactor": 0.105409,
     "DAS Name": "DYto2Mu_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2m-m10to50_2023_postBPix": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0566,
+    "kfactor": 0.056567,
     "DAS Name": "DYto2Mu_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2m-m10to50_2024": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.6358,
+    "kfactor": 0.635806,
     "DAS Name": "DYto2Mu_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2t-m10to50": {
@@ -1225,235 +1225,235 @@
   "DY2t-m10to50_preEE": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.2303,
+    "kfactor": 0.230301,
     "DAS Name": "DYto2Tau_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2t-m10to50_postEE": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.7697,
+    "kfactor": 0.769699,
     "DAS Name": "DYto2Tau_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2t-m10to50_preBPix": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.6508,
+    "kfactor": 0.650771,
     "DAS Name": "DYto2Tau_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2t-m10to50_postBPix": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.3492,
+    "kfactor": 0.349229,
     "DAS Name": "DYto2Tau_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2t-m10to50_2022_preEE": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0466,
+    "kfactor": 0.046571,
     "DAS Name": "DYto2Tau_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2t-m10to50_2022_postEE": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1556,
+    "kfactor": 0.155647,
     "DAS Name": "DYto2Tau_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2t-m10to50_2023_preBPix": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1054,
+    "kfactor": 0.105409,
     "DAS Name": "DYto2Tau_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2t-m10to50_2023_postBPix": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0566,
+    "kfactor": 0.056567,
     "DAS Name": "DYto2Tau_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2t-m10to50_2024": {
     "cross_section": 6744.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.6358,
+    "kfactor": 0.635806,
     "DAS Name": "DYto2Tau_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "DY2e-m50-2j": {
     "cross_section": 6639.0,
     "Source of cross section": "XSDB",
-    "kfactor": 1.0,
+    "kfactor": 0.333,
     "DAS Name": "DYto2E-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2e-m50-2j_preEE": {
     "cross_section": 6639.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.2303,
+    "kfactor": 0.07669,
     "DAS Name": "DYto2E-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2e-m50-2j_postEE": {
     "cross_section": 6639.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.7697,
+    "kfactor": 0.25631,
     "DAS Name": "DYto2E-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2e-m50-2j_preBPix": {
     "cross_section": 6639.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.6508,
+    "kfactor": 0.216707,
     "DAS Name": "DYto2E-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2e-m50-2j_postBPix": {
     "cross_section": 6639.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.3492,
+    "kfactor": 0.116293,
     "DAS Name": "DYto2E-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2e-m50-2j_2022_preEE": {
     "cross_section": 6639.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0466,
+    "kfactor": 0.015508,
     "DAS Name": "DYto2E-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2e-m50-2j_2022_postEE": {
     "cross_section": 6639.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1556,
+    "kfactor": 0.051831,
     "DAS Name": "DYto2E-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2e-m50-2j_2023_preBPix": {
     "cross_section": 6639.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1054,
+    "kfactor": 0.035101,
     "DAS Name": "DYto2E-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2e-m50-2j_2023_postBPix": {
     "cross_section": 6639.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0566,
+    "kfactor": 0.018837,
     "DAS Name": "DYto2E-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2e-m50-2j_2024": {
     "cross_section": 6639.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.6358,
+    "kfactor": 0.211723,
     "DAS Name": "DYto2E-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2m-m50-2j": {
     "cross_section": 6662.0,
     "Source of cross section": "XSDB",
-    "kfactor": 1.0,
+    "kfactor": 0.333,
     "DAS Name": "DYto2Mu-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2m-m50-2j_preEE": {
     "cross_section": 6662.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.2303,
+    "kfactor": 0.07669,
     "DAS Name": "DYto2Mu-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2m-m50-2j_postEE": {
     "cross_section": 6662.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.7697,
+    "kfactor": 0.25631,
     "DAS Name": "DYto2Mu-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2m-m50-2j_preBPix": {
     "cross_section": 6662.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.6508,
+    "kfactor": 0.216707,
     "DAS Name": "DYto2Mu-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2m-m50-2j_postBPix": {
     "cross_section": 6662.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.3492,
+    "kfactor": 0.116293,
     "DAS Name": "DYto2Mu-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2m-m50-2j_2022_preEE": {
     "cross_section": 6662.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0466,
+    "kfactor": 0.015508,
     "DAS Name": "DYto2Mu-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2m-m50-2j_2022_postEE": {
     "cross_section": 6662.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1556,
+    "kfactor": 0.051831,
     "DAS Name": "DYto2Mu-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2m-m50-2j_2023_preBPix": {
     "cross_section": 6662.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1054,
+    "kfactor": 0.035101,
     "DAS Name": "DYto2Mu-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2m-m50-2j_2023_postBPix": {
     "cross_section": 6662.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0566,
+    "kfactor": 0.018837,
     "DAS Name": "DYto2Mu-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2m-m50-2j_2024": {
     "cross_section": 6662.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.6358,
+    "kfactor": 0.211723,
     "DAS Name": "DYto2Mu-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2t-m50-2j": {
     "cross_section": 6639.0,
     "Source of cross section": "XSDB",
-    "kfactor": 1.0,
+    "kfactor": 0.333,
     "DAS Name": "DYto2Tau-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2t-m50-2j_preEE": {
     "cross_section": 6639.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.2303,
+    "kfactor": 0.07669,
     "DAS Name": "DYto2Tau-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2t-m50-2j_postEE": {
     "cross_section": 6639.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.7697,
+    "kfactor": 0.25631,
     "DAS Name": "DYto2Tau-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2t-m50-2j_preBPix": {
     "cross_section": 6639.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.6508,
+    "kfactor": 0.216707,
     "DAS Name": "DYto2Tau-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2t-m50-2j_postBPix": {
     "cross_section": 6639.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.3492,
+    "kfactor": 0.116293,
     "DAS Name": "DYto2Tau-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2t-m50-2j_2022_preEE": {
     "cross_section": 6639.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0466,
+    "kfactor": 0.015508,
     "DAS Name": "DYto2Tau-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2t-m50-2j_2022_postEE": {
     "cross_section": 6639.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1556,
+    "kfactor": 0.051831,
     "DAS Name": "DYto2Tau-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2t-m50-2j_2023_preBPix": {
     "cross_section": 6639.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.1054,
+    "kfactor": 0.035101,
     "DAS Name": "DYto2Tau-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2t-m50-2j_2023_postBPix": {
     "cross_section": 6639.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.0566,
+    "kfactor": 0.018837,
     "DAS Name": "DYto2Tau-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2t-m50-2j_2024": {
     "cross_section": 6639.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.6358,
+    "kfactor": 0.211723,
     "DAS Name": "DYto2Tau-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   }
 }

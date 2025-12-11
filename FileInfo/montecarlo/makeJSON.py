@@ -52,7 +52,7 @@ def main():
             for suff,lumi in lumis.items():
                 temp = vals.copy()
                 kfactor = temp.get("kfactor", 1.0) if args.k_factors else 1.0
-                temp["kfactor"] = float(f'{kfactor * lumi/total:.4f}')
+                temp["kfactor"] = float(f'{kfactor * lumi/total:.6f}')
                 xsec_info[f'{key}{suff}'] = temp
 
         if args.combined:
@@ -61,7 +61,7 @@ def main():
                 for suff,lumi in lumis.items():
                     temp = vals.copy()
                     kfactor = temp.get("kfactor", 1.0) if args.k_factors else 1.0
-                    temp["kfactor"] = float(f'{kfactor * lumi/total:.4f}')
+                    temp["kfactor"] = float(f'{kfactor * lumi/total:.6f}')
                     xsec_info[f'{key}_{year}{suff}'] = temp
 
     with open(args.outfile, "w") as outfile:
