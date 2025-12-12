@@ -95,7 +95,6 @@
         "Style" : "fill-red",
         "add_perc_error" : 0.0,
         "Members" : [
-            "tt-jets",
             "tt2l2nu-powheg"
         ]
     },
