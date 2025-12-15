@@ -30,7 +30,7 @@ sims=(
   DYm10to50-2j,CustomDY_MLL-10to50_2024,dy-jets
   DYm50-2j,CustomDY_MLL-50_2024,dy-jets
 )
-streams="EGamma0 EGamma1 MuonEG Muon0 Muon1"
+streams="EGamma0 EGamma1 EGamma2 EGamma3 MuonEG Muon0 Muon1"
 eras=(
   #suffix,campaign_conditions,custom_globaltag
   ,RunIII2024Summer24Mini,150X_mcRun3_2024_realistic_v2
