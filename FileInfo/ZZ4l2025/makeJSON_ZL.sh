@@ -31,7 +31,7 @@ sims=(
   DY2m-m50-2j,DYto2Mu-2Jets_Bin-MLL-50,dy-jets
   DY2t-m50-2j,DYto2Tau-2Jets_Bin-MLL-50,dy-jets
 )
-streams="EGamma0 EGamma1 MuonEG Muon0 Muon1"
+streams="EGamma0 EGamma1 EGamma2 EGamma3 MuonEG Muon0 Muon1"
 suffixes=("")
 
 # Begin output
