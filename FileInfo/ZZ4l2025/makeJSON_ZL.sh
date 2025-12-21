@@ -60,7 +60,7 @@ done
 
 # Data
 year=2025
-srcdir=/hdfs/store/user/marquez/ZZ4l${year}-skimmed
+srcdir=/hdfs/store/user/marquez/ZplusL${year}-skimmed
 for stream in $streams; do
   for dir in ${srcdir}/*-data_${stream}_Run${year}*; do
     if [[ ! -d $dir ]]; then
