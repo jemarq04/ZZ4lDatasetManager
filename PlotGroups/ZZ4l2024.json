@@ -82,9 +82,9 @@
         "Name" : "Drell-Yan",
         "Style" : "fill-green",
         "Members" : [
-            "DY2e-m10to50",
-            "DY2m-m10to50",
-            "DY2t-m10to50",
+            "DY2e-m10to50-2j",
+            "DY2m-m10to50-2j",
+            "DY2t-m10to50-2j",
             "DY2e-m50-2j",
             "DY2m-m50-2j",
             "DY2t-m50-2j"
