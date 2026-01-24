@@ -13,7 +13,7 @@ def readJson(json_file_name):
         try:
             json_info = json.load(json_file)
         except ValueError as err:
-            print("Error reading JSON file %s. The error message was:" % json_file_name) 
+            print("Error reading JSON file %s. The error message was:" % json_file_name)
             print(err)
     return json_info
 
@@ -28,7 +28,7 @@ def getDefaultParser():
                         help="Put legend left or right")
     parser.add_argument("--folder_name", type=str, default="",
                         help="Folder name to save plots in (default is current time)")
-    parser.add_argument("--ratio_text", default="",type=str, 
+    parser.add_argument("--ratio_text", default="",type=str,
                         help="Ratio text")
     parser.add_argument("--scaleymax", type=float, default=1.0,
                         help="Scale default ymax by this amount")
@@ -67,7 +67,7 @@ def getDefaultParser():
     parser.add_argument("--logy", action='store_true',
                         help="Use logaritmic scale on Y-axis")
     parser.add_argument("-c", "--channels", type=str, default="eeee,eemm,mmee,mmmm",
-                        help="List (separate by commas) of channels to plot") 
+                        help="List (separate by commas) of channels to plot")
     parser.add_argument("--no_scalefactors", action='store_true',
                         help="No scale factors")
     parser.add_argument("-f", "--files_to_plot", type=str, required=False,
@@ -79,7 +79,7 @@ def getDefaultParser():
                         default="", help="Files to make plots "
                         "signal plots from i.e. on top, not stacked. List "
                         "separated by a comma (match name in file_info.json)")
-    return parser 
+    return parser
 def getListOfFiles(file_set, selection):
     file_set = file_set.lower()
     if "zz4l2022" in file_set:
@@ -106,9 +106,9 @@ def getListOfFiles(file_set, selection):
             filelist.append("wz-mgmlm")
         else:
             filelist.append("wz")
-        if "atgc" in file_set: 
+        if "atgc" in file_set:
             filelist.append("wz-atgc")
-        if "vbs" in file_set: 
+        if "vbs" in file_set:
             #filelist.append("wzjj-aqgcfm__sm")
             if "nlo" in file_set:
                 filelist.append("wzjj-vbfnlo")

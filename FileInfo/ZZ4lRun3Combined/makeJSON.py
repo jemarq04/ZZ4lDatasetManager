@@ -23,7 +23,7 @@ def main():
     for name in ["ntuples", "ZplusLSkim", "LooseLeptons"]:
         info = {}
         total_info = {}
-        for year in suberas:
+        for year,subera in suberas.items():
             if not os.path.isfile(f'../ZZ4l{year}/{name}.json'):
                 continue
 
@@ -33,10 +33,10 @@ def main():
             for key,vals in info.items():
                 if key.startswith("data"):
                     total_info[key] = vals
-                elif not suberas[year]:
+                elif not subera:
                     total_info[f'{key}_{year}'] = vals
                 else:
-                    for suff in suberas[year]:
+                    for suff in subera:
                         if key.endswith(suff):
                             total_info[key.replace(suff, f'_{year}{suff}')] = vals
                             break
@@ -45,12 +45,14 @@ def main():
 
         with open(f"{name}.json", "w") as outfile:
             json.dump(total_info, outfile, indent=2)
+            outfile.write("\n")
 
         if name == "LooseLeptons":
             total_info["AllData"] = {"file_path": "", "plot_group": "data_all"}
             total_info["DataEWKCorrected"] = {"file_path": "", "plot_group": "nonprompt"}
             with open("ZZSelectionsTightLeps.json", "w") as outfile:
                 json.dump(total_info, outfile, indent=2)
+                outfile.write("\n")
 
 
 if __name__ == "__main__":

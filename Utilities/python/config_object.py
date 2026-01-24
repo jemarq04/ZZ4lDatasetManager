@@ -1,26 +1,23 @@
-#!/usr/bin/env python3
-import argparse
 import ROOT
-import json
 import array
 
 class ConfigObject:
     def __init__(self, data):
-        self.data = data   
+        self.data = data
     def getObject(self, object_name, title=""):
         initialize = self.data[object_name]['Initialize']
         if "TH1" in initialize['type']:
             if "varbins" not in initialize:
-                tObject = ROOT.TH1D(object_name, title, 
-                    initialize['nbins'], initialize['xmin'], 
+                tObject = ROOT.TH1D(object_name, title,
+                    initialize['nbins'], initialize['xmin'],
                     initialize['xmax'])
             else:
-                tObject = ROOT.TH1D(object_name, object_name, 
-                    initialize['nbins'], 
-                    array.array('d', initialize['varbins'])) 
+                tObject = ROOT.TH1D(object_name, object_name,
+                    initialize['nbins'],
+                    array.array('d', initialize['varbins']))
             tObject.SetDirectory(ROOT.gROOT)
         elif initialize['type'] == "TCanvas":
-            tObject = ROOT.TCanvas(object_name, object_name, 
+            tObject = ROOT.TCanvas(object_name, object_name,
                                 initialize['ww'], initialize['wh'])
         else:
             tObject = ""
@@ -37,8 +34,8 @@ class ConfigObject:
         if start is None:
             try:
                 start = next(it)
-            except StopIteration:
-                raise TypeError('reduce() of empty sequence with no initial value')
+            except StopIteration as err:
+                raise TypeError('reduce() of empty sequence with no initial value') from err
         accum_value = start
         for x in iterable:
             split = str(x).strip(")").split("(")
@@ -53,9 +50,8 @@ class ConfigObject:
         return accum_value
 
     def setAttributes(self, tObject, attributes):
-        functions = []
         for function_call, params in attributes.items():
-            if not isinstance(params, list): 
+            if not isinstance(params, list):
                 params = [params]
             parsed_params = []
             for param in params:
@@ -65,25 +61,25 @@ class ConfigObject:
                     if "+" in param_str:
                         values = [x.strip() for x in expr.split("+")]
                         root_val = self.deepGetattr(ROOT, values[0])
-                        root_val += int(values[1]) 
+                        root_val += int(values[1])
                     elif "-" in param_str:
                         values = [x.strip() for x in expr.split("-")]
                         root_val =self.deepGetattr(ROOT, values[0])
-                        root_val -= int(values[1]) 
+                        root_val -= int(values[1])
                     else:
                         root_val = self.deepGetattr(ROOT, expr)
                     param = root_val
                 parsed_params.append(param)
             self.deepGetattr(tObject, function_call)(*parsed_params)
     def getHistCanvas(self, hist_name):
-        canvas = getCanvas(self)
-        hist = self.getObject(hist_name) 
+        canvas = self.getCanvas()
+        hist = self.getObject(hist_name)
         hist.Draw()
         self.setAtrributes(hist)
         hist.Draw()
         return canvas
     def getCanvas(self):
-        canvas = self.getObject("Canvas") 
+        canvas = self.getObject("Canvas")
         self.setAttributes(canvas, "Canvas")
         canvas.cd()
         return canvas

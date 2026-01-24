@@ -44,11 +44,11 @@ def main():
 
         if key == "example":
             continue
-        
-        for year,lumis in lumi_map.items():
+
+        for lumis in lumi_map.values():
             if len(lumis) == 1:
                 continue
-            total = sum([lumi for lumi in lumis.values()])
+            total = sum(list(lumis.values()))
             for suff,lumi in lumis.items():
                 temp = vals.copy()
                 kfactor = temp.get("kfactor", 1.0) if args.k_factors else 1.0
@@ -66,6 +66,7 @@ def main():
 
     with open(args.outfile, "w") as outfile:
         json.dump(xsec_info, outfile, indent=2)
+        outfile.write("\n")
 
 if __name__ == "__main__":
     main()

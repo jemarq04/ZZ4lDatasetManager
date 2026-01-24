@@ -2,10 +2,7 @@ import ROOT
 import math
 import ConfigHistTools
 import config_object
-import logging
 import os
-import glob
-import ConfigHistTools
 
 class ConfigHistFactory(object):
     def __init__(self, dataset_manager_path, dataset_name, object_restrict=""):
@@ -15,26 +12,26 @@ class ConfigHistFactory(object):
         self.config = config_object.ConfigObject(self.info)
         self.mc_info = ConfigHistTools.readAllInfo('/'.join([self.manager_path, "FileInfo", "montecarlo/*"]))
         self.data_info = ConfigHistTools.readAllInfo('/'.join([self.manager_path, "FileInfo", "data/*"]))
-        self.styles = ConfigHistTools.readInfo('/'.join([self.manager_path, 
+        self.styles = ConfigHistTools.readInfo('/'.join([self.manager_path,
             "Styles", "styles.json"]))
         base_name = self.dataset_name.split("/")[0]
         self.plot_groups = self.readAllInSet("PlotGroups", base_name)
-        object_file = '/'.join([self.manager_path,  "PlotObjects", 
+        object_file = '/'.join([self.manager_path,  "PlotObjects",
             ("_".join([self.dataset_name, object_restrict])
                 if object_restrict != "" else self.dataset_name) + ".py"])
         alias_file = '/'.join([self.manager_path, "Aliases", "%s.json" % base_name])
         self.aliases = ConfigHistTools.readInfo(alias_file) if os.path.isfile(alias_file) else {}
-        # Objects can be defined by the default dataset-wide file, 
+        # Objects can be defined by the default dataset-wide file,
         # or by specific selection files
-        if not os.path.isfile(object_file): 
+        if not os.path.isfile(object_file):
             object_file = object_file.replace("py", "json")
-        if not os.path.isfile(object_file): 
+        if not os.path.isfile(object_file):
             #TODO: This is some dumb logic
             object_file = object_file.replace("json", "py")
             object_file = object_file.replace(self.dataset_name, base_name)
         self.plot_objects = ConfigHistTools.readInfo(object_file)
     def readAllInSet(self, object_type, base_name):
-        info = ConfigHistTools.readAllInfo('/'.join([self.manager_path, 
+        info = ConfigHistTools.readAllInfo('/'.join([self.manager_path,
                 object_type, "%s*" % base_name]))
         return info
     def getHist2DWeightDrawExpr(self, object_name, dataset_name, channel, bins):
@@ -43,7 +40,7 @@ class ConfigHistFactory(object):
         draw_expr = draw_expr.replace(object_name, object_name + ":Iteration$", 1)
         return draw_expr
     def getHistDrawExpr(self, object_name, dataset_name, channel):
-        hist_name = '_'.join([x for x in [dataset_name, channel, object_name] 
+        hist_name = '_'.join([x for x in [dataset_name, channel, object_name]
             if x != ""])
         object_entry = object_name if object_name in self.plot_objects else object_name.split("_")[0]
         hist_info = self.plot_objects[object_entry]['Initialize']
@@ -51,7 +48,7 @@ class ConfigHistFactory(object):
         draw_expr += "(%i,%f,%f)" % (hist_info['nbins'], hist_info['xmin'], hist_info['xmax'])
         return draw_expr
     def get2DHistDrawExpr(self, xobject_name, yobject_name, dataset_name, channel):
-        hist_name = '_'.join([x for x in [dataset_name, channel, xobject_name, yobject_name] 
+        hist_name = '_'.join([x for x in [dataset_name, channel, xobject_name, yobject_name]
             if x != ""])
         xobject_name = xobject_name if xobject_name in self.plot_objects else xobject_name.split("_")[0]
         yobject_name = yobject_name if yobject_name in self.plot_objects else yobject_name.split("_")[0]
@@ -132,6 +129,8 @@ def main():
         "ZZ4l2022", "LooseLeptons")
     draw_expr = test.getHistDrawExpr("l1Pt", "zz4l-powheg", "eeee")
     hist_name = draw_expr.split(">>")[1].split("(")[0]
+    print(hist_name)
+    print(draw_expr)
 
 if __name__ == "__main__":
     main()

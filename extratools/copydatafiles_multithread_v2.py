@@ -10,18 +10,16 @@ import queue
 commandlist=[]
 maxnum=-1
 count=0
-count2=0
 
 lock=threading.Lock()
 
 t0 = time.time()
 
 def copyfile(command):
-    global count2
     recordname = command[1]
     out = subprocess.getstatusoutput(command[0])
-    
-    
+
+
     statlist.put(recordname+' '+str(out[0])+'\n')
     if out[0]!=0:
         errlist.put(recordname+'\n'+str(out[1])+'\n')
@@ -55,7 +53,5 @@ with open('copy_error.txt','w') as ferr:
             fstat.write(statlist.get())
         while not errlist.empty():
             ferr.write(errlist.get())
-        
-print('time spent: %s'%(time.time()-t0))
-            
 
+print('time spent: %s'%(time.time()-t0))

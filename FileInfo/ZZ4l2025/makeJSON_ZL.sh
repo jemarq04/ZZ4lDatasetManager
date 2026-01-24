@@ -1,3 +1,5 @@
+#!/bin/bash
+
 year=2024
 srcdir=/hdfs/store/user/marquez/ZplusL${year}-skimmed
 overwrite=true

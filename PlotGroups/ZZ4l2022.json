@@ -39,7 +39,7 @@
         "Style" : "fill-lightred",
         "add_perc_error" : 0.0,
         "Members" : [
-            "ggHZZ"         
+            "ggHZZ"
         ]
     },
     "ggZZ" : {
@@ -153,4 +153,3 @@
         ]
     }
 }
-
