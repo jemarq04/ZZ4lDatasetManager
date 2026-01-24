@@ -4,17 +4,19 @@ import imp
 import glob
 import logging
 
+
 def readPythonOrJson(file_path):
     if ".pyc" in file_path[-4:] or ".jsonc" in file_path[-6:]:
         return ""
     if ".py" not in file_path[-3:] and ".json" not in file_path[-5:]:
-        if os.path.isfile(file_path+".py"):
-            file_path = file_path +".py"
-        elif os.path.isfile(file_path+".json"):
-            file_path = file_path +".json"
+        if os.path.isfile(file_path + ".py"):
+            file_path = file_path + ".py"
+        elif os.path.isfile(file_path + ".json"):
+            file_path = file_path + ".json"
         else:
             raise ValueError("Configuration file %s(.py/json) not found!" % file_path)
     return file_path
+
 
 def readAllInfo(file_path):
     info = {}
@@ -24,6 +26,7 @@ def readAllInfo(file_path):
         if file_info:
             info.update(file_info)
     return info
+
 
 def readInfo(file_path):
     try:
@@ -44,6 +47,7 @@ def readInfo(file_path):
         info = readJson(file_path)
     return info
 
+
 def readJson(json_file_name):
     json_info = {}
     with open(json_file_name) as json_file:
@@ -54,39 +58,37 @@ def readJson(json_file_name):
             print(err)
     return json_info
 
+
 def getHistType(manager_path, selection, hist_name):
-    hist_file = "/".join([manager_path,
-        "ZZ4lDatasetManager", "PlotObjects", selection])
+    hist_file = "/".join([manager_path, "ZZ4lDatasetManager", "PlotObjects", selection])
     all_hist_info = readInfo(hist_file)
     if hist_name not in list(all_hist_info.keys()):
-        raise ValueError("Invalid hist name '%s'. Must be defined in %s"
-                % (hist_name, hist_file))
+        raise ValueError("Invalid hist name '%s'. Must be defined in %s" % (hist_name, hist_file))
     hist_info = all_hist_info[hist_name]["Initialize"]
     return hist_info["type"]
 
+
 def getHistBinInfo(manager_path, selection, hist_name):
     bin_info = {}
-    hist_file = "/".join([manager_path,
-        "ZZ4lDatasetManager", "PlotObjects", selection])
+    hist_file = "/".join([manager_path, "ZZ4lDatasetManager", "PlotObjects", selection])
     all_hist_info = readInfo(hist_file)
     if hist_name not in list(all_hist_info.keys()):
-        raise ValueError("Invalid hist name '%s'. Must be defined in %s"
-                % (hist_name, hist_file))
+        raise ValueError("Invalid hist name '%s'. Must be defined in %s" % (hist_name, hist_file))
     hist_info = all_hist_info[hist_name]["Initialize"]
     if "TH1" in hist_info["type"]:
-        args = ['nbins', 'xmin', 'xmax']
+        args = ["nbins", "xmin", "xmax"]
     elif "TH2" in hist_info["type"]:
-        args = ['nbinsx', 'xmin', 'xmax', 'nbinsy', 'ymin', 'ymax']
+        args = ["nbinsx", "xmin", "xmax", "nbinsy", "ymin", "ymax"]
     else:
-        raise ValueError("Invalid histogram type %s" % hist_info['type'])
+        raise ValueError("Invalid histogram type %s" % hist_info["type"])
 
     for key in args:
-        bin_info.update({key : hist_info[key]})
+        bin_info.update({key: hist_info[key]})
     return bin_info
 
+
 def getAllHistNames(manager_path, selection):
-    hist_file = "/".join([manager_path,
-        "ZZ4lDatasetManager", "PlotObjects", selection])
+    hist_file = "/".join([manager_path, "ZZ4lDatasetManager", "PlotObjects", selection])
     all_hist_names = list(readInfo(hist_file).keys())
 
     return all_hist_names

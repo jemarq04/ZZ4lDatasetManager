@@ -3,12 +3,19 @@ import os
 import json
 import argparse
 
+
 def main():
     with open("../../luminosityMap.json") as infile:
         lumi_info = json.load(infile)
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("-s", "--skip", type=lambda x: [i.strip() for i in x.split(",")], default=[], help="comma-separated list of years to skip")
+    parser.add_argument(
+        "-s",
+        "--skip",
+        type=lambda x: [i.strip() for i in x.split(",")],
+        default=[],
+        help="comma-separated list of years to skip",
+    )
     args = parser.parse_args()
 
     suberas = {}
@@ -23,25 +30,25 @@ def main():
     for name in ["ntuples", "ZplusLSkim", "LooseLeptons"]:
         info = {}
         total_info = {}
-        for year,subera in suberas.items():
-            if not os.path.isfile(f'../ZZ4l{year}/{name}.json'):
+        for year, subera in suberas.items():
+            if not os.path.isfile(f"../ZZ4l{year}/{name}.json"):
                 continue
 
-            with open(f'../ZZ4l{year}/{name}.json') as infile:
+            with open(f"../ZZ4l{year}/{name}.json") as infile:
                 info = json.load(infile)
 
-            for key,vals in info.items():
+            for key, vals in info.items():
                 if key.startswith("data"):
                     total_info[key] = vals
                 elif not subera:
-                    total_info[f'{key}_{year}'] = vals
+                    total_info[f"{key}_{year}"] = vals
                 else:
                     for suff in subera:
                         if key.endswith(suff):
-                            total_info[key.replace(suff, f'_{year}{suff}')] = vals
+                            total_info[key.replace(suff, f"_{year}{suff}")] = vals
                             break
                     else:
-                        print(f'warning: {key} does not have expected subera suffix')
+                        print(f"warning: {key} does not have expected subera suffix")
 
         with open(f"{name}.json", "w") as outfile:
             json.dump(total_info, outfile, indent=2)
