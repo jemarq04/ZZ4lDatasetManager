@@ -1,41 +1,42 @@
 import ROOT
 import array
 
+
 class ConfigObject:
     def __init__(self, data):
         self.data = data
+
     def getObject(self, object_name, title=""):
-        initialize = self.data[object_name]['Initialize']
-        if "TH1" in initialize['type']:
+        initialize = self.data[object_name]["Initialize"]
+        if "TH1" in initialize["type"]:
             if "varbins" not in initialize:
-                tObject = ROOT.TH1D(object_name, title,
-                    initialize['nbins'], initialize['xmin'],
-                    initialize['xmax'])
+                tObject = ROOT.TH1D(object_name, title, initialize["nbins"], initialize["xmin"], initialize["xmax"])
             else:
-                tObject = ROOT.TH1D(object_name, object_name,
-                    initialize['nbins'],
-                    array.array('d', initialize['varbins']))
+                tObject = ROOT.TH1D(
+                    object_name, object_name, initialize["nbins"], array.array("d", initialize["varbins"])
+                )
             tObject.SetDirectory(ROOT.gROOT)
-        elif initialize['type'] == "TCanvas":
-            tObject = ROOT.TCanvas(object_name, object_name,
-                                initialize['ww'], initialize['wh'])
+        elif initialize["type"] == "TCanvas":
+            tObject = ROOT.TCanvas(object_name, object_name, initialize["ww"], initialize["wh"])
         else:
             tObject = ""
         return tObject
+
     def deepGetattr(self, obj, attr):
         """Recurses through an attribute chain to get the ultimate value.
-            via http://pingfive.typepad.com/blog/2010/04/deep-getattr-python-function.html"""
+        via http://pingfive.typepad.com/blog/2010/04/deep-getattr-python-function.html"""
         try:
             return float(attr)
         except ValueError:
-            return self.evaluateNested(getattr, attr.split('.'), obj)
+            return self.evaluateNested(getattr, attr.split("."), obj)
+
     def evaluateNested(self, func, iterable, start=None):
         it = iter(iterable)
         if start is None:
             try:
                 start = next(it)
             except StopIteration as err:
-                raise TypeError('reduce() of empty sequence with no initial value') from err
+                raise TypeError("reduce() of empty sequence with no initial value") from err
         accum_value = start
         for x in iterable:
             split = str(x).strip(")").split("(")
@@ -64,13 +65,14 @@ class ConfigObject:
                         root_val += int(values[1])
                     elif "-" in param_str:
                         values = [x.strip() for x in expr.split("-")]
-                        root_val =self.deepGetattr(ROOT, values[0])
+                        root_val = self.deepGetattr(ROOT, values[0])
                         root_val -= int(values[1])
                     else:
                         root_val = self.deepGetattr(ROOT, expr)
                     param = root_val
                 parsed_params.append(param)
             self.deepGetattr(tObject, function_call)(*parsed_params)
+
     def getHistCanvas(self, hist_name):
         canvas = self.getCanvas()
         hist = self.getObject(hist_name)
@@ -78,11 +80,13 @@ class ConfigObject:
         self.setAtrributes(hist)
         hist.Draw()
         return canvas
+
     def getCanvas(self):
         canvas = self.getObject("Canvas")
         self.setAttributes(canvas, "Canvas")
         canvas.cd()
         return canvas
+
     def getListOfHists(self):
         list_of_hists = []
         for key in self.data:
