@@ -1,3 +1,5 @@
+#!/bin/bash
+
 year=2024
 srcdir=/hdfs/store/user/marquez/ZZ4l${year}-ntuples
 outfile=ntuples_temp.json

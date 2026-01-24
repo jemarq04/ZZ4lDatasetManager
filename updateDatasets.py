@@ -7,8 +7,8 @@ from optparse import OptionParser
 #Load input json file into dictionary, create dict entry for keys in MC datasets if not already in the dict, then scan folder names
 #If a folder matches an MC name, the MC path is updated; if a folder contains data and matches a data set name in the keys, the path is updates.
 #Then clean up keys in the dict that does not match MC and data or has empty subdict.
- 
-# Example 
+
+# Example
 # python updateDatasets.py -i LooseLeptons.json -y 2016 -o LooseLeptons.json_16MCReprocessed_temp --folder /data/hehe/2022_3years_AllRedo/2016MC --noExtra [--customSet]
 
 parser=OptionParser()
@@ -32,18 +32,18 @@ with open('FileInfo/ZZ4l%s/%s'%(options.year,options.inputname)) as json_file:
 
 if options.customSet:
     datasets = list(obj.keys())
-    
+
 for key in datasets:
-    if not key in list(obj.keys()):
+    if key not in list(obj.keys()):
         print("Current file does not contain %s"%key)
         obj[key] = {}
         #Temporary method for updating Higgs, disabled normally
         #if "HToZZ" in key or "HZZ" in key:
         #    obj[key]['plot_group'] = "HZZ_signal"
- 
+
 for folder in options.folder.split(","):
 
-    for roots,dirs,files in os.walk(folder):
+    for roots,dirs,_ in os.walk(folder):
         root = roots   #Probably can just use roots,dirs etc., define a new var instead
         dirlist = dirs #Only get the first set then exit loop.
         break
@@ -65,7 +65,7 @@ for folder in options.folder.split(","):
 
 #cleanup
 for key in list(obj.keys()):
-    if not key in datasets and not "data" in key:
+    if key not in datasets and "data" not in key:
         del obj[key]
     if obj[key] == {}:
         del obj[key]
@@ -77,9 +77,9 @@ obj_data = copy.deepcopy(obj)
 obj_mc = copy.deepcopy(obj)
 
 for key in list(obj_data.keys()):
-    if not "data" in key:
+    if "data" not in key:
         del obj_data[key]
- 
+
 for key in list(obj_mc.keys()):
     if "data" in key:
         del obj_mc[key]
