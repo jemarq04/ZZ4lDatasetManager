@@ -101,7 +101,7 @@ def getDefaultParser():
 
 def getListOfFiles(file_set, selection):
     file_set = file_set.lower()
-    if "zz4l2018" in file_set:
+    if "zz4l2022" in file_set:
         filelist = []
         if "nonprompt" in file_set:
             filelist.append("nonprompt")
@@ -136,4 +136,6 @@ def getListOfFiles(file_set, selection):
         elif "aqgc" in file_set:
             filelist.append("wzjj-aqgcfm__fm0-4")
         return filelist
+    else:
+        print("ERROR: not configured for given file_set ", file_set)
     return [x.strip() for x in file_set.split(",")]
