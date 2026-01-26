@@ -60,7 +60,7 @@ def readJson(json_file_name):
 
 
 def getHistType(manager_path, selection, hist_name):
-    hist_file = "/".join([manager_path, "ZZ4lRun2DatasetManager", "PlotObjects", selection])
+    hist_file = "/".join([manager_path, "ZZ4lDatasetManager", "PlotObjects", selection])
     all_hist_info = readInfo(hist_file)
     if hist_name not in list(all_hist_info.keys()):
         raise ValueError("Invalid hist name '%s'. Must be defined in %s" % (hist_name, hist_file))
@@ -70,7 +70,7 @@ def getHistType(manager_path, selection, hist_name):
 
 def getHistBinInfo(manager_path, selection, hist_name):
     bin_info = {}
-    hist_file = "/".join([manager_path, "ZZ4lRun2DatasetManager", "PlotObjects", selection])
+    hist_file = "/".join([manager_path, "ZZ4lDatasetManager", "PlotObjects", selection])
     all_hist_info = readInfo(hist_file)
     if hist_name not in list(all_hist_info.keys()):
         raise ValueError("Invalid hist name '%s'. Must be defined in %s" % (hist_name, hist_file))
@@ -88,7 +88,7 @@ def getHistBinInfo(manager_path, selection, hist_name):
 
 
 def getAllHistNames(manager_path, selection):
-    hist_file = "/".join([manager_path, "ZZ4lRun2DatasetManager", "PlotObjects", selection])
+    hist_file = "/".join([manager_path, "ZZ4lDatasetManager", "PlotObjects", selection])
     all_hist_names = list(readInfo(hist_file).keys())
 
     return all_hist_names
