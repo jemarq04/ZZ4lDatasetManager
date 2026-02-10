@@ -47,6 +47,32 @@
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
+    "Z1LepPt": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 200,
+            "xmin": 0,
+            "xmax": 200
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Z_{1} Lepton p_{T} [GeV]",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+    "Z2LepPt": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 200,
+            "xmin": 0,
+            "xmax": 200
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Z_{2} Lepton p_{T} [GeV]",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
     "Lep1Iso": {
         "Initialize": {
             "type": "TH1D",
