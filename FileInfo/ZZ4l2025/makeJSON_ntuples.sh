@@ -42,7 +42,6 @@ echo "{" > $outfile
 
 # MC
 for sim in ${sims[@]}; do
-  break #NOTE: 2025 MC not available yet. skip this and use 2024 MC
   name=$(cut -d , -f 1 <<< $sim)
   campaign=$(cut -d , -f 2 <<< $sim)
   plotgroup=$(cut -d , -f 3 <<< $sim)

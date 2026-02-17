@@ -1,10 +1,8 @@
 #!/bin/bash
 
-year=2024
+year=2025
 srcdir=/hdfs/store/user/marquez/ZplusL${year}-skimmed
 overwrite=true
-
-#use 2024 MC with 2025 data for now
 
 [[ -d $1 ]] && srcdir=$1
 srcdir=${srcdir%/}
@@ -61,8 +59,6 @@ for sim in "${sims[@]}"; do
 done
 
 # Data
-year=2025
-srcdir=/hdfs/store/user/marquez/ZplusL${year}-skimmed
 for stream in $streams; do
   for dir in ${srcdir}/*-data_${stream}_Run${year}*; do
     if [[ ! -d $dir ]]; then
