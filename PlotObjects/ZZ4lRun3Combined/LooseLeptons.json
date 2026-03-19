@@ -527,28 +527,67 @@
             "GetYaxis().SetTitleOffset": 1.5
         }
     },
-  "Z1PolCos": {
+  "CosTheta1": {
         "Initialize": {
             "type": "TH1D",
-            "nbins": 100,
+            "nbins": 20,
             "xmin": -1,
             "xmax": 1
         },
         "Attributes": {
-            "GetXaxis().SetTitle": "cos#theta^{*}_{Z1}",
+            "GetXaxis().SetTitle": "cos#theta_{Z1}",
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
-  "Z2PolCos": {
+  "CosTheta2": {
         "Initialize": {
             "type": "TH1D",
-            "nbins": 100,
+            "nbins": 20,
             "xmin": -1,
             "xmax": 1
         },
         "Attributes": {
-            "GetXaxis().SetTitle": "cos#theta^{*}_{Z2}",
+            "GetXaxis().SetTitle": "cos#theta_{Z2}",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+  "CosThetaStar": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 20,
+            "xmin": -1,
+            "xmax": 1
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "cos#theta^{*}",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+  "RapidityDiff": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 20,
+            "xmin": 0,
+            "xmax": 4
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "#delta y_{ZZ}",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+  "dPhiOSll": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 16,
+            "xmin": 0,
+            "xmax": 4
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "#delta#phi_{e^{+}#mu^{-}}",
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
