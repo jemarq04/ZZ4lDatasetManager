@@ -471,7 +471,7 @@
             "xmax": 3.5
         },
         "Attributes": {
-            "GetXaxis().SetTitle": "#delta #phi_{Z1,Z2}",
+            "GetXaxis().SetTitle": "#Delta #phi_{Z1,Z2}",
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
@@ -574,7 +574,7 @@
             "xmax": 4
         },
         "Attributes": {
-            "GetXaxis().SetTitle": "#delta y_{ZZ}",
+            "GetXaxis().SetTitle": "#Delta y_{ZZ}",
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
@@ -587,7 +587,7 @@
             "xmax": 4
         },
         "Attributes": {
-            "GetXaxis().SetTitle": "#delta#phi_{e^{+}#mu^{-}}",
+            "GetXaxis().SetTitle": "#Delta#phi_{e^{+}#mu^{-}}",
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
