@@ -27,6 +27,9 @@ sims=(
   tt2l2nu-powheg,TT*2L2Nu,top
   DYm10to50-2j,DYto2L-2Jets_MLL-10to50,dy-jets
   DYm50-2j,DYto2L-2Jets_MLL-50,dy-jets
+  Z0Z0,ZZTo4L-noTau-LL,ppZ0Z04l
+  Z0ZT,ZZTo4L-noTau-LT,ppZ0ZT4l
+  ZTZT,ZZTo4L-noTau-TT,ppZTZT4l
 )
 streams="EGamma0 EGamma1 MuonEG Muon0 Muon1"
 suffixes=(_preBPix _postBPix)

@@ -83,6 +83,18 @@
       "file_path" : "/hdfs/store/user/marquez/ZZ4l2024-skimmed/2025-12-20-DY2t-m50-2j-ZZ4l2024-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "dy-jets"
     },
+    "Z0Z0" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2024-skimmed/2026-03-30-Z0Z0-ZZ4l2024-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "ppZ0Z04l"
+    },
+    "Z0ZT" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2024-skimmed/2026-03-30-Z0ZT-ZZ4l2024-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "ppZ0ZT4l"
+    },
+    "ZTZT" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2024-skimmed/2026-03-30-ZTZT-ZZ4l2024-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "ppZTZT4l"
+    },
     "data_EGamma0_Run2024C-MINIv6NANOv15-v1" : {
       "file_path" : "/hdfs/store/user/marquez/ZZ4l2024-skimmed/2025-12-20-data_EGamma0_Run2024C-MINIv6NANOv15-v1-ZZ4l2024-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2024"

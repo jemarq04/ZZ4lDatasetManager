@@ -135,6 +135,30 @@
       "file_path" : "/hdfs/store/user/marquez/ZZ4l2023-skimmed/2025-12-15-DYm50-2j_postBPix-ZZ4l2023-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "dy-jets"
     },
+    "Z0Z0_preBPix" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2023-skimmed/2026-03-30-Z0Z0_preBPix-ZZ4l2023-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "ppZ0Z04l"
+    },
+    "Z0Z0_postBPix" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2023-skimmed/2026-03-30-Z0Z0_postBPix-ZZ4l2023-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "ppZ0Z04l"
+    },
+    "Z0ZT_preBPix" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2023-skimmed/2026-03-30-Z0ZT_preBPix-ZZ4l2023-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "ppZ0ZT4l"
+    },
+    "Z0ZT_postBPix" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2023-skimmed/2026-03-30-Z0ZT_postBPix-ZZ4l2023-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "ppZ0ZT4l"
+    },
+    "ZTZT_preBPix" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2023-skimmed/2026-03-30-ZTZT_preBPix-ZZ4l2023-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "ppZTZT4l"
+    },
+    "ZTZT_postBPix" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2023-skimmed/2026-03-30-ZTZT_postBPix-ZZ4l2023-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "ppZTZT4l"
+    },
     "data_EGamma0_Run2023C-22Sep2023_v1-v1" : {
       "file_path" : "/hdfs/store/user/marquez/ZZ4l2023-skimmed/2025-12-15-data_EGamma0_Run2023C-22Sep2023_v1-v1-ZZ4l2023-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2023"

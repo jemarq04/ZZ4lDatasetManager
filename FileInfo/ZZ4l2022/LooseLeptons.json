@@ -135,6 +135,30 @@
       "file_path" : "/hdfs/store/user/marquez/ZZ4l2022-skimmed/2025-12-16-DYm50-2j_postEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "dy-jets"
     },
+    "Z0Z0_preEE" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022-skimmed/2026-03-30-Z0Z0_preEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "ppZ0Z04l"
+    },
+    "Z0Z0_postEE" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022-skimmed/2026-03-30-Z0Z0_postEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "ppZ0Z04l"
+    },
+    "Z0ZT_preEE" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022-skimmed/2026-03-30-Z0ZT_preEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "ppZ0ZT4l"
+    },
+    "Z0ZT_postEE" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022-skimmed/2026-03-30-Z0ZT_postEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "ppZ0ZT4l"
+    },
+    "ZTZT_preEE" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022-skimmed/2026-03-30-ZTZT_preEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "ppZTZT4l"
+    },
+    "ZTZT_postEE" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022-skimmed/2026-03-30-ZTZT_postEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "ppZTZT4l"
+    },
     "data_EGamma_Run2022C-22Sep2023-v1" : {
       "file_path" : "/hdfs/store/user/marquez/ZZ4l2022-skimmed/2025-12-16-data_EGamma_Run2022C-22Sep2023-v1-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "data-2022"
