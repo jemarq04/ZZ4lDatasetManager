@@ -31,6 +31,9 @@ sims=(
   DY2e-m50-2j,DYto2E-2Jets_Bin-MLL-50,dy-jets
   DY2m-m50-2j,DYto2Mu-2Jets_Bin-MLL-50,dy-jets
   DY2t-m50-2j,DYto2Tau-2Jets_Bin-MLL-50,dy-jets
+  Z0Z0,ZZTo4L-noTau-LL,ppZ0Z04l
+  Z0ZT,ZZTo4L-noTau-LT,ppZ0ZT4l
+  ZTZT,ZZTo4L-noTau-TT,ppZTZT4l
 )
 streams="EGamma0 EGamma1 MuonEG Muon0 Muon1"
 eras=(

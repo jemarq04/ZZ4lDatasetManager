@@ -83,6 +83,18 @@
       "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/DYto2Tau-2Jets_Bin-MLL-50*/RunIII2024Summer24Mini*/*/*/*.root",
       "plot_group" : "dy-jets"
     },
+    "Z0Z0" : {
+      "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/ZZTo4L-noTau-LL*/RunIII2024Summer24Mini*/*/*/*.root",
+      "plot_group" : "ppZ0Z04l"
+    },
+    "Z0ZT" : {
+      "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/ZZTo4L-noTau-LT*/RunIII2024Summer24Mini*/*/*/*.root",
+      "plot_group" : "ppZ0ZT4l"
+    },
+    "ZTZT" : {
+      "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/ZZTo4L-noTau-TT*/RunIII2024Summer24Mini*/*/*/*.root",
+      "plot_group" : "ppZTZT4l"
+    },
     "data_EGamma0_Run2024C-MINIv6NANOv15-v1" : {
       "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/EGamma0/Run2024C-MINIv6NANOv15-v1/*/*/*.root",
       "plot_group" : "data-2024"
