@@ -25,6 +25,42 @@
            "zzjj4l-ewk_postEE"
         ]
     },
+    "ppZ0ZT4l" : {
+        "Name" : "0T",
+        "Style" : "nofill-lightpurple",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "Z0ZT_preEE",
+            "Z0ZT_postEE"
+          ]
+    },
+    "ppZTZ04l" : {
+        "Name" : "T0",
+        "Style" : "nofill-pink",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "ZTZ0_preEE",
+            "ZTZ0_postEE"
+        ]
+    },
+    "ppZ0Z04l" : {
+        "Name" : "00",
+        "Style" : "nofill-darkgreen",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "Z0Z0_preEE",
+            "Z0Z0_postEE"
+        ]
+    },
+    "ppZTZT4l" : {
+        "Name" : "TT",
+        "Style" : "nofill-darkblue",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "ZTZT_preEE",
+            "ZTZT_postEE"
+        ]
+    },
     "HZZ-signal" : {
         "Name" : "H #rightarrow ZZ",
         "Style" : "fill-lightred",

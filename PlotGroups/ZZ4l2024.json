@@ -23,6 +23,38 @@
            "zzjj4l-ewk"
         ]
     },
+    "ppZ0ZT4l" : {
+        "Name" : "0T",
+        "Style" : "nofill-lightpurple",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "Z0ZT"
+          ]
+    },
+    "ppZTZ04l" : {
+        "Name" : "T0",
+        "Style" : "nofill-pink",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "ZTZ0"
+        ]
+    },
+    "ppZ0Z04l" : {
+        "Name" : "00",
+        "Style" : "nofill-darkgreen",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "Z0Z0"
+        ]
+    },
+    "ppZTZT4l" : {
+        "Name" : "TT",
+        "Style" : "nofill-darkblue",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "ZTZT"
+        ]
+    },
     "HZZ-signal" : {
         "Name" : "H #rightarrow ZZ",
         "Style" : "fill-lightred",

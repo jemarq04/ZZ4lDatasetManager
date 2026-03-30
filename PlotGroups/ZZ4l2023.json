@@ -25,6 +25,42 @@
            "zzjj4l-ewk_postBPix"
         ]
     },
+    "ppZ0ZT4l" : {
+        "Name" : "0T",
+        "Style" : "nofill-lightpurple",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "Z0ZT_preBPix",
+            "Z0ZT_postBPix"
+          ]
+    },
+    "ppZTZ04l" : {
+        "Name" : "T0",
+        "Style" : "nofill-pink",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "ZTZ0_preBPix",
+            "ZTZ0_postBPix"
+        ]
+    },
+    "ppZ0Z04l" : {
+        "Name" : "00",
+        "Style" : "nofill-darkgreen",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "Z0Z0_preBPix",
+            "Z0Z0_postBPix"
+        ]
+    },
+    "ppZTZT4l" : {
+        "Name" : "TT",
+        "Style" : "nofill-darkblue",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "ZTZT_preBPix",
+            "ZTZT_postBPix"
+        ]
+    },
     "HZZ-signal" : {
         "Name" : "H #rightarrow ZZ",
         "Style" : "fill-lightred",
