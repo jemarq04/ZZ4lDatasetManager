@@ -574,7 +574,7 @@
             "xmax": 4
         },
         "Attributes": {
-            "GetXaxis().SetTitle": "#Delta y_{ZZ}",
+            "GetXaxis().SetTitle": "#Deltay_{ZZ}",
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
