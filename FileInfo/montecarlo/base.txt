@@ -164,7 +164,7 @@
     "DAS Name": "ZZTo4L-noTau-LT_TuneCP5_13p6TeV_madgraph-pythia8"
   },
   "ZTZT": {
-    "cross_section": 0.002033,
+    "cross_section": 0.02033,
     "Source of cross section": "XSDB",
     "kfactor": 1.0,
     "DAS Name": "ZZTo4L-noTau-TT_TuneCP5_13p6TeV_madgraph-pythia8"
