@@ -527,6 +527,45 @@
             "GetYaxis().SetTitleOffset": 1.5
         }
     },
+  "ZMassFull": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 120,
+            "xmin": 0,
+            "xmax": 120
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "m_{Z} [GeV]",
+            "GetYaxis().SetTitle": "Z bosons",
+            "GetYaxis().SetTitleOffset": 1.5
+        }
+    },
+  "Z1MassFull": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 120,
+            "xmin": 0,
+            "xmax": 120
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "m_{Z1} [GeV]",
+            "GetYaxis().SetTitle": "Z bosons",
+            "GetYaxis().SetTitleOffset": 1.5
+        }
+    },
+  "Z2MassFull": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 120,
+            "xmin": 0,
+            "xmax": 120
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "m_{Z2} [GeV]",
+            "GetYaxis().SetTitle": "Z bosons",
+            "GetYaxis().SetTitleOffset": 1.5
+        }
+    },
   "CosTheta1": {
         "Initialize": {
             "type": "TH1D",
