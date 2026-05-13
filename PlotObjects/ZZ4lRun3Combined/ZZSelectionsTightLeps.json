@@ -177,6 +177,32 @@
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
+   "ElePt": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 200,
+            "xmin": 0,
+            "xmax": 200
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Electron p_{T} [GeV]",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.5
+        }
+    },
+   "MuPt": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 200,
+            "xmin": 0,
+            "xmax": 200
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Muon p_{T} [GeV]",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.5
+        }
+    },
    "LepPt": {
         "Initialize": {
             "type": "TH1D",
@@ -398,6 +424,32 @@
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
+   "EleEta": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 940,
+            "xmin": -4.7,
+            "xmax": 4.7
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Electron #eta",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "MuEta": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 940,
+            "xmin": -4.7,
+            "xmax": 4.7
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Muon #eta",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
    "LepEta": {
         "Initialize": {
             "type": "TH1D",
@@ -486,6 +538,32 @@
             "GetXaxis().SetTitle": "Z p_{T} [GeV]",
             "GetYaxis().SetTitle": "Z bosons",
             "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+  "EleZMass": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 120,
+            "xmin": 0,
+            "xmax": 120
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "m_{Z}(ee) [GeV]",
+            "GetYaxis().SetTitle": "Z bosons",
+            "GetYaxis().SetTitleOffset": 1.5
+        }
+    },
+  "MuZMass": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 120,
+            "xmin": 0,
+            "xmax": 120
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "m_{Z}(#mu#mu) [GeV]",
+            "GetYaxis().SetTitle": "Z bosons",
+            "GetYaxis().SetTitleOffset": 1.5
         }
     },
   "ZMass": {
