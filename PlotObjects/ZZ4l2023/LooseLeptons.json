@@ -427,9 +427,9 @@
    "EleEta": {
         "Initialize": {
             "type": "TH1D",
-            "nbins": 940,
-            "xmin": -4.7,
-            "xmax": 4.7
+            "nbins": 15,
+            "xmin": -2.5,
+            "xmax": 2.5
         },
         "Attributes": {
             "GetXaxis().SetTitle": "Electron #eta",
@@ -440,9 +440,9 @@
    "MuEta": {
         "Initialize": {
             "type": "TH1D",
-            "nbins": 940,
-            "xmin": -4.7,
-            "xmax": 4.7
+            "nbins": 15,
+            "xmin": -2.5,
+            "xmax": 2.5
         },
         "Attributes": {
             "GetXaxis().SetTitle": "Muon #eta",
@@ -453,9 +453,9 @@
    "LepEta": {
         "Initialize": {
             "type": "TH1D",
-            "nbins": 940,
-            "xmin": -4.7,
-            "xmax": 4.7
+            "nbins": 15,
+            "xmin": -2.5,
+            "xmax": 2.5
         },
         "Attributes": {
             "GetXaxis().SetTitle": "Lepton #eta",
