@@ -424,6 +424,45 @@
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
+   "ElePhi": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 20,
+            "xmin": -3.2,
+            "xmax": 3.2
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Electron #phi",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "MuPhi": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 20,
+            "xmin": -3.2,
+            "xmax": 3.2
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Muon #phi",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "LepPhi": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 20,
+            "xmin": -3.2,
+            "xmax": 3.2
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Lepton #phi",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
    "EleEta": {
         "Initialize": {
             "type": "TH1D",
