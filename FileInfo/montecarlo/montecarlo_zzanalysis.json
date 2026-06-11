@@ -917,61 +917,61 @@
     "DAS Name": "WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg": {
-    "cross_section": 76.21,
+    "cross_section": 98.04,
     "Source of cross section": "XSDB",
     "kfactor": 1.0,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_preEE": {
-    "cross_section": 76.21,
+    "cross_section": 98.04,
     "Source of cross section": "XSDB",
     "kfactor": 0.230301,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_postEE": {
-    "cross_section": 76.21,
+    "cross_section": 98.04,
     "Source of cross section": "XSDB",
     "kfactor": 0.769699,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_preBPix": {
-    "cross_section": 76.21,
+    "cross_section": 98.04,
     "Source of cross section": "XSDB",
     "kfactor": 0.650771,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_postBPix": {
-    "cross_section": 76.21,
+    "cross_section": 98.04,
     "Source of cross section": "XSDB",
     "kfactor": 0.349229,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_2022_preEE": {
-    "cross_section": 76.21,
+    "cross_section": 98.04,
     "Source of cross section": "XSDB",
     "kfactor": 0.046361,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_2022_postEE": {
-    "cross_section": 76.21,
+    "cross_section": 98.04,
     "Source of cross section": "XSDB",
     "kfactor": 0.154944,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_2023_preBPix": {
-    "cross_section": 76.21,
+    "cross_section": 98.04,
     "Source of cross section": "XSDB",
     "kfactor": 0.104933,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_2023_postBPix": {
-    "cross_section": 76.21,
+    "cross_section": 98.04,
     "Source of cross section": "XSDB",
     "kfactor": 0.056311,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg_2024": {
-    "cross_section": 76.21,
+    "cross_section": 98.04,
     "Source of cross section": "XSDB",
     "kfactor": 0.637452,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"

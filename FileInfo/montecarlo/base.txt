@@ -98,7 +98,7 @@
     "DAS Name": "WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8"
   },
   "tt2l2nu-powheg": {
-    "cross_section": 76.21,
+    "cross_section": 98.04,
     "Source of cross section": "XSDB",
     "kfactor": 1.0,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
