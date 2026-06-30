@@ -62,7 +62,7 @@ def main():
             continue
 
         for lumis in lumi_map.values():
-            if len(lumis) == 1:
+            if len(lumis) == 1 and list(lumis.keys())[0] == "":
                 continue
             total = sum(list(lumis.values()))
             for suff, lumi in lumis.items():
