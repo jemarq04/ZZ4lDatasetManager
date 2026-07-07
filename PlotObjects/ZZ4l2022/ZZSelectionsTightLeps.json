@@ -1979,5 +1979,161 @@
         "GetYaxis().SetTitle": "Events / 20 GeV",
         "GetYaxis().SetTitleOffset": 1.2
       }
+    },
+    "LepEta_PPPF": {
+      "Initialize": {
+        "type": "TH1D",
+        "nbins": 15,
+        "xmin": -2.5,
+        "xmax": 2.5
+      },
+      "Attributes": {
+        "GetXaxis().SetTitle": "Lepton #eta",
+        "GetYaxis().SetTitle": "Events",
+        "GetYaxis().SetTitleOffset": 1.2
+      }
+    },
+    "LepEta_PPFF": {
+      "Initialize": {
+        "type": "TH1D",
+        "nbins": 15,
+        "xmin": -2.5,
+        "xmax": 2.5
+      },
+      "Attributes": {
+        "GetXaxis().SetTitle": "Lepton #eta",
+        "GetYaxis().SetTitle": "Events",
+        "GetYaxis().SetTitleOffset": 1.2
+      }
+    },
+    "LepPhi_PPPF": {
+      "Initialize": {
+        "type": "TH1D",
+        "nbins": 20,
+        "xmin": -3.2,
+        "xmax": 3.2
+      },
+      "Attributes": {
+        "GetXaxis().SetTitle": "Lepton #phi",
+        "GetYaxis().SetTitle": "Events",
+        "GetYaxis().SetTitleOffset": 1.2
+      }
+    },
+    "LepPhi_PPFF": {
+      "Initialize": {
+        "type": "TH1D",
+        "nbins": 20,
+        "xmin": -3.2,
+        "xmax": 3.2
+      },
+      "Attributes": {
+        "GetXaxis().SetTitle": "Lepton #phi",
+        "GetYaxis().SetTitle": "Events",
+        "GetYaxis().SetTitleOffset": 1.2
+      }
+    },
+    "Z1LepEta_PPPF": {
+      "Initialize": {
+        "type": "TH1D",
+        "nbins": 15,
+        "xmin": -2.5,
+        "xmax": 2.5
+      },
+      "Attributes": {
+        "GetXaxis().SetTitle": "Z_{1} Lepton #eta",
+        "GetYaxis().SetTitle": "Events",
+        "GetYaxis().SetTitleOffset": 1.2
+      }
+    },
+    "Z1LepEta_PPFF": {
+      "Initialize": {
+        "type": "TH1D",
+        "nbins": 15,
+        "xmin": -2.5,
+        "xmax": 2.5
+      },
+      "Attributes": {
+        "GetXaxis().SetTitle": "Z_{1} Lepton #eta",
+        "GetYaxis().SetTitle": "Events",
+        "GetYaxis().SetTitleOffset": 1.2
+      }
+    },
+    "Z1LepPhi_PPPF": {
+      "Initialize": {
+        "type": "TH1D",
+        "nbins": 20,
+        "xmin": -3.2,
+        "xmax": 3.2
+      },
+      "Attributes": {
+        "GetXaxis().SetTitle": "Z_{1} Lepton #phi",
+        "GetYaxis().SetTitle": "Events",
+        "GetYaxis().SetTitleOffset": 1.2
+      }
+    },
+    "Z1LepPhi_PPFF": {
+      "Initialize": {
+        "type": "TH1D",
+        "nbins": 20,
+        "xmin": -3.2,
+        "xmax": 3.2
+      },
+      "Attributes": {
+        "GetXaxis().SetTitle": "Z_{1} Lepton #phi",
+        "GetYaxis().SetTitle": "Events",
+        "GetYaxis().SetTitleOffset": 1.2
+      }
+    },
+    "Z2LepEta_PPPF": {
+      "Initialize": {
+        "type": "TH1D",
+        "nbins": 15,
+        "xmin": -2.5,
+        "xmax": 2.5
+      },
+      "Attributes": {
+        "GetXaxis().SetTitle": "Z_{2} Lepton #eta",
+        "GetYaxis().SetTitle": "Events",
+        "GetYaxis().SetTitleOffset": 1.2
+      }
+    },
+    "Z2LepEta_PPFF": {
+      "Initialize": {
+        "type": "TH1D",
+        "nbins": 15,
+        "xmin": -2.5,
+        "xmax": 2.5
+      },
+      "Attributes": {
+        "GetXaxis().SetTitle": "Z_{2} Lepton #eta",
+        "GetYaxis().SetTitle": "Events",
+        "GetYaxis().SetTitleOffset": 1.2
+      }
+    },
+    "Z2LepPhi_PPPF": {
+      "Initialize": {
+        "type": "TH1D",
+        "nbins": 20,
+        "xmin": -3.2,
+        "xmax": 3.2
+      },
+      "Attributes": {
+        "GetXaxis().SetTitle": "Z_{2} Lepton #phi",
+        "GetYaxis().SetTitle": "Events",
+        "GetYaxis().SetTitleOffset": 1.2
+      }
+    },
+    "Z2LepPhi_PPFF": {
+      "Initialize": {
+        "type": "TH1D",
+        "nbins": 20,
+        "xmin": -3.2,
+        "xmax": 3.2
+      },
+      "Attributes": {
+        "GetXaxis().SetTitle": "Z_{2} Lepton #phi",
+        "GetYaxis().SetTitle": "Events",
+        "GetYaxis().SetTitleOffset": 1.2
+      }
     }
 }
