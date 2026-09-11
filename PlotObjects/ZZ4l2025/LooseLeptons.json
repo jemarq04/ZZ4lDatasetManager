@@ -203,6 +203,19 @@
             "GetYaxis().SetTitleOffset": 1.5
         }
     },
+   "GenLepPt": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 200,
+            "xmin": 0,
+            "xmax": 200
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Gen Lepton p_{T} [GeV]",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.5
+        }
+    },
    "LepPt": {
         "Initialize": {
             "type": "TH1D",
@@ -485,6 +498,19 @@
         },
         "Attributes": {
             "GetXaxis().SetTitle": "Muon #eta",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "GenLepEta": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 15,
+            "xmin": -2.5,
+            "xmax": 2.5
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Gen Lepton #eta",
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
