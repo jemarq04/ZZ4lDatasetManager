@@ -2213,5 +2213,57 @@
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
+    },
+  "RapidityDiff_PPPF": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 20,
+            "xmin": 0,
+            "xmax": 4
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "#Deltay_{ZZ}",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+  "RapidityDiff_PPFF": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 20,
+            "xmin": 0,
+            "xmax": 4
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "#Deltay_{ZZ}",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+  "dPhiOSll_PPPF": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 16,
+            "xmin": 0,
+            "xmax": 4
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "#Delta#phi_{e^{+}#mu^{-}}",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+  "dPhiOSll_PPFF": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 16,
+            "xmin": 0,
+            "xmax": 4
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "#Delta#phi_{e^{+}#mu^{-}}",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
     }
 }
