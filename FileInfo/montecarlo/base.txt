@@ -99,7 +99,7 @@
   },
   "tt2l2nu-powheg": {
     "cross_section": 98.04,
-    "Source of cross section": "XSDB",
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
     "kfactor": 1.0,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
@@ -134,21 +134,21 @@
     "DAS Name": "DYto2Tau-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2e-m50-2j": {
-    "cross_section": 6639.0,
+    "cross_section": 2244.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.333,
+    "kfactor": 1.0,
     "DAS Name": "DYto2E-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2m-m50-2j": {
-    "cross_section": 6662.0,
+    "cross_section": 2240.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.333,
+    "kfactor": 1.0,
     "DAS Name": "DYto2Mu-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "DY2t-m50-2j": {
-    "cross_section": 6639.0,
+    "cross_section": 2219.0,
     "Source of cross section": "XSDB",
-    "kfactor": 0.333,
+    "kfactor": 1.0,
     "DAS Name": "DYto2Tau-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
   },
   "Z0Z0": {
