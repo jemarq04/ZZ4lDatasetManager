@@ -25,6 +25,8 @@ sims=(
   ZZZ,ZZZ,VVV
   wz3lnu-powheg,WZto3LNu,wz3lnu-powheg
   tt2l2nu-powheg,TT*2L2Nu,top
+  ttlnu2q-powheg,TT*LNu2Q,top
+  tt4q,TTto4Q,top
   DY2e-m10to50-2j,DYto2E-2Jets_Bin-MLL-10to50,dy-jets
   DY2m-m10to50-2j,DYto2Mu-2Jets_Bin-MLL-10to50,dy-jets
   DY2t-m10to50-2j,DYto2Tau-2Jets_Bin-MLL-10to50,dy-jets
