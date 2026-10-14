@@ -119,6 +119,22 @@
       "file_path" : "/hdfs/store/user/marquez/ZZ4l2023-skimmed/2026-09-04-tt2l2nu-powheg_postBPix-ZZ4l2023-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "top"
     },
+    "ttlnu2q-powheg_preBPix" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2023-skimmed/2026-10-14-ttlnu2q-powheg_preBPix-ZZ4l2023-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "top"
+    },
+    "ttlnu2q-powheg_postBPix" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2023-skimmed/2026-10-14-ttlnu2q-powheg_postBPix-ZZ4l2023-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "top"
+    },
+    "tt4q_preBPix" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2023-skimmed/2026-10-14-tt4q_preBPix-ZZ4l2023-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "top"
+    },
+    "tt4q_postBPix" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2023-skimmed/2026-10-14-tt4q_postBPix-ZZ4l2023-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "top"
+    },
     "DYm10to50-2j_preBPix" : {
       "file_path" : "/hdfs/store/user/marquez/ZZ4l2023-skimmed/2026-09-04-DYm10to50-2j_preBPix-ZZ4l2023-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "dy-jets"
