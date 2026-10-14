@@ -103,6 +103,18 @@
     "kfactor": 1.0,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
+  "ttlnu2q-powheg": {
+    "cross_section": 405.87,
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
+    "kfactor": 1.0,
+    "DAS Name": "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8"
+  },
+  "tt4q": {
+    "cross_section": 419.69,
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
+    "kfactor": 1.0,
+    "DAS Name": "TTto4Q-3Jets_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+  },
   "DYm10to50-2j": {
     "cross_section": 21130.0,
     "Source of cross section": "XSDB",

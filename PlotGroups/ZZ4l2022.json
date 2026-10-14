@@ -139,7 +139,11 @@
         "add_perc_error" : 0.0,
         "Members" : [
             "tt2l2nu-powheg_preEE",
-            "tt2l2nu-powheg_postEE"
+            "tt2l2nu-powheg_postEE",
+            "ttlnu2q-powheg_preEE",
+            "ttlnu2q-powheg_postEE",
+            "tt4q_preEE",
+            "tt4q_postEE"
         ]
     },
     "wz3lnu-powheg" : {

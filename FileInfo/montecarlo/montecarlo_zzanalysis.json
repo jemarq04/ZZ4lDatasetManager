@@ -1073,6 +1073,138 @@
     "kfactor": 0.389656,
     "DAS Name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
   },
+  "ttlnu2q-powheg": {
+    "cross_section": 405.87,
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
+    "kfactor": 1.0,
+    "DAS Name": "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8"
+  },
+  "ttlnu2q-powheg_preEE": {
+    "cross_section": 405.87,
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
+    "kfactor": 0.230301,
+    "DAS Name": "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8"
+  },
+  "ttlnu2q-powheg_postEE": {
+    "cross_section": 405.87,
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
+    "kfactor": 0.769699,
+    "DAS Name": "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8"
+  },
+  "ttlnu2q-powheg_preBPix": {
+    "cross_section": 405.87,
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
+    "kfactor": 0.650771,
+    "DAS Name": "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8"
+  },
+  "ttlnu2q-powheg_postBPix": {
+    "cross_section": 405.87,
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
+    "kfactor": 0.349229,
+    "DAS Name": "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8"
+  },
+  "ttlnu2q-powheg_2022_preEE": {
+    "cross_section": 405.87,
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
+    "kfactor": 0.028296,
+    "DAS Name": "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8"
+  },
+  "ttlnu2q-powheg_2022_postEE": {
+    "cross_section": 405.87,
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
+    "kfactor": 0.094569,
+    "DAS Name": "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8"
+  },
+  "ttlnu2q-powheg_2023_preBPix": {
+    "cross_section": 405.87,
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
+    "kfactor": 0.064045,
+    "DAS Name": "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8"
+  },
+  "ttlnu2q-powheg_2023_postBPix": {
+    "cross_section": 405.87,
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
+    "kfactor": 0.034369,
+    "DAS Name": "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8"
+  },
+  "ttlnu2q-powheg_2024": {
+    "cross_section": 405.87,
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
+    "kfactor": 0.389065,
+    "DAS Name": "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8"
+  },
+  "ttlnu2q-powheg_2025": {
+    "cross_section": 405.87,
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
+    "kfactor": 0.389656,
+    "DAS Name": "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8"
+  },
+  "tt4q": {
+    "cross_section": 419.69,
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
+    "kfactor": 1.0,
+    "DAS Name": "TTto4Q-3Jets_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+  },
+  "tt4q_preEE": {
+    "cross_section": 419.69,
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
+    "kfactor": 0.230301,
+    "DAS Name": "TTto4Q-3Jets_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+  },
+  "tt4q_postEE": {
+    "cross_section": 419.69,
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
+    "kfactor": 0.769699,
+    "DAS Name": "TTto4Q-3Jets_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+  },
+  "tt4q_preBPix": {
+    "cross_section": 419.69,
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
+    "kfactor": 0.650771,
+    "DAS Name": "TTto4Q-3Jets_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+  },
+  "tt4q_postBPix": {
+    "cross_section": 419.69,
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
+    "kfactor": 0.349229,
+    "DAS Name": "TTto4Q-3Jets_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+  },
+  "tt4q_2022_preEE": {
+    "cross_section": 419.69,
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
+    "kfactor": 0.028296,
+    "DAS Name": "TTto4Q-3Jets_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+  },
+  "tt4q_2022_postEE": {
+    "cross_section": 419.69,
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
+    "kfactor": 0.094569,
+    "DAS Name": "TTto4Q-3Jets_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+  },
+  "tt4q_2023_preBPix": {
+    "cross_section": 419.69,
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
+    "kfactor": 0.064045,
+    "DAS Name": "TTto4Q-3Jets_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+  },
+  "tt4q_2023_postBPix": {
+    "cross_section": 419.69,
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
+    "kfactor": 0.034369,
+    "DAS Name": "TTto4Q-3Jets_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+  },
+  "tt4q_2024": {
+    "cross_section": 419.69,
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
+    "kfactor": 0.389065,
+    "DAS Name": "TTto4Q-3Jets_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+  },
+  "tt4q_2025": {
+    "cross_section": 419.69,
+    "Source of cross section": "https://cms-generators.docs.cern.ch/about-cross-sections/higher-order-calculation/top-group-results/#inclusive-top-pair-production-cross-section",
+    "kfactor": 0.389656,
+    "DAS Name": "TTto4Q-3Jets_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+  },
   "DYm10to50-2j": {
     "cross_section": 21130.0,
     "Source of cross section": "XSDB",

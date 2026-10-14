@@ -212,7 +212,19 @@
             "tt2l2nu-powheg_2023_preBPix",
             "tt2l2nu-powheg_2023_postBPix",
             "tt2l2nu-powheg_2024",
-            "tt2l2nu-powheg_2025"
+            "tt2l2nu-powheg_2025",
+            "ttlnu2q-powheg_2022_preEE",
+            "ttlnu2q-powheg_2022_postEE",
+            "ttlnu2q-powheg_2023_preBPix",
+            "ttlnu2q-powheg_2023_postBPix",
+            "ttlnu2q-powheg_2024",
+            "ttlnu2q-powheg_2025",
+            "tt4q_2022_preEE",
+            "tt4q_2022_postEE",
+            "tt4q_2023_preBPix",
+            "tt4q_2023_postBPix",
+            "tt4q_2024",
+            "tt4q_2025"
         ]
     },
     "wz3lnu-powheg" : {

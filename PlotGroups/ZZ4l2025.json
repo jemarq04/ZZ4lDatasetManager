@@ -127,7 +127,9 @@
         "Style" : "fill-red",
         "add_perc_error" : 0.0,
         "Members" : [
-            "tt2l2nu-powheg"
+            "tt2l2nu-powheg",
+            "ttlnu2q-powheg",
+            "tt4q"
         ]
     },
     "wz3lnu-powheg" : {
