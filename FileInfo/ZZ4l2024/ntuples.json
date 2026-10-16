@@ -59,6 +59,14 @@
       "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/TT*2L2Nu*/RunIII2024Summer24Mini*/*/*/*.root",
       "plot_group" : "top"
     },
+    "ttlnu2q-powheg" : {
+      "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/TT*LNu2Q*/RunIII2024Summer24Mini*/*/*/*.root",
+      "plot_group" : "top"
+    },
+    "tt4q" : {
+      "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/TTto4Q*/RunIII2024Summer24Mini*/*/*/*.root",
+      "plot_group" : "top"
+    },
     "DY2e-m10to50-2j" : {
       "file_path" : "/store/user/marquez/ZZ4l2024-ntuples/DYto2E-2Jets_Bin-MLL-10to50*/RunIII2024Summer24Mini*/*/*/*.root",
       "plot_group" : "dy-jets"
