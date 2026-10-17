@@ -119,6 +119,22 @@
       "file_path" : "/hdfs/store/user/marquez/ZZ4l2022-skimmed/2026-10-02-tt2l2nu-powheg_postEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "top"
     },
+    "ttlnu2q-powheg_preEE" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022-skimmed/2026-10-16-ttlnu2q-powheg_preEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "top"
+    },
+    "ttlnu2q-powheg_postEE" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022-skimmed/2026-10-16-ttlnu2q-powheg_postEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "top"
+    },
+    "tt4q_preEE" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022-skimmed/2026-10-16-tt4q_preEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "top"
+    },
+    "tt4q_postEE" : {
+      "file_path" : "/hdfs/store/user/marquez/ZZ4l2022-skimmed/2026-10-16-tt4q_postEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
+      "plot_group" : "top"
+    },
     "DYm10to50-2j_preEE" : {
       "file_path" : "/hdfs/store/user/marquez/ZZ4l2022-skimmed/2026-10-02-DYm10to50-2j_preEE-ZZ4l2022-loosePreselectionTo4lmass-v1/*.root",
       "plot_group" : "dy-jets"
