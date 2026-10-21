@@ -2265,5 +2265,53 @@
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2
         }
+    },
+   "Mass_ResponseMatrix": {
+        "Initialize": {
+            "type": "TH2D",
+            "nbinsx": 1215,
+            "xmin": 70,
+            "xmax": 2500,
+            "nbinsy": 1215,
+            "ymin": 70,
+            "ymax": 2500
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Reco m_{4l} [GeV]",
+            "GetYaxis().SetTitle": "Gen m_{4l} [GeV]",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "LepPt1_ResponseMatrix": {
+        "Initialize": {
+            "type": "TH2D",
+            "nbinsx": 20,
+            "xmin": 0,
+            "xmax": 200,
+            "nbinsy": 20,
+            "ymin": 0,
+            "ymax": 200
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Reco Leading Lepton p_{T} [GeV]",
+            "GetYaxis().SetTitle": "Gen Leading Lepton p_{T} [GeV]",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "LepEta1_ResponseMatrix": {
+        "Initialize": {
+            "type": "TH2D",
+            "nbinsx": 15,
+            "xmin": -2.5,
+            "xmax": 2.5,
+            "nbinsy": 15,
+            "ymin": -2.5,
+            "ymax": 2.5
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Reco Leading Lepton #eta",
+            "GetYaxis().SetTitle": "Gen Leading Lepton #eta",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
     }
 }
