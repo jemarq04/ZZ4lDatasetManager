@@ -85,8 +85,8 @@ def getHistBinInfo(manager_path, selection, hist_name):
         if "xmin" in hist_info:
             args = ["nbinsx", "xmin", "xmax", "nbinsy", "ymin", "ymax"]
         else:
-            hist_info["nbinsx"] = len(hist_info["nbinsx"]) - 1
-            hist_info["nbinsy"] = len(hist_info["nbinsy"]) - 1
+            hist_info["nbinsx"] = len(hist_info["binsx"]) - 1
+            hist_info["nbinsy"] = len(hist_info["binsy"]) - 1
             args = ["nbinsx", "binsx", "nbinsy", "binsy"]
     else:
         raise ValueError("Invalid histogram type %s" % hist_info["type"])
