@@ -76,9 +76,18 @@ def getHistBinInfo(manager_path, selection, hist_name):
         raise ValueError("Invalid hist name '%s'. Must be defined in %s" % (hist_name, hist_file))
     hist_info = all_hist_info[hist_name]["Initialize"]
     if "TH1" in hist_info["type"]:
-        args = ["nbins", "xmin", "xmax"]
+        if "xmin" in hist_info:
+            args = ["nbins", "xmin", "xmax"]
+        else:
+            hist_info["nbins"] = len(hist_info["binsx"]) - 1
+            args = ["nbins", "binsx"]
     elif "TH2" in hist_info["type"]:
-        args = ["nbinsx", "xmin", "xmax", "nbinsy", "ymin", "ymax"]
+        if "xmin" in hist_info:
+            args = ["nbinsx", "xmin", "xmax", "nbinsy", "ymin", "ymax"]
+        else:
+            hist_info["nbinsx"] = len(hist_info["nbinsx"]) - 1
+            hist_info["nbinsy"] = len(hist_info["nbinsy"]) - 1
+            args = ["nbinsx", "binsx", "nbinsy", "binsy"]
     else:
         raise ValueError("Invalid histogram type %s" % hist_info["type"])
 
