@@ -748,6 +748,19 @@
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
+  "CosThetaCombined": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 20,
+            "xmin": -1,
+            "xmax": 1
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "cos#theta_{Z}",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
   "CosThetaStar": {
         "Initialize": {
             "type": "TH1D",
