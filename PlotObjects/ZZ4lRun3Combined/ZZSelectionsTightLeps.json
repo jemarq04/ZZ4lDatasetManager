@@ -2389,5 +2389,37 @@
             "GetYaxis().SetTitle": "Gen Lepton #eta",
             "GetYaxis().SetTitleOffset": 1.2
         }
+    },
+   "LepPhi1_ResponseMatrix": {
+        "Initialize": {
+            "type": "TH2D",
+            "nbinsx": 20,
+            "xmin": -3.2,
+            "xmax": 3.2,
+            "nbinsy": 20,
+            "ymin": -3.2,
+            "ymax": 3.2
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Reco Lepton #phi",
+            "GetYaxis().SetTitle": "Gen Lepton #phi",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "LepPhi_ResponseMatrix": {
+        "Initialize": {
+            "type": "TH2D",
+            "nbinsx": 20,
+            "xmin": -3.2,
+            "xmax": 3.2,
+            "nbinsy": 20,
+            "ymin": -3.2,
+            "ymax": 3.2
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Reco Lepton #phi",
+            "GetYaxis().SetTitle": "Gen Lepton #phi",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
     }
 }
