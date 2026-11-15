@@ -2328,7 +2328,7 @@
     },
    "ZZPt_ResponseMatrix": {
         "Initialize": {
-            "type": "TH1D",
+            "type": "TH2D",
             "nbinsx": 60,
             "xmin": 0,
             "xmax": 600,
@@ -2456,7 +2456,7 @@
     },
    "Z1Pt_ResponseMatrix": {
         "Initialize": {
-            "type": "TH1D",
+            "type": "TH2D",
             "nbinsx": 60,
             "xmin": 0,
             "xmax": 600,
@@ -2472,7 +2472,7 @@
     },
    "Z2Pt_ResponseMatrix": {
         "Initialize": {
-            "type": "TH1D",
+            "type": "TH2D",
             "nbinsx": 60,
             "xmin": 0,
             "xmax": 600,
