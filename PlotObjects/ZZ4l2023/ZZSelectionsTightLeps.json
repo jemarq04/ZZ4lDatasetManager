@@ -2326,6 +2326,22 @@
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
+   "ZZPt_ResponseMatrix": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbinsx": 60,
+            "xmin": 0,
+            "xmax": 600,
+            "nbinsy": 60,
+            "ymin": 0,
+            "ymax": 600
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Reco ZZ p_{T} [GeV]",
+            "GetYaxis().SetTitle": "Gen ZZ p_{T} [GeV]",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
    "LepPt1_ResponseMatrix": {
         "Initialize": {
             "type": "TH2D",
@@ -2339,6 +2355,22 @@
         "Attributes": {
             "GetXaxis().SetTitle": "Reco Leading Lepton p_{T} [GeV]",
             "GetYaxis().SetTitle": "Gen Leading Lepton p_{T} [GeV]",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "LepPt2_ResponseMatrix": {
+        "Initialize": {
+            "type": "TH2D",
+            "nbinsx": 15,
+            "xmin": 0,
+            "xmax": 150,
+            "nbinsy": 15,
+            "ymin": 0,
+            "ymax": 150
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Reco Subleading Lepton p_{T} [GeV]",
+            "GetYaxis().SetTitle": "Gen Subleading Lepton p_{T} [GeV]",
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
@@ -2419,6 +2451,38 @@
         "Attributes": {
             "GetXaxis().SetTitle": "Reco Lepton #phi",
             "GetYaxis().SetTitle": "Gen Lepton #phi",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "Z1Pt_ResponseMatrix": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbinsx": 60,
+            "xmin": 0,
+            "xmax": 600,
+            "nbinsy": 60,
+            "ymin": 0,
+            "ymax": 600
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Reco Leading Z p_{T} [GeV]",
+            "GetYaxis().SetTitle": "Gen Leading Z p_{T} [GeV]",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "Z2Pt_ResponseMatrix": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbinsx": 60,
+            "xmin": 0,
+            "xmax": 600,
+            "nbinsy": 60,
+            "ymin": 0,
+            "ymax": 600
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Reco Subleading Z p_{T} [GeV]",
+            "GetYaxis().SetTitle": "Gen Subleading Z p_{T} [GeV]",
             "GetYaxis().SetTitleOffset": 1.2
         }
     }
