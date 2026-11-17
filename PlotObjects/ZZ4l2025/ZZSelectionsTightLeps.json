@@ -2329,16 +2329,78 @@
    "ZZPt_ResponseMatrix": {
         "Initialize": {
             "type": "TH2D",
-            "nbinsx": 60,
-            "xmin": 0,
-            "xmax": 600,
-            "nbinsy": 60,
-            "ymin": 0,
-            "ymax": 600
+            "binsx": [
+              0.0,
+              25.0,
+              50.0,
+              75.0,
+              100.0,
+              125.0,
+              150.0,
+              200.0,
+              300.0
+            ],
+            "binsy": [
+              0.0,
+              25.0,
+              50.0,
+              75.0,
+              100.0,
+              125.0,
+              150.0,
+              200.0,
+              300.0
+            ]
         },
         "Attributes": {
             "GetXaxis().SetTitle": "Reco ZZ p_{T} [GeV]",
             "GetYaxis().SetTitle": "Gen ZZ p_{T} [GeV]",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "dPhiZ1Z2_ResponseMatrix": {
+        "Initialize": {
+            "type": "TH2D",
+            "binsx": [
+              0.0,
+              1.5,
+              2.0,
+              2.25,
+              2.5,
+              2.75,
+              3.0,
+              3.25
+            ],
+            "binsy": [
+              0.0,
+              1.5,
+              2.0,
+              2.25,
+              2.5,
+              2.75,
+              3.0,
+              3.25
+            ]
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Reco #Delta #phi_{Z1,Z2}",
+            "GetYaxis().SetTitle": "Gen #Delta #phi_{Z1,Z2}",
+            "GetYaxis().SetTitleOffset": 1.2
+        }
+    },
+   "dRZ1Z2_ResponseMatrix": {
+        "Initialize": {
+            "type": "TH2D",
+            "nbinsx": 6,
+            "xmin": 0,
+            "xmax": 6,
+            "nbinsy": 6,
+            "ymin": 0,
+            "ymax": 6
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Reco #Delta R_{Z1,Z2}",
+            "GetYaxis().SetTitle": "Gen #Delta R_{Z1,Z2}",
             "GetYaxis().SetTitleOffset": 1.2
         }
     },
@@ -2457,12 +2519,28 @@
    "Z1Pt_ResponseMatrix": {
         "Initialize": {
             "type": "TH2D",
-            "nbinsx": 60,
-            "xmin": 0,
-            "xmax": 600,
-            "nbinsy": 60,
-            "ymin": 0,
-            "ymax": 600
+            "binsx": [
+              0.0,
+              25.0,
+              50.0,
+              75.0,
+              100.0,
+              125.0,
+              150.0,
+              200.0,
+              300.0
+            ],
+            "binsy": [
+              0.0,
+              25.0,
+              50.0,
+              75.0,
+              100.0,
+              125.0,
+              150.0,
+              200.0,
+              300.0
+            ]
         },
         "Attributes": {
             "GetXaxis().SetTitle": "Reco Leading Z p_{T} [GeV]",
@@ -2473,12 +2551,28 @@
    "Z2Pt_ResponseMatrix": {
         "Initialize": {
             "type": "TH2D",
-            "nbinsx": 60,
-            "xmin": 0,
-            "xmax": 600,
-            "nbinsy": 60,
-            "ymin": 0,
-            "ymax": 600
+            "binsx": [
+              0.0,
+              25.0,
+              50.0,
+              75.0,
+              100.0,
+              125.0,
+              150.0,
+              200.0,
+              300.0
+            ],
+            "binsy": [
+              0.0,
+              25.0,
+              50.0,
+              75.0,
+              100.0,
+              125.0,
+              150.0,
+              200.0,
+              300.0
+            ]
         },
         "Attributes": {
             "GetXaxis().SetTitle": "Reco Subleading Z p_{T} [GeV]",
